@@ -1,0 +1,36 @@
+function : void voidfunc() {}
+function : int intfunc() {return 1;}
+function : bool boolfunc() {return false;}
+function : float floatfunc() {return 1.0;}
+
+function : int & iref() {int i; return i;}
+function : float & fref() {float f; return f;}
+function : bool & bref() {bool b; return b;}
+
+function : void foo(){
+    exit(voidfunc()); //FAIL, void
+    exit(intfunc());
+    exit(boolfunc()); //FAIL, bool
+    exit(floatfunc()); //FAIL, float
+    exit(iref());
+    exit(bref()); //FAIL, bool
+    exit(fref()); //FAIL, float
+
+    exit(1232423);
+    exit(false); //FAIL
+    int y = 15;
+    exit(y);
+    bool z = false;
+    exit(z); //FAIL
+    int a;
+    bool b;
+    exit(a);
+    exit(b); //FAIL
+
+    const int c = 4;
+    exit(c);
+
+    float f = 3.14;
+    exit(f);
+    exit(2.5);
+}

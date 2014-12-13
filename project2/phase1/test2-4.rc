@@ -1,0 +1,13 @@
+//Testing arithmetic, multiply, divide, remainder
+
+int a = 5;
+
+function: void main() {
+
+int b = 2;
+
+cout << a*b << endl;
+cout << a/b << endl;
+cout << a%b << endl << endl;
+
+}

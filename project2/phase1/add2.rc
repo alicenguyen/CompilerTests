@@ -1,0 +1,14 @@
+const int x = 1;
+const int y = 2;
+int z = x + y;
+const float f0 = 0.0;
+const float f1 = 1.0;
+const float f2 = f0 + f1 + 1;
+static const float f3 = x + y;
+static float f4 = 1 + x + y;
+float f5 = x + 1.0 + f2 + 1;
+float f6 = f0 + f1 + f2 + f3;
+function : void main() {
+  cout << x << y << z << endl;
+  cout << f0 << " " << f1 << " " << f2 << " " << f3 << " " << f4 << " " << f5 << " " << f6 << endl;
+}

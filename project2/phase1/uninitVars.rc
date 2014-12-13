@@ -1,0 +1,24 @@
+
+function : void main() {
+    float f1;
+    float f2;
+    int i1;
+    int i2;
+    bool b1;
+    bool b2;
+    f1 = f1 + f2;
+    f1 = f1 + 1;
+    f2 = f1 + 1.0;
+    f2 = 1.0 + 1.0;
+    f2 = f1 * f2 + i1;
+    i1 = i1 + i2;
+    i2 = i1 + 1;
+    i2 = 1 + 1;
+    if (i1 != 0) {
+        i1 = i2/i1;
+    }
+    i2 = i1*i2;
+    b1 = b2;
+    b2 = b1 == b1;
+    cout << endl;
+}

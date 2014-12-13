@@ -1,0 +1,9 @@
+static float x1;
+float x2;
+static float x3;
+function : void main() {
+    static float x4;
+    const float x5 = 0;
+    float x6;
+    cout << x1 << x2 << x3 << x4 << x5 << endl;
+}

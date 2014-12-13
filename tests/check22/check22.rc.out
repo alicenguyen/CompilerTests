@@ -1,0 +1,15 @@
+Error, "tests/check22/check22.rc", line 5: 
+  Duplicate declaration of overloaded function num1.
+Error, "tests/check22/check22.rc", line 6: 
+  undeclared identifier 'y'.
+Error, "tests/check22/check22.rc", line 10: 
+  Duplicate declaration of overloaded function num1.
+Error, "tests/check22/check22.rc", line 30: 
+  Duplicate declaration of overloaded function num1.
+Error, "tests/check22/check22.rc", line 40: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check22/check22.rc", line 43: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "tests/check22/check22.rc", line 45: 
+  Illegal call to overloaded function num1.
+Compile: failure.

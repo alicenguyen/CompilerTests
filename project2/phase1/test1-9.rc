@@ -1,0 +1,7 @@
+function: void main() {
+
+int a;
+a = 7;
+cout << a;
+
+}

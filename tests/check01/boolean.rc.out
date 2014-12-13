@@ -1,0 +1,85 @@
+Error, "tests/check01/boolean.rc", line 24: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 25: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 26: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 27: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 29: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 30: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 31: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 32: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 34: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 35: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 36: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 37: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/boolean.rc", line 41: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 42: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 43: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 44: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 46: 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 47: 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 48: 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 49: 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 53: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 54: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 55: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 56: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 58: 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 59: 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 60: 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 61: 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 65: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 66: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 67: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 68: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 70: 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 71: 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 72: 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 73: 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 77: 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 78: 
+  Incompatible type float to unary operator !, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 79: 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 80: 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 81: 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "tests/check01/boolean.rc", line 82: 
+  Incompatible type float to unary operator !, equivalent to bool expected.
+Compile: failure.

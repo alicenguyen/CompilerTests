@@ -1,0 +1,10 @@
+bool bg = false;
+int ig = 5;
+
+function : void main() {
+  bool bl = true;
+  int il = 10;
+    
+    cout << bg << bl  << endl;
+    cout << ig << il << endl;
+}

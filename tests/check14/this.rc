@@ -1,0 +1,53 @@
+const int tim = 11;
+float farm;
+int marm;
+
+function : void too() {}
+
+structdef FOO {
+    int v, b, c;
+    float big, not, har, marm;
+    bool bb, ji, n;
+
+    function : int tad() {
+        return this.v;
+    }
+
+    function : bool rec() {
+        rec(); //error, undeclared id rec
+        return this.rec();
+    }
+
+    function : float tui() {
+        return this.n; //error, bool not assignable to float
+    }
+
+    function : void meb(int v, bool ji, bool & hi, float & no) {
+        this.v = v;
+        this.ji = ji;
+        this.ji = hi;
+        this.b = no; //error, float not assignable to int
+
+        int j, b, farm;
+
+        this.b = farm;
+        this.v = ::farm; //error, float not assignable to int
+        this.c = no; //error, float not assignable to int
+
+        bb = b; //error, undeclared id bb
+        farm = j;
+        ::farm = j;
+        ::marm = farm;
+        ::marm = no; //error, cannot assign float to int
+        marm = no; //error, cannot assign float to int
+        marm = this.marm; //error, float not assignable to int
+        ::marm = this.marm; //error, float not assignable to int
+        this.marm = marm;
+        this.marm = ::marm;
+        this.b = tim;
+        ::too();
+        too();
+        tad(); //error, undeclared id tad
+        this.big = this.tad();
+    }
+};

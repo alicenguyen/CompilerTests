@@ -1,0 +1,10 @@
+True: true
+False: false
+bLocalT1 : true?   true
+bLocalF1 : false?   false
+bLocalT2 = T1 : true?   true
+bLocalF2 = F1: false?   false
+bLocalConstT1 : true?   true
+bLocalConstF1 : false?   false
+bLocalConstT2 = ConstT1 : true ?   true
+bLocalConstF2 = ConstF1 : false ?   false

@@ -1,0 +1,15 @@
+function : void test() {
+    *********nullptr; //error, incompatible
+    *nullptr; //error, incompatible
+    *(nullptr); //error, incompatible
+
+    int* x = nullptr;
+    *x;
+
+    int* y;
+    y = nullptr;
+    *y;
+
+    *nullptr = true; //error, incompatible
+    bool* fad = *nullptr; //error, incompatible
+}

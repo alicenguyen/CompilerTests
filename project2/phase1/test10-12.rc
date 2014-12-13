@@ -1,0 +1,29 @@
+//Unary '-' and '+' checks (phase 1)
+
+function: void main () {
+	int a;
+	float b;
+	
+	a = +100;
+	b = +99.88;
+	
+	cout << "a = " << +a << endl;
+	cout << "b = " << +b << endl;
+	cout << "-a = " << -a << endl;
+	cout << "-b = " << -b << endl;
+	
+	a = -a;
+	b = -b;
+	
+	cout << "-a = " << a << endl;
+	cout << "-b = " << b << endl;
+	
+	a = -100;
+	b = -99.88;
+	
+	cout << "a = " << +a << endl;
+	cout << "b = " << +b << endl;
+	
+	cout << "Test finished\n";
+}
+	

@@ -1,0 +1,59 @@
+function : int num1(int x) {
+    return x;
+}
+
+function : int & num1(int x) { //overload fail since we don't care about return by ref
+    int x = y;
+    return x;
+}
+
+function : void num1(int x) { //overload fail since we don't care about return type
+    return;
+}
+
+ function : float num1(float x) {
+     return x;
+ }
+
+ function : int num1(int x, bool y) {
+     return x;
+ }
+
+ function : bool num1(float x, bool y) {
+	return y;
+ }
+
+ function : float num1(bool y, float x) {
+     return x;
+ }
+
+ function : void num1(float z, bool b) { //error, redeclared
+     return;
+ }
+
+ function : void num2(float x) {
+     return;
+ }
+
+ function : void main() { 
+     int x = num1(1); 
+     x = num1(1.0); //fail with assign from void to int 
+     float f = num1(1.0); 
+     float f2 = num1(1, true); 
+     int i = num1(true, 1.0); //error assigning float to int 
+     float f4 = num1(true, 1.0); 
+     num1(true, 1); //error, should not promote 1 to float 
+     int zz = num1(2, false);
+     num2(1); //ok to do coercion if there is no overload 
+     num2(1.0); 
+ } 
+
+/* function : void num2(bool x) { */
+/*     return; */
+/* } */
+
+/* function : void main2() { */
+/*     num2(1); //error, should not do coercion on overloaded function */
+/*     num2(1.0); */
+/*     num2(true); */
+/* } */

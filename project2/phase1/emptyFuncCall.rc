@@ -1,0 +1,13 @@
+function : int f() {
+  return 5;
+}
+
+function : bool g() {
+  return false;
+}
+
+function : void main() {
+  int x;
+  x = f();
+    cout << f() << " " << g() << " " << x << endl;
+}

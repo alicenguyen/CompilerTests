@@ -1,0 +1,7 @@
+Local Const int iC1 = 8745 ?    8745
+Local Const float fC1 = 12354.45 ?    12354.45
+Local Const bool bC1 = true ?     true
+Local Const bool bC2 = false ?     false
+f2 := fC1 = 12354.45 ?    12354.45
+i2 := iC1 = 8745 ?   8745
+b2 := bC1 = true    true

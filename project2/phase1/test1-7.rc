@@ -1,0 +1,8 @@
+function: void main() {
+
+cout << "a banana\n";
+
+int a = 6;
+cout << a;
+
+}

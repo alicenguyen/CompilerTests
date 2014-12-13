@@ -1,0 +1,16 @@
+//Testing very very basic function calls
+
+function: int foo() {
+	int a = 5;
+	return(a);
+}
+
+function: void main() {
+
+int a;
+
+a = foo();
+
+cout << a << endl;
+
+}

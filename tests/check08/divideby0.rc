@@ -1,0 +1,56 @@
+function : int & iref(int i) {return i;}
+
+function : void divide() {
+    const int czero = 0;
+    const float dzero = 0.0;
+    int zero = 0;
+    exit(1/0); // arithmetic
+    exit(0/0); //arithmetic
+    exit(1/czero); //arithmetic
+    exit(0/czero); //arithmetic
+    exit(zero/czero);
+    exit(czero/zero);
+    exit(czero/czero); //arithmetic
+    exit(czero/1);
+
+    if (0/czero) {} //arithmetic
+    if (1/zero == 0) {}
+    while(1/czero) {}  //arithmetic
+    while(zero/czero <= czero/1) {}
+
+    int x = zero/czero;
+    const int con = czero/czero; //arithmetic
+
+//    iref(1) = iref(1/0); //arithmetic
+    iref(zero/czero);
+
+    while(15/dzero) {} //arithmetic
+    while(1.5/dzero) {} //arithmetic
+    czero/dzero; //arithmetic
+    dzero/czero; //arithmetic
+}
+
+function : void mod() {
+    const int czero = 0;
+    const float dzero = 0.0;
+    int zero = 0;
+    exit(1%0); // arithmetic
+    exit(0%0); //arithmetic
+    exit(1%czero); //arithmetic
+    exit(0%czero); //arithmetic
+    exit(zero%czero);
+    exit(czero%zero);
+    exit(czero%czero); //arithmetic
+    exit(czero%1);
+
+    if (0%czero) {} //arithmetic
+    if (1%zero == 0) {}
+    while(1%czero) {}  //arithmetic
+    while(zero%czero <= czero%1) {}
+
+    int x = zero%czero;
+    const int con = czero%czero; //arithmetic
+
+    iref(1) = iref(1%0); //arithmetic
+    iref(zero%czero);
+}

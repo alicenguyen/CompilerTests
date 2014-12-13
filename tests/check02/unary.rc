@@ -1,0 +1,16 @@
+int x;
+function : int foo()
+{
+  return -1;
+}
+
+int i;
+
+function : int main()
+{
+ i = 5;
+ x = foo();
+ return 0;
+ x = ++(+x); //error, +x is an expression/rval
+ x = --(-x); //error, -x is an expression/rval
+}

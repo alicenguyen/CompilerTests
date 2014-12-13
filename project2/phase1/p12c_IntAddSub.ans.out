@@ -1,0 +1,6 @@
+Add: 11?  11
+Sub: -16?  -16
+Complicated Add + Sub: =22? 22
+Testing im# + reg: =9? : 9
+Testing reg + im#: =18? : 18
+Testing complicated reg + im# + reg + im# ... : =76? : 76

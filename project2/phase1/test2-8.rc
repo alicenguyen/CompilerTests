@@ -1,0 +1,33 @@
+//Testing post-increment/decrement operations
+
+int a = 6; 
+
+function: void main() {
+
+int b; 
+
+b = a++; //b now 6, a now 7
+
+cout << a << endl;
+cout << b << endl;
+
+a = b--; //a now 6, b now 5
+
+cout << a << endl;
+cout << b << endl;
+
+float c = 5.1;
+float d;
+d = c--;
+
+//d = c--; // d 5.1, c 4.1
+
+cout << c << endl; //4.1
+cout << d << endl; //5.1
+
+d = c++; // d 4.1, c 5.1
+
+cout << c << endl; //5.1
+cout << d << endl; //4.1
+
+}

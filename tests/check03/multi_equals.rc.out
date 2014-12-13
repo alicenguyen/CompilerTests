@@ -1,0 +1,12 @@
+Error, "tests/check03/multi_equals.rc", line 24: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/multi_equals.rc", line 25: 
+  Value of type float not assignable to variable of type bool.
+Error, "tests/check03/multi_equals.rc", line 26: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/multi_equals.rc", line 27: 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check03/multi_equals.rc", line 28: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Compile: failure.

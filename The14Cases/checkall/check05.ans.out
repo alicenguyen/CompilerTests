@@ -1,0 +1,105 @@
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Value of type void not assignable to variable of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (1) differs from number of parameters (0).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (2) differs from number of parameters (0).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (2) differs from number of parameters (1).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (0) differs from number of parameters (2).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (1) differs from number of parameters (2).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (3) differs from number of parameters (2).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (0) differs from number of parameters (3).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (1) differs from number of parameters (3).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (2) differs from number of parameters (3).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (4) differs from number of parameters (3).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (4) differs from number of parameters (3).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Number of arguments (2) differs from number of parameters (3).
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not assignable to value parameter j, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not assignable to value parameter j, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not assignable to value parameter j, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not assignable to value parameter g, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not assignable to value parameter j, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not assignable to value parameter g, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type int not assignable to value parameter c, of type bool.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not assignable to value parameter j, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not assignable to value parameter g, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not assignable to value parameter j, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not assignable to value parameter c, of type bool.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not assignable to value parameter g, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not assignable to value parameter c, of type bool.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not assignable to value parameter j, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not assignable to value parameter g, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type int not assignable to value parameter c, of type bool.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not equivalent to reference parameter b, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not equivalent to reference parameter c, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not assignable to value parameter d, of type bool.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type int not equivalent to reference parameter b, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not equivalent to reference parameter c, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not assignable to value parameter a, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not equivalent to reference parameter b, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not equivalent to reference parameter c, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type int not assignable to value parameter d, of type bool.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not assignable to value parameter a, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not equivalent to reference parameter b, of type float.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type float not equivalent to reference parameter c, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type int not assignable to value parameter d, of type bool.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument passed to reference parameter b (type float) is not a modifiable L-value.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument passed to reference parameter c (type int) is not a modifiable L-value.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument passed to reference parameter b (type float) is not a modifiable L-value.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument passed to reference parameter c (type int) is not a modifiable L-value.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type bool not equivalent to reference parameter c, of type int.
+Error, "Testframework/project1/The14Cases/check05.rc": 
+  Argument of type int not assignable to value parameter d, of type bool.
+Compile: failure.

@@ -1,0 +1,37 @@
+typedef float[6] FO;
+typedef int**[10] ZUM;
+
+function : void test() {
+    int** du;
+    bool[5] ga;
+    FO[10] zo;
+
+    foreach (bool t : du) {} // error, du not array
+    foreach (float* z : ga) {} //error, bool not assignable to float*
+    foreach (bool z : ga) {}
+    foreach (bool & z : ga) {}
+
+    foreach (FO f : zo) {}
+    foreach (FO & f : zo) {}
+    foreach (FO* & f : zo) {} //error, FO* not equiv to FO
+    foreach (FO f : zo[1]) {} //error, float not assignable to FO
+    foreach (float f : zo[1]) {}
+    foreach (float & f : zo[1]) {}
+
+    ZUM zu;
+    FO fuz;
+
+    foreach (int** z : zu) {}
+    foreach (int** & z : zu) {}
+    foreach (float* & z : zu) {} //error, float* not equiv to int**
+
+    foreach (float z : fuz) {}
+    foreach (float& z : fuz) {}
+    foreach (float* & z : fuz) {} //error, float* not equiv to float
+
+    int[10] ff;
+    foreach (float z : ff) {}
+    foreach (int z : ff) {}
+    foreach (float & z : ff) {} //error, float not equiv to int
+
+}

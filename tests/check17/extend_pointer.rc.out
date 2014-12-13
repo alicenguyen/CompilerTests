@@ -1,0 +1,45 @@
+Error, "tests/check17/extend_pointer.rc", line 7: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check17/extend_pointer.rc", line 14: 
+  Initialization value of type nullptr not assignable to constant/variable of type int.
+Error, "tests/check17/extend_pointer.rc", line 15: 
+  Initialization value of type nullptr not assignable to constant/variable of type BI.
+Error, "tests/check17/extend_pointer.rc", line 17: 
+  Initialization value of type nullptr not assignable to constant/variable of type TY.
+Error, "tests/check17/extend_pointer.rc", line 23: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check17/extend_pointer.rc", line 24: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check17/extend_pointer.rc", line 25: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check17/extend_pointer.rc", line 26: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check17/extend_pointer.rc", line 49: 
+  Incompatible type TY to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check17/extend_pointer.rc", line 51: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check17/extend_pointer.rc", line 52: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check17/extend_pointer.rc", line 53: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check17/extend_pointer.rc", line 55: 
+  Incompatible types to operator ==:
+    bool*,
+    int*****;
+  both must be of equivalent pointer type.
+Error, "tests/check17/extend_pointer.rc", line 56: 
+  Incompatible types to operator !=:
+    TY*,
+    BI*;
+  both must be of equivalent pointer type.
+Error, "tests/check17/extend_pointer.rc", line 61: 
+  Incompatible types to operator ==:
+    int,
+    nullptr;
+  both must be of equivalent pointer type.
+Error, "tests/check17/extend_pointer.rc", line 62: 
+  Incompatible types to operator ==:
+    nullptr,
+    bool;
+  both must be of equivalent pointer type.
+Compile: failure.

@@ -1,0 +1,13 @@
+Error, "tests/check18/check18a.rc", line 18: 
+  Value of type FUNCPTR not assignable to variable of type FUNCNOREF.
+Error, "tests/check18/check18a.rc", line 19: 
+  Value of type FUNCPTR not assignable to variable of type FUNCMOREREF.
+Error, "tests/check18/check18a.rc", line 21: 
+  Initialization value of type FUNCPTR not assignable to constant/variable of type funcptr : INT (BPP &c, FUNCPTR fptr, funcptr : INT & (int a, bool**[3] &b, FUNCPTR nestme) goodluck).
+Error, "tests/check18/check18a.rc", line 23: 
+  Value of type funcptr : INT (BPP &b, BPP noref, INT arr, int &noarr) not assignable to variable of type FUNCPTR.
+Error, "tests/check18/check18a.rc", line 24: 
+  Value of type funcptr : INT (BPP &b, BPP noref, INT arr, int &noarr) not assignable to variable of type FUNCMOREREF.
+Error, "tests/check18/check18a.rc", line 25: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

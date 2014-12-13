@@ -1,0 +1,27 @@
+Error, "tests/check14/check14b.rc", line 12: 
+  Size of field test cannot be determined at compile time.
+Error, "tests/check14/check14b.rc", line 16: 
+  Field x declared second time in struct.
+Error, "tests/check14/check14b.rc", line 17: 
+  Field x declared second time in struct.
+Error, "tests/check14/check14b.rc", line 20: 
+  Field y declared second time in struct.
+Error, "tests/check14/check14b.rc", line 23: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check14/check14b.rc", line 24: 
+  Referenced field vvvv not found in type BOO.
+Error, "tests/check14/check14b.rc", line 26: 
+  Referenced field x not found in type BOO.
+Error, "tests/check14/check14b.rc", line 36: 
+  Referenced field doesNotExist not found in current struct.
+Error, "tests/check14/check14b.rc", line 37: 
+  Value of type int not assignable to variable of type bool.
+Error, "tests/check14/check14b.rc", line 40: 
+  Referenced field foor not found in current struct.
+Error, "tests/check14/check14b.rc", line 44: 
+  Duplicate declaration of overloaded function foo.
+Error, "tests/check14/check14b.rc", line 55: 
+  Referenced field x not found in type BOO.
+Error, "tests/check14/check14b.rc", line 58: 
+  Referenced field x not found in type BOO.
+Compile: failure.

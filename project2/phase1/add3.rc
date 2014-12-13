@@ -1,0 +1,7 @@
+static int x0;
+int x1 = 1;
+function : void main() {
+  int x2 = x1 + x1;
+  int x3 = x2 + x1 + x0;
+  cout << x0 << x1 << x2 << x3 << endl;
+}

@@ -1,0 +1,15 @@
+int x = -4;
+int y = 5;
+
+function : void main() {
+  int f = -6;
+  int g = 7;
+  cout << -f << endl;
+  cout << -g << endl;
+  cout << -x << endl;
+  cout << -y << endl;
+  cout << +f << endl;
+  cout << +g << endl;
+  cout << +x << endl;
+  cout << +y << endl;
+}

@@ -1,0 +1,34 @@
+function : void foo() {}
+function : int far() {} //error, none found
+function : float & fig() {} //error, none found
+function : bool fet() {} //error, none found
+
+function : void foo1() { return; }
+function : int far1() { return; } //error, no result expr
+function : float fig1() { return; } //error, no result expr
+function : bool & fet1() { return; } //error, no result expr
+
+function : void foo2() { return 2; } //error, int not assignable to void
+function : int far2() { return 111; }
+function : int far2a() { return 111.77; } //error, float not assignable to int
+function : int farsasdf2a() { const float y = 2; return y; } //error, float not assignable to int
+function : float fig2() { return 11; }
+function : float fig2a() { return 11.09; }
+function : float fifg2a() { const int ti = 1; return ti; }
+function : float sdf() { return true; } //error, bool not assignable to float
+function : bool ngg() { return 44; } //error, int not assignable to bool
+function : bool naagg() { return false; }
+function : bool hhii() { return 9.9; } //error, float not assignable to bool
+function : bool asdfgggg() { const bool au = false; return au; }
+
+function : int & sdff() { return 3; } //error, not mod l
+function : float & hum() { return 3.66; } //error, not mod l
+function : bool & yup() { return false; } //error, not mod l
+
+function : int & ytt() { return 1.11; } //error, float not equiv to int
+function : int & asdfl(int x) { return x; }
+function : float & hio() { return 111134; } //error, int not equiv to float
+function : float & asdfwwe() { float f; return f; }
+function : float & ajsdfwwe() { int f; return f; } //error, int not equiv to float
+function : bool & bbb() { return 124; } //error, int not equiv to bool
+function : bool & beb() { const bool b = true; return b; } //error, not mod l

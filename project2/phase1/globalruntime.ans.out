@@ -1,0 +1,14 @@
+a = 9: 9
+b = true: true
+c = 11.4: 11.40
+d = 22.8: 22.80
+e = 3.4: 3.40
+n = 9: 9
+b after assign false: false
+a = 5: 5
+b = false: false
+c = 2: 2.00
+d = 2.1: 2.10
+e = 8.9: 8.90
+n = 0: 0
+b after assign false: false

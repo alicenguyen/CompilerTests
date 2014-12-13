@@ -1,0 +1,13 @@
+Error, "tests/check15/check15.rc", line 19: 
+  Initialization value of type float************** not assignable to constant/variable of type F15.
+Error, "tests/check15/check15.rc", line 27: 
+  Incompatible type F14[5] to unary dereference operator *, pointer expected.
+Error, "tests/check15/check15.rc", line 28: 
+  Incompatible type F14[5] to binary operator +, numeric expected.
+Error, "tests/check15/check15.rc", line 29: 
+  Incompatible type F15 to binary operator +, numeric expected.
+Error, "tests/check15/check15.rc", line 31: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check15/check15.rc", line 33: 
+  Initialization value of type FA2A3 not assignable to constant/variable of type float**.
+Compile: failure.

@@ -1,0 +1,6 @@
+
+function : void main() {
+    cout << 1 << endl;
+    exit(0);
+    cout << 1 << endl;
+}

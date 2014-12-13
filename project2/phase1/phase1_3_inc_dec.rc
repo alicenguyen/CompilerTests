@@ -1,0 +1,21 @@
+int a = 6;
+int b = 6;
+
+function : int main()
+{
+  int c = 4;
+  int d = 7;
+
+  cout << "c-- + d = 11: " << c-- + d << endl;
+  cout << "a + ++b + c-- = 16: " << a + ++b + c-- << endl;
+  cout << "--d * 3 + a = 24: " << --d * 3 + a << endl;
+  if (a++ == 6)
+  {
+    cout << "CORRECT: now a is 7: " << a << endl;
+  }
+  else
+  {
+    cout << "WRONG" << endl;
+  }
+  return 0;
+}

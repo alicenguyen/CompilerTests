@@ -1,0 +1,38 @@
+const int c1 = 100;
+const int c2 = c1 + 50;
+const int c3 = c1 + c2;
+const float c4 = c3 + 0.5;
+
+
+int crap;
+int a;
+int b;
+int c;
+float d;
+bool b1;
+
+
+function: void main()
+{
+    int e = 12;
+    int f = 1232;
+    bool blah;
+
+    cout << "a = 0 ?  "<< a << endl;
+    cout << "b = 0 ?  "<< b << endl;
+    cout << "c = 0 ?  "<< c << endl;
+    cout << "d = 0.00 ?  "<< d << endl;
+
+    cout << "b1 = false ?  "<< b1 << endl;
+    
+    cout << "c1 = 100 ?  " << c1 << endl;
+    cout << "c2 = 150 ?  " << c2 << endl;
+    cout << "c3 = 250 ?  " << c3 << endl;
+    cout << "c4 = 250.5 ?  " << c4 << endl;
+
+    cout << "e = 12 ?  " << e << endl;
+    cout << "f = 1232 ?  " << f << endl;
+
+}
+
+//float e = d + 1.00;

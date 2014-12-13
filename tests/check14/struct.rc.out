@@ -1,0 +1,25 @@
+Error, "tests/check14/struct.rc", line 44: 
+  Referenced field ttt not found in type S1.
+Error, "tests/check14/struct.rc", line 45: 
+  Referenced field bbb not found in type S1.
+Error, "tests/check14/struct.rc", line 46: 
+  Referenced field zz not found in type S1.
+Error, "tests/check14/struct.rc", line 51: 
+  Index value of -1 is outside legal range [0,100).
+Error, "tests/check14/struct.rc", line 61: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check14/struct.rc", line 64: 
+  Referenced field ttt not found in type S2.
+Error, "tests/check14/struct.rc", line 65: 
+  Referenced field bbb not found in type S2.
+Error, "tests/check14/struct.rc", line 66: 
+  Referenced field zz not found in type S2.
+Error, "tests/check14/struct.rc", line 70: 
+  Argument of type float not assignable to value parameter f, of type int.
+Error, "tests/check14/struct.rc", line 81: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check14/struct.rc", line 90: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check14/struct.rc", line 93: 
+  Value of type float not assignable to variable of type int.
+Compile: failure.

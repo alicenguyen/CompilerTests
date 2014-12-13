@@ -1,0 +1,9 @@
+static bool y = true;
+static bool x = true;
+function : void main() {
+    cout << "Make sure you only initialize your global and static variables once" << endl;
+    if (x) {
+        x = false;
+        main();
+    }
+}

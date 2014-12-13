@@ -1,0 +1,54 @@
+typedef bool TAM;
+typedef funcptr : void () FUN;
+
+structdef MYS {
+    int x, y, z;
+    float** u;
+    funcptr : void () min;
+    function : int herro (bool& tar) {
+        return 1;
+    }
+};
+
+function : void test(bool & hi, int** tarf) {
+    &5; //error, non addressable
+    &asdf; //error, undeclared
+    &nullptr; //error, non addressable
+    &false; //error, non addressable
+    &66.6; //error, non addressable
+    const int z = 3;
+    &z;
+    int y;
+    &y++; //error, non addressable
+    &++y; //error, non addressable
+    &(5+1); //error, non addressable
+    &hi;
+    &(float)y; //error, non addressable
+
+    int* yu = &y;
+    float* si = &y;
+    &test; //error, non addressable
+
+    int*** asd;
+    int*** fff = &asd; //error, int**** not assignable to int***
+    int**** fafs = &asd;
+
+    TAM ta;
+    float* ba = &ta; //error, TAM* not assignable to float*
+    bool* bab = &ta;
+    bool** babs = &bab;
+    TAM** babe = &bab;
+
+    &(&ta); //error, non addressable
+
+    MYS mys;
+    MYS* myt = &mys;
+    int* b1 = &mys.x;
+    float*** b2 = &mys.u;
+    &mys.herro; //error, non addressable
+    funcptr : void () * b3 = &mys.min;
+    FUN* b4 = &mys.min;
+
+    TAM* tad = &hi;
+    asd = &tarf;
+}

@@ -1,0 +1,9 @@
+
+function: void main()
+{
+    float f1 = 1;
+    float f2 = f1;
+
+    cout << "f1 :1.00    " << f1 << endl;
+    cout << "f2 := f1 = 1.00    " << f2 << endl;
+}

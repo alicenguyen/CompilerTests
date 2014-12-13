@@ -1,0 +1,33 @@
+Error, "tests/check22/overload.rc", line 5: 
+  Duplicate declaration of overloaded function foo.
+Error, "tests/check22/overload.rc", line 6: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "tests/check22/overload.rc", line 9: 
+  Duplicate declaration of overloaded function foo.
+Error, "tests/check22/overload.rc", line 13: 
+  Duplicate declaration of overloaded function foo.
+Error, "tests/check22/overload.rc", line 17: 
+  Duplicate declaration of overloaded function foo.
+Error, "tests/check22/overload.rc", line 28: 
+  Duplicate declaration of overloaded function far.
+Error, "tests/check22/overload.rc", line 42: 
+  redeclared identifier 'pa'.
+Error, "tests/check22/overload.rc", line 43: 
+  Return required in function, none found.
+Error, "tests/check22/overload.rc", line 45: 
+  Duplicate declaration of overloaded function fiz.
+Error, "tests/check22/overload.rc", line 50: 
+  Duplicate declaration of overloaded function fiz.
+Error, "tests/check22/overload.rc", line 64: 
+  Illegal call to overloaded function foo.
+Error, "tests/check22/overload.rc", line 67: 
+  Argument of type bool not assignable to value parameter t, of type float.
+Error, "tests/check22/overload.rc", line 72: 
+  Illegal call to overloaded function tarr.
+Error, "tests/check22/overload.rc", line 78: 
+  Illegal call to overloaded function tarr.
+Error, "tests/check22/overload.rc", line 90: 
+  Argument of type float not assignable to value parameter t, of type int.
+Error, "tests/check22/overload.rc", line 102: 
+  Illegal call to overloaded function tim.
+Compile: failure.

@@ -1,0 +1,18 @@
+bool b = false;
+
+function : bool g() {
+  return true;
+}
+
+function : void f() {
+  bool x = false;
+  x = g();
+  b = g();
+  cout << g() << " " << x << endl;
+  return;
+}
+
+function : void main() {
+  f();
+  cout << "test success? " << b << endl;
+}

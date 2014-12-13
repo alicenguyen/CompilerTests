@@ -1,0 +1,11 @@
+CORRECT: a > c
+CORRECT: a not less than c
+CORRECT: f: false
+CORRECT: b: true
+CORRECT: a == e
+CORRECT: a+4 > e-3*d 9 -22
+CORRECT: true
+CORRECT: false
+CORRECT: 4+5*3
+CORRECT: a-5
+correct_count: 10: 10

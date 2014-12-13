@@ -1,0 +1,46 @@
+function : void foo() {
+    {
+        {
+            {
+                return;
+            }
+        }
+    }
+}
+
+function : int ni() {
+    {
+        {
+            return false; //error, bool not assignable to int
+        }
+    }
+
+    if (false) {
+        {
+            return 1.1; //error, float not assignable to int
+        }
+    }
+
+    while (true) {
+        {
+            return false; //error, bool not assignable to int
+        }
+    }
+} //error, no return found TODO should we print error
+
+function : float & nio() {
+    int[5] z;
+    foreach (int b : z) {
+        {
+            return b; //error, int not equiv to float
+        }
+    }
+
+    while (false) {
+        return 1.1; //error, not mod l
+    }
+} //error, no return found
+
+function : float & ghi() {
+    return 1; //error, int not equiv to float
+}

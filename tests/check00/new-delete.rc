@@ -1,0 +1,12 @@
+function : void foo() {
+    int* x;
+    bool* y;
+    float* z;
+
+    new x;
+    delete x;
+    new y;
+    new z;
+    delete z;
+    delete y;
+} // should have no errors

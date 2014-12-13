@@ -1,0 +1,67 @@
+typedef float[3] TY;
+typedef int**** HI;
+typedef float BI;
+
+function : void test() {
+
+    nullptr = nullptr; //error, left hand not mod L
+    int***** f = nullptr;
+    int***** ty;
+    bool* fa = nullptr;
+    float** fs = nullptr;
+    TY* fas = nullptr;
+    HI hi = nullptr;
+    int i = nullptr; //error, nullptr not assignable to int
+    BI as = nullptr; //error, nullptr not assignable to BI
+    BI* ast = nullptr;
+    TY sas = nullptr; //error, nullptr not assignable to TY
+
+    f++;
+    ++f;
+    f--;
+    --f;
+    --nullptr; //error, not mod l
+    nullptr--; //error, not mod l
+    nullptr++; //error, not mod l
+    ++nullptr; //error, not mod l
+    fa++;
+    ++fa;
+    --fa;
+    fa--;
+    fs++;
+    ++fs;
+    fs--;
+    --fs;
+    fas--;
+    --fas;
+    ++fas;
+    fas++;
+    hi++;
+    ++hi;
+    --hi;
+    hi--;
+    ast++;
+    ++ast;
+    ast--;
+    --ast;
+
+    TY sas2;
+    sas2++; //error, incompatible
+
+    ++f++; //error, not mod L
+    ----fas; //error, not mod L
+    ++ast----; //error, not mod L
+
+    fa == f; //error, not equiv
+    fas != ast; //error, not equiv
+
+    nullptr == nullptr;
+    ast == nullptr;
+    nullptr == hi;
+    1 == nullptr; //error
+    nullptr == true; //error
+
+    f != f;
+    f == ty;
+
+}

@@ -1,0 +1,27 @@
+Error, "tests/check12/break_continue.rc", line 3: 
+  Break does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 4: 
+  Continue does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 6: 
+  Continue does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 7: 
+  Break does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 13: 
+  Break does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 14: 
+  Continue does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 16: 
+  Break does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 18: 
+  Continue does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 20: 
+  Continue does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 22: 
+  Continue does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 97: 
+  Continue does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 99: 
+  Continue does not occur in a loop.
+Error, "tests/check12/break_continue.rc", line 101: 
+  Break does not occur in a loop.
+Compile: failure.

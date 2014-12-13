@@ -1,0 +1,31 @@
+Error, "tests/check08/initialization.rc", line 3: 
+  Initialization value of type bool not assignable to constant/variable of type float.
+Error, "tests/check08/initialization.rc", line 4: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "tests/check08/initialization.rc", line 7: 
+  Initialization value of constant named tt not known at compile time.
+Error, "tests/check08/initialization.rc", line 8: 
+  Initialization value of constant named zg not known at compile time.
+Error, "tests/check08/initialization.rc", line 11: 
+  Initialization value of constant named low not known at compile time.
+Error, "tests/check08/initialization.rc", line 14: 
+  Initialization value of constant named tttt not known at compile time.
+Error, "tests/check08/initialization.rc", line 15: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/initialization.rc", line 17: 
+  Initialization value of constant named tim not known at compile time.
+Error, "tests/check08/initialization.rc", line 19: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "tests/check08/initialization.rc", line 22: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "tests/check08/initialization.rc", line 24: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "tests/check08/initialization.rc", line 34: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "tests/check08/initialization.rc", line 35: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "tests/check08/initialization.rc", line 37: 
+  Initialization value of constant named sdfff not known at compile time.
+Error, "tests/check08/initialization.rc", line 38: 
+  Initialization value of constant named sdfsd not known at compile time.
+Compile: failure.

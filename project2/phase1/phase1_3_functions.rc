@@ -1,0 +1,59 @@
+int a = 6;
+float b = 3.4;
+bool c = true;
+
+function : void foo()
+{
+  int d = 3;
+  cout << "foo d = 3: " << d << endl;
+  if (a > 4)
+  {
+    a--;
+    cout << "a : " << a << endl;
+    foo();
+  }
+  else
+  {
+    cout << "done: a: " << a << endl;
+  }
+
+}
+
+function : float retFloat()
+{
+  cout << "in retFloat" << endl;
+  int d = 6;
+  return d;
+}
+
+function : int retInt()
+{
+  cout << "in retInt" << endl;
+  return 5;
+}
+
+function : float retFloat2()
+{
+  float d = 5.7;
+  cout << "in retFloat2" << endl;
+  return d;
+}
+
+function : int main()
+{
+  int d = 7;
+  cout << "main d = 7 " << d << endl;
+  foo();
+  cout << "back in main" << endl;
+  return 0;
+
+  cout << "return 6.0 : " << retFloat() << endl;
+  cout << "return 5 : " << retInt() << endl;
+  cout << "return 5.7 : " << retFloat2() << endl;
+
+  exit(d);
+  cout << "Should not be printed" << endl;
+
+}
+
+

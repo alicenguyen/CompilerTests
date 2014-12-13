@@ -1,0 +1,39 @@
+const int f = 0;
+const float g = 1;
+const float gg = true; //error, bool not assignable to float
+const int z = 1.0; //error, float not assignable to int
+
+int fa;
+const int tt = fa; //error, not known
+const float zg = fa; //error, not known
+
+bool tom = false;
+const bool low = tom; //error, not known
+
+float zom = 12;
+const int tttt = zom; //error, not known
+const bool rom = 12 / 0; //error, const folding
+
+const int tim = zom / 0; //error, not known
+
+const int rim = 0 / 1.1; //error, float not assignable to int
+const float zim = 0 / 44;
+
+const bool dum = 1 / 1 * 1; //error, int not assignable to bool
+
+bool lime = 1 + 1 + 4; //error, int not assignable to bool
+
+function : void test() {
+    const int zero = 0;
+    const float tum = 1;
+    const bool zom = true;
+
+    int fdf = 0 * 1;
+    bool bag = zom;
+    float sdaf = 1.1;
+    bool bhu = 12 + 0 * 7 * 0; //error, int not assignable to bool;
+    int num = 0 - 0 + 4 + 23 / 8 * sdaf; //error, float not assignable to int
+
+    const int sdfff = fdf; //error, not known
+    const float sdfsd = bag; //error, not known
+}

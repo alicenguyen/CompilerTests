@@ -1,0 +1,9 @@
+Error, "tests/check16/delete.rc", line 22: 
+  Type of delete's operand must be of pointer type, int found.
+Error, "tests/check16/delete.rc", line 23: 
+  Type of delete's operand must be of pointer type, bool found.
+Error, "tests/check16/delete.rc", line 24: 
+  Type of delete's operand must be of pointer type, float found.
+Error, "tests/check16/delete.rc", line 26: 
+  Operand to "delete" is not a modifiable L-value.
+Compile: failure.

@@ -1,0 +1,13 @@
+
+function : void main() {
+  float x = 1.0;
+  cout << -x << endl; //-1
+/*  cout << x << endl;
+  cout << -x << endl;
+  cout << x << endl; */
+  x = -x;
+  cout << x << endl; //-1
+  cout << -(-(x + x)) << endl; //-2
+  cout << (x=-(x=2)) << endl; //-2
+  cout << x << endl; //-2
+}

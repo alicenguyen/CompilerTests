@@ -1,0 +1,6 @@
+static const int x = 4;
+const float y = 5.0;
+const bool z = true;
+function : void main() {
+    cout << x << " " << y << " " << z << endl;
+}

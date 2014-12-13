@@ -1,0 +1,12 @@
+function: void main() {
+
+int a = 6;
+cout << a << endl;
+
+bool b = true;
+cout << b << endl;
+
+bool c = false;
+cout << c << endl;
+
+}

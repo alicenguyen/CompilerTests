@@ -1,0 +1,161 @@
+Error, "tests/check01/arithmetic.rc", line 30: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 31: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 32: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 33: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 35: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 36: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 37: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 38: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 40: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 41: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 42: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 43: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 45: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 46: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 47: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 48: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 73: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 74: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 75: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 76: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 78: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 79: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 80: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 81: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 83: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 84: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 85: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 86: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 88: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 89: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 90: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 91: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 116: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 117: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 118: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 119: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 121: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 122: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 123: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 124: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 126: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 127: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 128: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 129: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 131: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 132: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 133: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 134: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 159: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 160: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 161: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 162: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 164: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 165: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 166: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 167: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 169: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 170: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 171: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 172: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 174: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 175: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 176: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 177: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/arithmetic.rc", line 181: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 182: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 183: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 184: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 186: 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 187: 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 188: 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 189: 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 191: 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 192: 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 193: 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 194: 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 196: 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 197: 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 198: 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "tests/check01/arithmetic.rc", line 199: 
+  Incompatible type bool to binary operator /, numeric expected.
+Compile: failure.

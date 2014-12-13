@@ -1,0 +1,142 @@
+function : void far() {
+    int foo;
+    int too;
+    float bar;
+    float tar;
+    bool jo;
+    bool bo;
+
+    int res1;
+    float res2;
+    bool res3;
+
+    //int + int
+    res1 = foo + too;
+    res1 = foo + foo;
+    res1 = foo + foo + foo + too + too;
+    res2 = foo + too;
+    res2 = too + too;
+    res3 = foo + too; //error, int not assignable to bool
+
+    //int + float
+    res1 = foo + bar; //error float not assignable to int
+    res1 = too + tar; //error float not assignable to int
+    res2 = tar + foo;
+    res2 = too + bar;
+    res2 = too + bar + too + bar;
+    res3 = tar + foo; //error float not assignable to bool
+
+    //float + float
+    res1 = tar + bar; //error float not assignable to int
+    res1 = bar + bar; //error float not assignable to int
+    res2 = tar + tar;
+    res2 = bar + tar;
+    res2 = bar + bar + tar + tar;
+    res3 = bar + bar; //error float not assignable to bool
+
+    //(int | float | bool) + bool
+    res1 = jo + bo; //error, can't add non numeric
+    res1 = jo + foo; //error, can't add bool
+    res2 = bo + tar; //error, can't add bool
+    res2 = bar + jo; //error, can't add bool
+    res3 = bo + jo; //error, can't add non numeric
+
+
+
+    //int - int
+    res1 = foo - too;
+    res1 = foo - foo;
+    res2 = foo - too;
+    res2 = foo - foo - too - too;
+    res2 = too - too;
+    res3 = foo - too; //error, int not assignable to bool
+
+    //int - float
+    res1 = foo - bar; //error float not assignable to int
+    res1 = too - tar; //error float not assignable to int
+    res2 = tar - foo;
+    res2 = too - bar;
+    res2 = too - bar - too - bar - too - bar;
+    res3 = tar - foo; //error float not assignable to bool
+
+    //float - float
+    res1 = tar - bar; //error float not assignable to int
+    res1 = bar - bar; //error float not assignable to int
+    res2 = tar - tar;
+    res2 = bar - tar;
+    res2 = bar - tar - bar - bar - bar;
+    res3 = bar - bar; //error float not assignable to bool
+
+    //(int | float | bool) - bool
+    res1 = jo - bo; //error, can't add non numeric
+    res1 = jo - foo; //error, can't add bool
+    res2 = bo - tar; //error, can't add bool
+    res2 = bar - jo; //error, can't add bool
+    res3 = bo - jo; //error, can't add non numeric
+
+
+
+    //int * int
+    res1 = foo * too;
+    res1 = foo * foo;
+    res2 = foo * too;
+    res2 = too * too;
+    res2 = too * too * foo * foo * too;
+    res3 = foo * too; //error, int not assignable to bool
+
+    //int * float
+    res1 = foo * bar; //error float not assignable to int
+    res1 = too * tar; //error float not assignable to int
+    res2 = tar * foo;
+    res2 = too * bar;
+    res2 = too * bar * bar * too;
+    res3 = tar * foo; //error float not assignable to bool
+
+    //float * float
+    res1 = tar * bar; //error float not assignable to int
+    res1 = bar * bar; //error float not assignable to int
+    res2 = tar * tar;
+    res2 = bar * tar;
+    res2 = bar * tar * tar * tar * bar;
+    res3 = bar * bar; //error float not assignable to bool
+
+    //(int | float | bool) * bool
+    res1 = jo * bo; //error, can't add non numeric
+    res1 = jo * foo; //error, can't add bool
+    res2 = bo * tar; //error, can't add bool
+    res2 = bar * jo; //error, can't add bool
+    res3 = bo * jo; //error, can't add non numeric
+
+
+
+    //int / int
+    res1 = foo / too;
+    res1 = foo / foo;
+    res2 = foo / too;
+    res2 = too / too;
+    res2 = too / too / too / foo;
+    res3 = foo / too; //error, int not assignable to bool
+
+    //int / float
+    res1 = foo / bar; //error float not assignable to int
+    res1 = too / tar; //error float not assignable to int
+    res2 = tar / foo;
+    res2 = too / bar;
+    res2 = too / bar / too / bar;
+    res3 = tar / foo; //error float not assignable to bool
+
+    //float / float
+    res1 = tar / bar; //error float not assignable to int
+    res1 = bar / bar; //error float not assignable to int
+    res2 = tar / tar;
+    res2 = bar / tar;
+    res2 = bar / bar / tar / tar;
+    res3 = bar / bar; //error float not assignable to bool
+
+    //(int | float | bool) / bool
+    res1 = jo / bo; //error, can't add non numeric
+    res1 = jo / foo; //error, can't add bool
+    res2 = bo / tar; //error, can't add bool
+    res2 = bar / jo; //error, can't add bool
+    res3 = bo / jo; //error, can't add non numeric
+}

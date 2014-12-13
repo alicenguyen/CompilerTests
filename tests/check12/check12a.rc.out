@@ -1,0 +1,11 @@
+Error, "tests/check12/check12a.rc", line 10: 
+  Type of expression referenced in foreach is not of array type.
+Error, "tests/check12/check12a.rc", line 12: 
+  Foreach array element of type int not assignable to value iteration variable x, of type bool.
+Error, "tests/check12/check12a.rc", line 16: 
+  Foreach array element of type int not equivalent to reference iteration variable x, of type float.
+Error, "tests/check12/check12a.rc", line 20: 
+  Foreach array element of type float* not assignable to value iteration variable x, of type float.
+Error, "tests/check12/check12a.rc", line 22: 
+  Return in function requires a result expression, none found.
+Compile: failure.

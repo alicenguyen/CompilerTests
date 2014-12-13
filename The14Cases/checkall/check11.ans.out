@@ -1,0 +1,49 @@
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 10 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 10 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 100 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 55 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of -99 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 11 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of -9 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of -9 is outside legal range [0,100).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 100 is outside legal range [0,100).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 100 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 100 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 14 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 100 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 10 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 10 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Index value of 10 is outside legal range [0,10).
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Argument of type int not assignable to value parameter param, of type int*.
+Error, "Testframework/project1/The14Cases/check11.rc": 
+  Argument of type float[2] not equivalent to reference parameter array, of type int[5].
+Compile: failure.

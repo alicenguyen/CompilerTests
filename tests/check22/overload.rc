@@ -1,0 +1,105 @@
+function : int & foo(int x) {
+    return x;
+}
+
+function : int & foo(int x) { //error, duplicate defn
+    return 1;
+}
+
+function : int foo(int x) { //error, duplicate defn
+    return x;
+}
+
+function : int foo(int & r) { //error, duplicate defn
+    return r;
+}
+
+function : void foo(int & b) { //error, duplicate defn
+}
+
+function : void foo(float & b) {
+}
+
+function : float** far(int* & bi, bool & nom) {
+    float** t;
+    return t;
+}
+
+function : bool* & far(int* ji, bool ni) { //error, duplicate defn
+    bool* r;
+    return r;
+}
+
+function : int** fiz(funcptr : void () part, int** pim) {
+    return pim;
+}
+
+function : bool* fiz(funcptr : int () part, bool* pim) {
+    return pim;
+}
+
+typedef bool* FA;
+function : FA fiz(funcptr : void () pa, bool* pa) { //error, redeclared id
+} //error, no return
+
+function : float fiz(funcptr : int() pf, FA f) { //error, duplicate defn
+    return 1.1;
+}
+
+typedef int MY;
+function : MY fiz(funcptr : MY () pfs, FA fsd) { //error, duplicate defn
+    return 1;
+}
+
+function : bool fiz(FA fssd, funcptr : MY () dsss) {
+    return true;
+}
+
+function : int tarr(float t) { return 1; }
+function : void test() {
+    int x;
+    float y;
+    foo(x);
+    foo(y);
+    foo(true); //error, illegal call
+
+    tarr(1);
+    tarr(true); //error, arg not assignable
+}
+
+function : float* & tarr(float* fsd) { return fsd; }
+function : void test1() {
+    tarr(1); //error, illegal overload
+}
+
+function : int tarr(int t) { return 1; }
+function : void test2() {
+    tarr(22);
+    tarr(true); //error, illegal overload
+
+}
+
+//struct bound functions
+structdef ST {
+    function : int tarr(int t) { return 44; }
+};
+
+function : void test3() {
+    ST st;
+    st.tarr(1);
+    st.tarr(3.3); //error, float not assignable to int
+}
+
+structdef STA {
+    function : bool tim(bool t) { return true; }
+    function : float* tim(float* g) { return g; }
+    function : void tim(float tt) {}
+};
+
+function : void test4() {
+    STA st;
+    st.tim(true);
+    st.tim(55); //error, illegal call
+    float f;
+    st.tim(&f);
+}

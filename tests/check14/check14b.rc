@@ -1,0 +1,59 @@
+int x = 1;
+function : void foo() {}
+
+structdef BOO {
+    //i think structdefs have to be non-empty
+    int y;
+};
+
+BOO boo;
+
+structdef MY {
+    MY test; //error, recursive
+    BOO otherStructdef;
+    
+    int x, y;
+    int x; //error, redeclared
+    int z, x; //error, redeclared
+    bool doesExist;
+
+    function : void y() {} //currently error, redeclared
+    function : void f(int &x) {
+        this.otherStructdef.y = 1; 
+        this.otherStructdef.y = true; //error
+        this.otherStructdef.vvvv = false; //error
+        boo.y = 1;
+        boo.x = 1; //error, no x
+
+        this.y = this.x;
+
+        x = x + 1;
+        this.z = 222;
+    }
+
+    function : int foo() {
+        this.x = 201;
+        this.doesNotExist = 3; //error, not declared
+        this.doesExist = 5; //error, type mismatch
+        return 1;
+        this.f(x);
+        this.foor(); //error, no member found
+        this.foo();
+    }
+
+    function : void foo() {} //error, redeclared
+};
+
+BOO boo2;
+
+function : void bar() {
+    MY hello;
+    int x = hello.foo();
+
+    boo.y = 2342131;
+    boo2.y = 321321;
+    boo2.x=123; //error, no x
+    BOO herro;
+    herro.y = 1;
+    herro.x = true; //error, not defined
+}

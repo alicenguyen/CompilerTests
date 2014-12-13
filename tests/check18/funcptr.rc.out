@@ -1,0 +1,33 @@
+Error, "tests/check18/funcptr.rc", line 36: 
+  redeclared identifier 'jj'.
+Error, "tests/check18/funcptr.rc", line 42: 
+  Argument of type funcptr : void (funcptr : void () far) not assignable to value parameter far, of type funcptr : void ().
+Error, "tests/check18/funcptr.rc", line 45: 
+  Argument of type funcptr : int () not assignable to value parameter far, of type funcptr : void ().
+Error, "tests/check18/funcptr.rc", line 48: 
+  Argument of type funcptr : float () not assignable to value parameter og, of type ORG.
+Error, "tests/check18/funcptr.rc", line 51: 
+  Argument of type funcptr : int & () not assignable to value parameter og, of type ORG.
+Error, "tests/check18/funcptr.rc", line 53: 
+  Number of arguments (1) differs from number of parameters (3).
+Error, "tests/check18/funcptr.rc", line 58: 
+  Argument of type funcptr : int & (bool &b) not assignable to value parameter jj, of type funcptr : int & (bool* &b, float** f, int ga).
+Error, "tests/check18/funcptr.rc", line 59: 
+  Argument of type funcptr : int & (bool &b, float** f, int ga) not assignable to value parameter jj, of type funcptr : int & (bool* &b, float** f, int ga).
+Error, "tests/check18/funcptr.rc", line 60: 
+  Argument of type funcptr : int & (bool* &b, float** f, int &ga) not assignable to value parameter jj, of type funcptr : int & (bool* &b, float** f, int ga).
+Error, "tests/check18/funcptr.rc", line 62: 
+  Argument of type int not assignable to value parameter a1, of type funcptr : void (ORG og).
+Error, "tests/check18/funcptr.rc", line 64: 
+  Argument of type funcptr : void (ORG &og) not assignable to value parameter a1, of type funcptr : void (ORG og).
+Error, "tests/check18/funcptr.rc", line 67: 
+  Argument passed to reference parameter jum (type funcptr : void ()) is not a modifiable L-value.
+Error, "tests/check18/funcptr.rc", line 70: 
+  Incompatible type funcptr : int () to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check18/funcptr.rc", line 71: 
+  Incompatible type funcptr : int () to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check18/funcptr.rc", line 72: 
+  Incompatible type funcptr : void () to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check18/funcptr.rc", line 73: 
+  Incompatible type funcptr : int () to operator ++, equivalent to int, float, or pointer expected.
+Compile: failure.

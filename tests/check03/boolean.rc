@@ -1,0 +1,109 @@
+function : void test() {
+    int foo;
+    int too;
+    float bar;
+    float tar;
+    bool jo;
+    bool bo;
+
+    int res1;
+    float res2;
+    bool res3;
+
+    //int || int
+    res1 = foo || too; //error, operands not bool
+    res1 = foo || foo; //error, operands not bool
+    res1 = foo || foo || foo || too || too; //error, operands not bool
+    res2 = foo || too; //error, operands not bool
+    res2 = too || too; //error, operands not bool
+    res3 = foo || too; //error, operands not bool
+
+    //int || float
+    res1 = foo || bar; //error, operands not bool
+    res1 = too || tar; //error, operands not bool
+    res2 = tar || foo; //error, operands not bool
+    res2 = too || bar; //error, operands not bool
+    res2 = too || bar || too || bar; //error, operands not bool
+    res3 = tar || foo; //error, operands not bool
+
+    //float || float
+    res1 = tar || bar; //error, operands not bool
+    res1 = bar || bar; //error, operands not bool
+    res2 = tar || tar; //error, operands not bool
+    res2 = bar || tar; //error, operands not bool
+    res2 = bar || bar || tar || tar; //error, operands not bool
+    res3 = bar || bar; //error, operands not bool
+
+    //(int | float | bool) || bool
+    res1 = jo || bo; //error, bool not assignable to int
+    res1 = jo || foo; //error, second operand not bool
+    res2 = bo || tar; //error, second operand not bool
+    res2 = bar || jo; //error, first operand not bool
+    res3 = bo || jo;
+    res3 = bo || jo || bo || bo || jo;
+    res3 = jo || jo || bar; //error, second operand not bool
+    res3 = bo || foo || jo; //error, second operand not bool
+
+
+
+
+    //int && int
+    res1 = foo && too; //error, operands not bool
+    res1 = foo && foo; //error, operands not bool
+    res1 = foo && foo && foo && too && too; //error, operands not bool
+    res2 = foo && too; //error, operands not bool
+    res2 = too && too; //error, operands not bool
+    res3 = foo && too; //error, operands not bool
+
+    //int && float
+    res1 = foo && bar; //error, operands not bool
+    res1 = too && tar; //error, operands not bool
+    res2 = tar && foo; //error, operands not bool
+    res2 = too && bar; //error, operands not bool
+    res2 = too && bar && too && bar; //error, operands not bool
+    res3 = tar && foo; //error, operands not bool
+
+    //float && float
+    res1 = tar && bar; //error, operands not bool
+    res1 = bar && bar; //error, operands not bool
+    res2 = tar && tar; //error, operands not bool
+    res2 = bar && tar; //error, operands not bool
+    res2 = bar && bar && tar && tar; //error, operands not bool
+    res3 = bar && bar; //error, operands not bool
+
+    //(int | float | bool) && bool
+    res1 = jo && bo; //error, bool not assignable to int
+    res1 = jo && foo; //error, second operand not bool
+    res2 = bo && tar; //error, second operand not bool
+    res2 = bar && jo; //error, first operand not bool
+    res3 = bo && jo;
+    res3 = bo && jo && bo && bo && jo;
+    res3 = jo && jo && bar; //error, second operand not bool
+    res3 = bo && foo && jo; //error, second operand not bool
+
+
+
+
+    //int
+    res1 = ! too; //error, operand not bool
+    res1 = ! foo; //error, operand not bool
+    res2 = ! too; //error, operand not bool
+    res2 = ! too; //error, operand not bool
+    res3 = ! too; //error, operand not bool
+
+    //float
+    res1 = ! bar; //error, operand not bool
+    res1 = ! bar; //error, operand not bool
+    res2 = ! tar; //error, operand not bool
+    res2 = ! tar; //error, operand not bool
+    res3 = ! bar; //error, operand not bool
+
+    //bool
+    res1 = ! bo; //error, bool not assignable to int
+    res1 = ! jo; //error, bool not assignable to int
+    res2 = ! bo; //error, bool not assignable to float
+    res2 = ! jo; //error, bool not assignable to float
+    res3 = ! jo;
+    res3 = ! bo;
+}
+

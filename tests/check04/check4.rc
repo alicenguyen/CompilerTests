@@ -1,0 +1,21 @@
+function : void foo(){
+    if(24324) { //FAIL
+        int x = 4;
+    }
+    while (true) {} //PASS
+    
+    while (false) {} //PASS
+
+    while (-0x00) {} //FAIL
+    while (1) {} //FAIL
+    while (0) {} //FAIL
+
+    while (123) {} //FAIL
+
+    if (true) {} //PASS
+    if (false) {} //PASS
+
+    if (2.5) {} //FAIL
+    while (3.14159267) {} //FAIL
+}
+

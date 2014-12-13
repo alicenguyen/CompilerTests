@@ -1,0 +1,10 @@
+//Testing variable initialization
+
+int b = 7;
+
+function: void main() {
+
+int a = 5+b;
+cout << a << endl; //shouldn't happen
+
+}

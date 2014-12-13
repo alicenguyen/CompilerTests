@@ -1,0 +1,25 @@
+int a = 5;
+int b = 3;
+const int c = 7;
+
+function : int main()
+{
+  int d = 6;
+  int e = 2;
+  const int f = 9;
+  cout << "a + b = 8 : " << a + b << endl;
+  cout << "a - c = -2 : " << a - c << endl;
+  cout << "c %% d = 1 : " << c % d << endl;
+  cout << "d / e = 3 : " << d / e << endl;
+  cout << "f * e = 18 : " << f * e << endl;
+  cout << "d & a = 4 : " << d & a << endl;
+  cout << "e | a = 7 : " << e | a << endl;
+  cout << "d ^ f = 15 : " << d ^ f << endl;
+  cout << "a + b - c = 1 : " << a + b - c << endl;
+  cout << "a * (e - 3) = -5 : " << a * (e - 3) << endl;
+  cout << "d + b * a / f = 7 : " << d + b * a / f << endl;
+  cout << "-d + b * a / +f = -5 : " << -d + b * a / +f << endl;
+  cout << "-d + -5 * a / +f - +3 = -11 : " << -d + -5 * a / +f - +3 << endl;
+
+  return 0;
+}

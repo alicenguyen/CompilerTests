@@ -1,0 +1,65 @@
+int x;
+float y;
+bool bo;
+
+function : void test() {
+    int x;
+    int y;
+    float b;
+    float z;
+    bool jo;
+
+    //post
+    x++;
+    y++;
+    b++;
+    z++;
+    (::x)++;
+    ::y++;
+
+    x++ = 1; //error, left hand is r-val
+    y++ = x++; //error, left hand is r-val
+    b = 1++; //error, can't inc r-val
+    ::y = (4 + 6 / 7)++; //error, can't inc r-val
+
+    ::y = x++;
+    ::x = b++; //error, float not assignable to int
+    ::x = y++;
+
+
+    jo++; //error, can't inc bool
+    ::bo = jo++; //error can't inc bool
+
+    //pre
+    ++x;
+    ++(y);
+    ++b;
+    ++z;
+    ++::x;
+    ++(::y);
+
+    ++::bo = ++y; //error, can't inc bool
+    ::bo = ++jo; //error, can't inc bool
+    x = ++y;
+    y = ++z; //error, can't assign float to int
+    ++b = ++x; //error, left hand is r-val
+    b = ++77777; //error, can't inc r-val
+    x = ++(324 - 324 + 234); //error, can't inc r-val
+
+
+    //post + pre
+    ++z = x++ + ++y; //error, left hand is r-val
+    z = x++ + ++y;
+    ::y = ::y++ * ++x;
+    ::x = ++::x + ++b; //error, can't assign float to int
+
+    b = ++++x; //error, can't inc r-val
+    ++x++ = y++ + ++y; //error, can't inc r-val
+    ++::x++; //error, cant' inc r-val
+
+    ::bo = ++z + z++; //error, can't assign float to bool
+    jo = z++ + z++ + x++ + y++ + ++::bo; //error, can't inc bool
+
+    ++((z++)++); //error, can't inc r-val
+    ::y = x++ + 6++; //error, can't inc r-val
+}

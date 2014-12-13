@@ -1,0 +1,11 @@
+Error, "tests/check13/check13a.rc", line 10: 
+  Size of field test cannot be determined at compile time.
+Error, "tests/check13/check13a.rc", line 13: 
+  Field x declared second time in struct.
+Error, "tests/check13/check13a.rc", line 14: 
+  Field x declared second time in struct.
+Error, "tests/check13/check13a.rc", line 15: 
+  Field y declared second time in struct.
+Error, "tests/check13/check13a.rc", line 22: 
+  Duplicate declaration of overloaded function foo.
+Compile: failure.

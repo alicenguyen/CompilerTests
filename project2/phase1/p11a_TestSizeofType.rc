@@ -1,0 +1,21 @@
+function: void main()
+{
+    const int c1 = 210;
+    const int c2 = sizeof(c1) + c1;
+    cout << "420 ? " << c1 + 210 << endl;
+    cout << "214 ? " << c2 << endl;
+    const float r1 = 420.25;
+    cout << "1082.75 ? " << r1 + 662.50 << "\n";
+
+    cout << "4 ? " << sizeof(r1) << endl;
+    cout << "Testing sizeof (bool) = 4?  " << sizeof(bool) << endl;
+    cout << "Testing sizeof (float) = 4?  " << sizeof(float) << endl;
+    cout << "Testing sizeof (int) = 4?  " << sizeof(int) << endl;
+
+    cout << "Testing float: 1.12?   " << 1.1234567 << "\n";
+    cout << "Testing float: 1.23?   " << 1.23 << "\n";
+    cout << "Testing float: 1.35?   " << 1.3456 << "\n";
+    cout << "Testing float: 1.46?   " << 1.4567 << "\n";
+    cout << true << endl;
+    cout << false << endl;
+}

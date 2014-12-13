@@ -1,0 +1,10 @@
+function : void foo () {
+  cout << 2;
+}
+
+function : int main () {
+  cout << 1;
+  foo();
+  cout << 3 << endl;
+  return 0;
+}

@@ -1,0 +1,64 @@
+structdef FOO {
+    int x;
+    int y;
+    function : int bar() {
+        return 1;
+    }
+};
+
+typedef FOO FOO1;
+typedef FOO1 FOO2;
+typedef FOO2 FOO3;
+
+typedef FOO1 FOO4;
+typedef FOO4 FOO5;
+
+typedef FOO5 FOO6;
+typedef FOO5 FOO7;
+
+structdef BAZ {
+    int x;
+    int y;
+    function : int bar() {
+        return 1;
+    }
+};
+
+typedef BAZ BAZ1;
+typedef BAZ1 BAZ2;
+typedef BAZ BAZ3;
+typedef BAZ1 BAZ4;
+
+function : void main() {
+   FOO f;
+   FOO1 f1 = f;
+   FOO2 f2 = f;
+   FOO3 f3 = f1;
+   f3 = f2;
+   FOO4 f4 = f2;
+   FOO5 f5 = f1;
+   FOO6 f6 = f3;
+   FOO7 f7 = f5;
+   f5 = f2;
+   f6 = f4;
+   f7 = f;
+
+   BAZ b;
+   b = f;  //error
+   b = f1; //error
+   b = f2; //error
+   b = f3; //error
+   b = f4; //error
+   b = f5; //error
+   b = f6; //error
+   b = f7; //error
+
+   BAZ1 b1 = b;
+   BAZ2 b2 = b1;
+   BAZ3 b3 = b;
+   b2 = b3;
+
+   b2 = f2; //error
+   b3 = f7; //error
+   b1 = f4; //error
+}

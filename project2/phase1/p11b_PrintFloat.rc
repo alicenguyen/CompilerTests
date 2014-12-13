@@ -1,0 +1,17 @@
+
+function: void main()
+{
+    int i1 = 1;
+    float f1 = 5.12;
+    float f2 = 112412.299;
+    float f3 = f1;
+    int i2 = 123142;
+    int iNotInit;
+
+    cout << "i1 : 1?   " << i1 << endl;
+    cout << "f1 : 5.12?   " << f1 << endl;
+    cout << "f2 : 112412.30?   " << f2 << endl;
+    cout << "f3 : =f1, 5.12?   " << f3 << endl;
+    cout << "i2 : 123142?    " << i2 << endl;
+    
+}

@@ -1,0 +1,19 @@
+//Testing bitwise operations
+
+int a = 6; //110
+
+function: void main() {
+
+int b = 2; //10
+
+cout << a&b << endl; //2
+cout << a|b << endl; //6
+cout << a^b << endl; //4
+
+int c = 1;
+
+cout << a&c << endl; //0
+cout << a|c << endl; //7
+cout << a^c << endl; //7
+
+}

@@ -1,0 +1,11 @@
+function : int main() {
+  const int c1 = 210;
+  const int c2 = sizeof(c1) + c1;
+  cout << c1 + 210 << endl; 
+  cout << c2 << endl; 
+  const float r1 = 420.25; 
+  cout << r1 + 662.50 << "\n"; 
+  cout << sizeof(r1) << endl;
+  
+  return c1;
+}

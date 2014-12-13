@@ -1,0 +1,148 @@
+function : void test() {
+    int foo;
+    int too;
+    float bar;
+    float tar;
+    bool jo;
+    bool bo;
+
+    int res1;
+    float res2;
+    bool res3;
+
+    //int > int
+    res1 = foo > too; //error, bool not assignable to int
+    res1 = foo > foo; //error, bool not assignable to int
+    res2 = foo > too; //error, bool not assignable to float
+    res2 = too > too; //error, bool not assignable to float
+    res3 = foo > too;
+    res3 = foo > too > too; //error, bool invalid operand
+
+    //int > float
+    res1 = foo > bar; //error, bool not assignable to int
+    res1 = too > tar; //error, bool not assignable to int
+    res2 = too > bar; //error, bool not assignable to float
+    res2 = foo > tar; //error, bool not assignable to float
+    res3 = tar > foo;
+    res3 = tar > foo > tar; //error, bool invalid operand
+
+    //float > float
+    res1 = tar > bar; //error, bool not assignable to int
+    res1 = bar > bar; //error, bool not assignable to int
+    res2 = tar > tar; //error, bool not assignable to float
+    res2 = bar > tar; //error, bool not assignable to float
+    res3 = bar > bar;
+    res3 = bar > bar > bar > bar; //error, bool invalid operand
+
+    //(int | float | bool) > bool
+    res1 = jo > bo; //error, bool not valid operand
+    res1 = jo > foo; //error, bool not valid operand
+    res2 = bo > tar; //error, bool not valid operand
+    res2 = bar > jo; //error, bool not valid operand
+    res3 = bo > jo; //error, bool not valid operand
+    res3 = bo > jo > bo > jo; //error, bool invalid operand
+
+
+
+    //int >= int
+    res1 = foo >= too; //error, bool not assignable to int
+    res1 = foo >= foo; //error, bool not assignable to int
+    res2 = foo >= too; //error, bool not assignable to float
+    res2 = too >= too; //error, bool not assignable to float
+    res3 = foo >= too;
+    res3 = foo >= too >= too; //error, bool invalid operand
+
+    //int >= float
+    res1 = foo >= bar; //error, bool not assignable to int
+    res1 = too >= tar; //error, bool not assignable to int
+    res2 = too >= bar; //error, bool not assignable to float
+    res2 = foo >= tar; //error, bool not assignable to float
+    res3 = tar >= foo;
+    res3 = tar >= foo >= tar; //error, bool invalid operand
+
+    //float >= float
+    res1 = tar >= bar; //error, bool not assignable to int
+    res1 = bar >= bar; //error, bool not assignable to int
+    res2 = tar >= tar; //error, bool not assignable to float
+    res2 = bar >= tar; //error, bool not assignable to float
+    res3 = bar >= bar;
+    res3 = bar >= bar >= bar >= bar; //error, bool invalid operand
+
+    //(int | float | bool) >= bool
+    res1 = jo >= bo; //error, bool not valid operand
+    res1 = jo >= foo; //error, bool not valid operand
+    res2 = bo >= tar; //error, bool not valid operand
+    res2 = bar >= jo; //error, bool not valid operand
+    res3 = bo >= jo; //error, bool not valid operand
+    res3 = bo >= jo >= bo >= jo; //error, bool invalid operand
+
+
+
+
+    //int < int
+    res1 = foo < too; //error, bool not assignable to int
+    res1 = foo < foo; //error, bool not assignable to int
+    res2 = foo < too; //error, bool not assignable to float
+    res2 = too < too; //error, bool not assignable to float
+    res3 = foo < too;
+    res3 = foo < too < too; //error, bool invalid operand
+
+    //int < float
+    res1 = foo < bar; //error, bool not assignable to int
+    res1 = too < tar; //error, bool not assignable to int
+    res2 = too < bar; //error, bool not assignable to float
+    res2 = foo < tar; //error, bool not assignable to float
+    res3 = tar < foo;
+    res3 = tar < foo < tar; //error, bool invalid operand
+
+    //float < float
+    res1 = tar < bar; //error, bool not assignable to int
+    res1 = bar < bar; //error, bool not assignable to int
+    res2 = tar < tar; //error, bool not assignable to float
+    res2 = bar < tar; //error, bool not assignable to float
+    res3 = bar < bar;
+    res3 = bar < bar < bar < bar; //error, bool invalid operand
+
+    //(int | float | bool) < bool
+    res1 = jo < bo; //error, bool not valid operand
+    res1 = jo < foo; //error, bool not valid operand
+    res2 = bo < tar; //error, bool not valid operand
+    res2 = bar < jo; //error, bool not valid operand
+    res3 = bo < jo; //error, bool not valid operand
+    res3 = bo < jo < bo < jo; //error, bool invalid operand
+
+
+
+
+    //int <= int
+    res1 = foo <= too; //error, bool not assignable to int
+    res1 = foo <= foo; //error, bool not assignable to int
+    res2 = foo <= too; //error, bool not assignable to float
+    res2 = too <= too; //error, bool not assignable to float
+    res3 = foo <= too;
+    res3 = foo <= too <= too; //error, bool invalid operand
+
+    //int <= float
+    res1 = foo <= bar; //error, bool not assignable to int
+    res1 = too <= tar; //error, bool not assignable to int
+    res2 = too <= bar; //error, bool not assignable to float
+    res2 = foo <= tar; //error, bool not assignable to float
+    res3 = tar <= foo;
+    res3 = tar <= foo <= tar; //error, bool invalid operand
+
+    //float <= float
+    res1 = tar <= bar; //error, bool not assignable to int
+    res1 = bar <= bar; //error, bool not assignable to int
+    res2 = tar <= tar; //error, bool not assignable to float
+    res2 = bar <= tar; //error, bool not assignable to float
+    res3 = bar <= bar;
+    res3 = bar <= bar <= bar <= bar; //error, bool invalid operand
+
+    //(int | float | bool) <= bool
+    res1 = jo <= bo; //error, bool not valid operand
+    res1 = jo <= foo; //error, bool not valid operand
+    res2 = bo <= tar; //error, bool not valid operand
+    res2 = bar <= jo; //error, bool not valid operand
+    res3 = bo <= jo; //error, bool not valid operand
+    res3 = bo <= jo <= bo <= jo; //error, bool invalid operand
+}

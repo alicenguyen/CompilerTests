@@ -1,0 +1,11 @@
+Error, "tests/check15/nullptr.rc", line 2: 
+  Incompatible type nullptr to unary dereference operator *, pointer expected.
+Error, "tests/check15/nullptr.rc", line 3: 
+  Incompatible type nullptr to unary dereference operator *, pointer expected.
+Error, "tests/check15/nullptr.rc", line 4: 
+  Incompatible type nullptr to unary dereference operator *, pointer expected.
+Error, "tests/check15/nullptr.rc", line 13: 
+  Incompatible type nullptr to unary dereference operator *, pointer expected.
+Error, "tests/check15/nullptr.rc", line 14: 
+  Incompatible type nullptr to unary dereference operator *, pointer expected.
+Compile: failure.

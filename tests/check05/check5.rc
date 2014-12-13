@@ -1,0 +1,74 @@
+function : int toomany(int a, float b, bool c) {
+  return 2;
+}
+int a = toomany(4, 3.14); // error
+int b = toomany(1); //error
+int c = toomany(); //error
+int d = toomany(4.5, 4.5, true); // error 
+int e = toomany(3, 4.5, true, false); // error
+int f = toomany(3, 4.5, true);
+int g = toomany(true, false, 3); // 3 errors
+function : int foo(float x, bool y, int z){
+  return 1;
+}
+
+function : void ints(int x, int & y) {}
+function : void floats(float x, float & y) {}
+function : void bools(bool x, bool & y) {}
+
+function : void main() {
+    foo(5.5,true, 1);
+    foo(5.5,false, +0xB2);
+    foo(5.5, true, -06);
+
+    //unassignable
+    foo(true, true, true); // bool-float / bool-int
+    foo(1, 1, 1); //int-bool
+    foo(1.1, 1.1, 1.1); //float-bool / float-int
+    foo(true, 1, 2.0); //bool-float, int-bool, float-int
+
+
+    //pass-by-ref not mod-lval
+    int i;
+    bool b;
+    float f;
+
+    ints(5, 5); // error, not mod-lval
+    ints(5, i);
+    floats(5.5, 5.5); //error, not mod-lval
+    floats(5.5, f);
+    bools(true, false); //error, not mod-lval
+    bools(true, b);
+
+    //pass-by-ref equivalence
+    ints(5, f); //error, float not equivalent to int
+    ints(5, b);//error, bool not equivalent to int
+    floats(1.0, i); //error, int not equivalent to float 
+    floats(1.0, b); //error, bool not equivalent to float
+    bools(true, i); //error, int not equivalent to bool
+    bools(true, f); //error, float not equivalent to bool
+}
+
+function : bool & ref() {
+    bool x;
+    return x;
+}
+
+function : void main2() {
+    //check return type
+    int i = foo(1.0, true, 1);
+    i = 1 + foo(1.0, true, 1) % 5;
+    bool b = 1 <= foo(1.0, true, 1);
+    float f =  foo(1.0, true, 1);
+
+    foo(1.0, true, 1) = 1; //error, can't assign rval
+
+    b = ref();
+    i = 1 + ref() % 5; //error, found bool expect int
+    b = 1 <= ref(); //error, bool to <=
+    b =  ref();
+
+    ref() = 1; //error, can't assign int to bool
+    ref() = false;
+    ref() = 1.0; //error, can't assign float to bool
+}

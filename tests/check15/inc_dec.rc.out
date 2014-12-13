@@ -1,0 +1,81 @@
+Error, "tests/check15/inc_dec.rc", line 160: 
+  Incompatible type BA to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 161: 
+  Incompatible type BA to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 162: 
+  Incompatible type BA to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 163: 
+  Incompatible type BA to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 165: 
+  Incompatible type BA to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 166: 
+  Incompatible type BA to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 167: 
+  Incompatible type BA to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 168: 
+  Incompatible type BA to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 170: 
+  Incompatible type SPPA to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 171: 
+  Incompatible type SPPA to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 172: 
+  Incompatible type SPPA to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 173: 
+  Incompatible type SPPA to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 175: 
+  Incompatible type SPPA to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 176: 
+  Incompatible type SPPA to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 177: 
+  Incompatible type SPPA to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 178: 
+  Incompatible type SPPA to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 180: 
+  Incompatible type bool*[2] to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 181: 
+  Incompatible type bool*[2] to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 182: 
+  Incompatible type bool*[2] to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 183: 
+  Incompatible type bool*[2] to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 185: 
+  Incompatible type bool*[2] to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 186: 
+  Incompatible type bool*[2] to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 187: 
+  Incompatible type bool*[2] to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 188: 
+  Incompatible type bool*[2] to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check15/inc_dec.rc", line 192: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 193: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 194: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 195: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 197: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 198: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 199: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 200: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 202: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 203: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 204: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 205: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 207: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 208: 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 209: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check15/inc_dec.rc", line 210: 
+  Operand to -- is not a modifiable L-value.
+Compile: failure.

@@ -1,0 +1,24 @@
+structdef LAL {
+    int z, y, y, z, z; //3 errors, second time
+
+    int ttt;
+    function : void ttt() {} //error, second time
+
+    function : void ss() {}
+    function : void ss(int x) {}
+
+    LAL hi; //error, size cannot be determined
+    LAL* hii;
+    LAL********* hiii;
+
+
+    function : void t() {}
+    function : bool t() { return true; } //error, dup decl of func
+
+    funcptr : void () t; //error, declared second time
+
+    function : void sadf(int t, bool t) { //error, redeclared id t
+        int y;
+        bool y; //error, redeclared id y
+    }
+};

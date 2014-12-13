@@ -1,0 +1,11 @@
+Error, "tests/check07/exit.rc", line 8: 
+  Exit expression (type bool) is not assignable to int.
+Error, "tests/check07/exit.rc", line 10: 
+  Exit expression (type bool) is not assignable to int.
+Error, "tests/check07/exit.rc", line 11: 
+  Exit expression (type float) is not assignable to int.
+Error, "tests/check07/exit.rc", line 12: 
+  Exit expression (type bool) is not assignable to int.
+Error, "tests/check07/exit.rc", line 13: 
+  Exit expression (type float) is not assignable to int.
+Compile: failure.

@@ -1,0 +1,34 @@
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 400 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 40 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 92 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Index value of 92 is outside legal range [0,1).
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Invalid operand to sizeof. Not a type or not addressable.
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Invalid operand to sizeof. Not a type or not addressable.
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Invalid operand to sizeof. Not a type or not addressable.
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Invalid operand to sizeof. Not a type or not addressable.
+Error, "Testframework/The14Cases/checkall/check19.rc": 
+  Invalid operand to sizeof. Not a type or not addressable.
+Compile: failure.
+

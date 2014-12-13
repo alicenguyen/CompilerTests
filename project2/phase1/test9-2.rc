@@ -1,0 +1,3 @@
+//Test size-of, constant folding (phase 1)
+//This was in the wrong place, it has been moved to phase3
+function : void main () {}

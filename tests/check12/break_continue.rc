@@ -1,0 +1,103 @@
+function : void test() {
+    if (true) {
+        break; //error
+        continue; //error
+    } else {
+        continue; //error
+        break; //error
+    }
+
+    int[1] z;
+
+    {
+        break; //error
+        continue; //error
+        {
+            break; //error
+            {
+                continue; //error
+            }
+            continue; //error
+        }
+        continue; //error
+
+        while (true) {
+            continue;
+            while(false) {
+                continue;
+                break;
+                {
+                    break;
+                }
+            }
+
+            foreach (int y : z) {
+                break;
+                continue;
+                {
+                    if (true) {
+                        continue;
+                    }
+                    continue;
+                }
+                break;
+            }
+        }
+    }
+
+    while (false) {
+        foreach (int g : z) {
+            while (true) {
+                while (false) {
+                    break;
+                }
+                continue;
+            }
+            break;
+        }
+        break;
+    }
+
+    foreach (int g : z) {
+        continue;
+        break;
+        {
+            if (false) {
+                break;
+            } else {
+                continue;
+            }
+            break;
+            continue;
+        }
+    }
+
+    {
+        {
+            {
+                {
+                    {
+                        {
+                            while (true) {
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    if (true) {
+        if (false) {
+            if (false) {
+                foreach (int x: z) {
+                    break;
+                }
+                continue; //error
+            }
+            continue; //error
+        }
+        break; //error
+    }
+}

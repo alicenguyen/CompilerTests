@@ -1,0 +1,23 @@
+Error, "tests/check13/check13structEquiv.rc", line 47: 
+  Value of type FOO not assignable to variable of type BAZ.
+Error, "tests/check13/check13structEquiv.rc", line 48: 
+  Value of type FOO1 not assignable to variable of type BAZ.
+Error, "tests/check13/check13structEquiv.rc", line 49: 
+  Value of type FOO2 not assignable to variable of type BAZ.
+Error, "tests/check13/check13structEquiv.rc", line 50: 
+  Value of type FOO3 not assignable to variable of type BAZ.
+Error, "tests/check13/check13structEquiv.rc", line 51: 
+  Value of type FOO4 not assignable to variable of type BAZ.
+Error, "tests/check13/check13structEquiv.rc", line 52: 
+  Value of type FOO5 not assignable to variable of type BAZ.
+Error, "tests/check13/check13structEquiv.rc", line 53: 
+  Value of type FOO6 not assignable to variable of type BAZ.
+Error, "tests/check13/check13structEquiv.rc", line 54: 
+  Value of type FOO7 not assignable to variable of type BAZ.
+Error, "tests/check13/check13structEquiv.rc", line 61: 
+  Value of type FOO2 not assignable to variable of type BAZ2.
+Error, "tests/check13/check13structEquiv.rc", line 62: 
+  Value of type FOO7 not assignable to variable of type BAZ3.
+Error, "tests/check13/check13structEquiv.rc", line 63: 
+  Value of type FOO4 not assignable to variable of type BAZ1.
+Compile: failure.

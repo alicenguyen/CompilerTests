@@ -1,0 +1,40 @@
+function : int foo() {
+    int[5] arr;
+    foreach(int i : arr) {
+        return i;
+    }
+} // error, no top-level return found
+
+function : bool bar() {
+    bool[10] bools;
+    {
+        return bools[0];
+        {
+            return bools[9];
+            if (bools[0]) {
+                return bools[6];
+                while (bools[2]) {
+                    return bools[7];
+                }
+            }
+        }
+    }
+
+    foreach (bool b : bools) {
+        return b;
+    }
+
+    foreach (bool & b : bools) {
+        return b;
+        while (b) {
+            return b;
+        }
+    }
+
+    while (bools[4]) {
+        return bools[4];
+    }
+    if (bools[5]) {
+        return bools[8];
+    }
+} // error, no top-level return found

@@ -1,0 +1,19 @@
+function : int main() {
+    int x = 15;
+
+    x = 12;
+
+    x = 21;
+
+    x = 016; //14
+
+    x = 023; //19
+
+    x = 0x18; //24
+
+    x = 0xFF; //255
+
+    x = 0x1F1; //497
+
+    return 0;
+} //should be no errors, but doesn't check value set correctly

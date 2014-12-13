@@ -1,0 +1,39 @@
+Error, "tests/check10/check10.rc", line 13: 
+  Value of index expression not known at compile time.
+Error, "tests/check10/check10.rc", line 18: 
+  Value of index expression not known at compile time.
+Error, "tests/check10/check10.rc", line 20: 
+  Initialization value of type bool[6] not assignable to constant/variable of type FIVE.
+Error, "tests/check10/check10.rc", line 22: 
+  Initialization value of type int[6] not assignable to constant/variable of type FIVE.
+Error, "tests/check10/check10.rc", line 25: 
+  Initialization value of type int[6] not assignable to constant/variable of type ELEVEN.
+Error, "tests/check10/check10.rc", line 26: 
+  Value of index expression not known at compile time.
+Error, "tests/check10/check10.rc", line 28: 
+  Value of index expression not known at compile time.
+Error, "tests/check10/check10.rc", line 30: 
+  Index expression type (bool) in array declaration not equivalent to int.
+Error, "tests/check10/check10.rc", line 31: 
+  Index expression type (float) in array declaration not equivalent to int.
+Error, "tests/check10/check10.rc", line 42: 
+  Type of return expression (FIVE), not assignment compatible with function's return type (SIX).
+Error, "tests/check10/check10.rc", line 44: 
+  Initialization value of type bool not assignable to constant/variable of type int.
+Error, "tests/check10/check10.rc", line 46: 
+  Type of return expression (BOO), not assignment compatible with function's return type (SIX).
+Error, "tests/check10/check10.rc", line 51: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "tests/check10/check10.rc", line 63: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check10/check10.rc", line 66: 
+  Initialization value of type BOO[5] not assignable to constant/variable of type UNLUCKY.
+Error, "tests/check10/check10.rc", line 68: 
+  Initialization value of type UNLUCKY not assignable to constant/variable of type BOO[7].
+Error, "tests/check10/check10.rc", line 70: 
+  Type of return expression (UNLUCKY), not assignment compatible with function's return type (BOO).
+Error, "tests/check10/check10.rc", line 71: 
+  Type of return expression (BOO[5]), not assignment compatible with function's return type (BOO).
+Error, "tests/check10/check10.rc", line 73: 
+  undeclared identifier 'UNLUCK'.
+Compile: failure.

@@ -1,0 +1,3 @@
+typedef bool* FA;
+function : void foo ( bool* pa) {}
+function : void foo ( FA pa) {}

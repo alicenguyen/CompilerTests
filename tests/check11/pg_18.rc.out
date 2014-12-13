@@ -1,0 +1,3 @@
+Error, "tests/check11/pg_18.rc", line 10: 
+  Type of index expression in array reference (float) not equivalent to int.
+Compile: failure.

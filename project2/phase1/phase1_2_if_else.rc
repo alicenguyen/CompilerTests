@@ -1,0 +1,101 @@
+int a = 5;
+bool b = true;
+const int c = 3;
+int count = 0;
+
+function : int main()
+{
+  int d = 9;
+  int e = 5;
+  bool f = false;
+  if(a > c)
+  {
+    cout << "CORRECT: a > c" << endl;
+    count++;
+  }
+  else
+  {
+    cout << "WRONG: a not greater than c" << endl;
+  }
+
+  if(a < c)
+  {
+    cout << "WRONG: a < c" << endl;
+  }
+  else
+  {
+    cout << "CORRECT: a not less than c" << endl;
+    count++;
+  }
+
+  if(f)
+  {
+    cout << "WRONG: f : " << f << endl;
+  }
+  else
+  {
+    cout << "CORRECT: f: " << f << endl;
+    count++;
+  }
+
+  if(b)
+  {
+    cout << "CORRECT: b: " << b << endl;
+    count++;
+  }
+
+  if(a == e)
+  {
+    cout << "CORRECT: a == e" << endl;
+    count++;
+  }
+
+  if(a != e)
+  {
+    cout << "WRONG: a != e" << endl;
+  }
+
+  if(a+4 > e-3*d)
+  {
+    cout << "CORRECT: a+4 > e-3*d " << a+4 << " " << e-3*d << endl;
+    count++;
+  }
+  else
+  {
+  }
+
+  if(true)
+  {
+    cout << "CORRECT: true" << endl;
+    count++;
+  }
+
+  if(false)
+  {
+    cout << "WRONG: false" << endl;
+  }
+  else
+  {
+    cout << "CORRECT: false" << endl;
+    count++;
+  }
+
+  if(4+5*3)
+  {
+    cout << "CORRECT: 4+5*3" << endl;
+    count++;
+  }
+
+  if(a-5)
+  {
+    cout << "WRONG: a-5" << endl;
+  }
+  else
+  {
+    cout << "CORRECT: a-5" << endl;
+    count++;
+  }
+
+  cout << "correct_count: 10: " << count << endl;
+  return 0;
+}

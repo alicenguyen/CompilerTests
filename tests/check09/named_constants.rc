@@ -1,0 +1,63 @@
+const int f = 0;
+const float g = 1;
+const float gg = f;
+const int z = g; //error, float not assignable to int
+
+int fa;
+const int tt = fa; //error, not known
+const float zg = fa; //error, not known
+
+bool tom = false;
+const bool low = tom; //error, not known
+
+const bool bom = gg; //error, float not assignable to bool
+float zom = 12;
+const int tttt = zom; //error, not known
+const bool rom = 12 / 0; //error, const folding
+
+const int tim = zom / 0; //error, not known
+const int lim = gg / 0; //error, const folding
+
+const int jim = 0 / gg; //error, const folding
+const int rim = 0 / g; //error, float not assignable to int
+const float zim = 0 / g;
+
+const bool lum = zim / zim / zim; //error, const folding
+const bool dum = g / g * g; //error, float not assignable to bool
+
+float rom = f / gg; //error, const folding
+bool lime = f + f + f; //error, int not assignable to bool
+
+const int tam = 22;
+const float nob = tam / tam + f;
+const float ver = g / tam + f;
+
+const int vqp = tam / tam + f;
+const int ggb = g / tam + f; //error, float not assignable to int
+
+function : void test() {
+    const int zero = 0;
+    const float tum = 1;
+    const bool zom = true;
+
+    int fdf = zero * 1;
+    int fsdf = zero * tum; //error, float not assignable to int
+    bool bag = zom;
+    bool bhu = 12 + 0 * 7 * zero; //error, int not assignable to bool;
+    int num = 0 - 0 + 4 + 23 / 8 * tum; //error, float not assignable to int
+
+    const int sdfff = fdf; //error, not known
+    const float sdfsd = bag; //error, not known
+
+    const int ctar = 1;
+    const float cfar = 3.0;
+    const bool cbar = false;
+
+    exit(ctar);
+    exit(cfar); //error, float not assignable to int
+    exit(cbar); //error, bool not assignable to int
+
+    exit(1 + ctar);
+    exit(32423 % 33 * cfar); //error, float not assignable to int
+    exit(tum + ctar / cfar); //error, float not assignable to int
+}

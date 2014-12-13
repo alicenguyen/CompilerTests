@@ -1,0 +1,19 @@
+Error, "tests/check13/illegalstruct.rc", line 2: 
+  Field y declared second time in struct.
+Error, "tests/check13/illegalstruct.rc", line 2: 
+  Field z declared second time in struct.
+Error, "tests/check13/illegalstruct.rc", line 2: 
+  Field z declared second time in struct.
+Error, "tests/check13/illegalstruct.rc", line 5: 
+  Field ttt declared second time in struct.
+Error, "tests/check13/illegalstruct.rc", line 10: 
+  Size of field hi cannot be determined at compile time.
+Error, "tests/check13/illegalstruct.rc", line 16: 
+  Duplicate declaration of overloaded function t.
+Error, "tests/check13/illegalstruct.rc", line 18: 
+  Field t declared second time in struct.
+Error, "tests/check13/illegalstruct.rc", line 20: 
+  redeclared identifier 't'.
+Error, "tests/check13/illegalstruct.rc", line 22: 
+  redeclared identifier 'y'.
+Compile: failure.

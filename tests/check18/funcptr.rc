@@ -1,0 +1,81 @@
+function : void tar() {}
+funcptr : void () lars;
+
+typedef funcptr : int () ORG;
+
+funcptr : int () tars;
+funcptr : float () jars;
+
+function : void foo( funcptr : void () far ) {
+
+}
+
+function : void foog(ORG og) {}
+function : void fooger(ORG & og) {}
+
+funcptr : void (funcptr : void (ORG og) a1) foot;
+
+function : void figge1 (funcptr : void () jum) {
+    jum = lars;
+}
+
+function : void figge (funcptr : void () & jum) {
+    jum = lars;
+}
+
+function : int & fig(bool* & b, float** f, int ga) { int x; return x;}
+funcptr : int & (bool* & b, float** f, int ga) snar;
+
+funcptr : int & (bool & b) bad;
+funcptr : int & (bool & b, float** f, int ga) badd;
+funcptr : int & (bool* & b, float** f, int & ga) badder;
+
+function : void te1(funcptr : int & (bool* & b, float** f, int ga) jj) {}
+
+function : void te23(funcptr : int & (bool* & a, float** b) jj) {}
+function : void tefgd(funcptr : int & (bool* & c, float** b) jj, bool jj) {} //error, redeclared id jj
+funcptr : void (int a, bool b) heral;
+
+typedef funcptr : void (int & a, bool* ba) PT;
+funcptr : PT (float**& fa) megapointer;
+funcptr : PT* (float**& fa) megapointer1;
+funcptr : PT & (float**& fa) megapointer2;
+
+function : void test() {
+    funcptr : PT (float**& ga) * jip = &megapointer;
+
+    funcptr : void (int a, bool b) heral;
+
+    foo(foo); //error
+    foo(tar);
+    foo(lars);
+    foo(tars); //error, not assignable
+
+    foog(tars);
+    foog(jars); //error
+
+    funcptr : int & () j;
+    foog(j); //error
+
+    fig(snar); //error, diff num of args
+
+
+    te1(fig);
+    te1(snar);
+    te1(bad); //error
+    te1(badd); //error
+    te1(badder); //error
+
+    foot(1); //error
+    foot(foog);
+    foot(fooger); //error
+
+    figge(lars);
+    figge(tar); //error, function name not mod-l
+    figge1(tar);
+
+    tars++; //error, incompatible type
+    --tars; //error, incompatible type
+    tar--; //error, incompatible type
+    ++tars; //error, incompatible type
+}

@@ -1,0 +1,30 @@
+int i;
+float f;
+bool b;
+
+function : void madness() {
+    int i;
+    float f;
+    bool b;
+
+    //all good
+    i = ::i = 0x14;
+    ::i = i = 015;
+    f = ::f = 0x14;
+    ::f = f = i = ::i = 0x14;
+    f = ::f = ::i = i = 012;
+    b = ::b = true;
+    ::b = b = false;
+
+    //the types work out, trust me
+    bool goodb = f != ::f == (b = false) == true != (::b = b) == false;
+    goodb = -i++ <= +f-- != i >= ::i == +::i < ::f && -07 > +13 || +0x16 < -0x12;
+
+    //all bad, only 1 error should be printed per line
+    i = ::f = 2; //cannot assign float to int
+    b = ::b = b = ::i = b = f = 2.0; //cannot assign float to bool
+    int badi = true = false = 2.0 = f = i = ::f; //cannot assign float to int
+    bool badb = i == ::i != b == true == i; //cannot do == on bool and int
+    float badf = b = ::f != (f + i) % i; //cannot do % on float and int
+    
+}

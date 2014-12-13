@@ -1,0 +1,25 @@
+function : void foo() {}
+
+function : void bar() {}
+
+function : void main() {
+    int i = foo(); //error, void not assignable to int
+    float f = foo(); //error, void not assignable to float
+    bool b = foo(); //error, void not assignable to bool
+
+    int i2;
+    float f2;
+    bool b2;
+    i2 = foo(); //error, void not assignable to int
+    f2 = foo(); //error, void not assignable to float
+    b2 = foo(); //error, void not assignable to bool
+
+    foo() = bar(); //error, left-hand not mod-lval
+
+    foo() + 1; //error, void found numeric expected
+    foo() <= 3; //error, void found numeric expected
+    foo() == bar(); //error, void not equivalent to void
+    foo() * 1.2; //error, void found numeric expected
+    !foo(); //error, void found bool expected
+    foo() || true; //error, void found bool expected
+}

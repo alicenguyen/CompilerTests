@@ -1,0 +1,12 @@
+Error, "Testframework/The14Cases/checkall/check14.rc": 
+  Referenced field y not found in current struct.
+Error, "Testframework/The14Cases/checkall/check14.rc": 
+  Referenced field foobar not found in current struct.
+Error, "Testframework/The14Cases/checkall/check14.rc": 
+  Type of expression referenced by "." (float[3]) is not a struct.
+Error, "Testframework/The14Cases/checkall/check14.rc": 
+  Type of expression referenced by "." (float) is not a struct.
+Error, "Testframework/The14Cases/checkall/check14.rc": 
+  Referenced field helloworld not found in type STRUCT.
+Compile: failure.
+

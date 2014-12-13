@@ -1,0 +1,7 @@
+Error, "tests/check21/check21.rc", line 6: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check21/check21.rc", line 11: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check21/check21.rc", line 21: 
+  Non-addressable argument of type funcptr : int () to address-of operator.
+Compile: failure.

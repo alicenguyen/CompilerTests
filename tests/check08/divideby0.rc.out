@@ -1,0 +1,43 @@
+Error, "tests/check08/divideby0.rc", line 7: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 8: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 9: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 10: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 13: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 16: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 18: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 22: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 27: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 28: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 29: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 30: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 37: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 38: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 39: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 40: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 43: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 46: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 48: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 52: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/divideby0.rc", line 54: 
+  Arithmetic exception occurred during constant folding.
+Compile: failure.

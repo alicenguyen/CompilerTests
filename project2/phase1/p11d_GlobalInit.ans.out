@@ -1,0 +1,12 @@
+Global f1 = 0: 0.00
+Global f2 = 1.24: 1.24
+Local f3 = 12414.12: 12414.12
+Local i2 = 1000000: 1000000
+Local i2Val5 = 5: 5
+Local i3Isi2Val5 = 5: 5
+Local b5 = true? true
+Local b6 = false? false
+Local b7 = false/true? false
+Global bTrue = true?   true
+Global bFlase = false? false
+Global b1 = false? false

@@ -1,0 +1,5 @@
+Error, "tests/check02/unary.rc", line 14: 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check02/unary.rc", line 15: 
+  Operand to -- is not a modifiable L-value.
+Compile: failure.

@@ -1,0 +1,11 @@
+Error, "tests/check01/expression.rc", line 20: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/expression.rc", line 21: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check01/expression.rc", line 22: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/expression.rc", line 23: 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/expression.rc", line 24: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Compile: failure.

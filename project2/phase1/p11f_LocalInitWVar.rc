@@ -1,0 +1,27 @@
+
+function: void main()
+{
+    float f1 = 0.5;
+    int i1 = 1;
+    bool b1 = true;
+
+
+    float f2 = f1;
+    int i2 = i1;
+    bool b2 = b1;
+
+    bool b3 = false;
+    bool b4 = b3;
+
+
+    cout << "f1 :0.5    " << f1 << endl;
+    cout << "f2 := f1 = 0.5    " << f2 << endl;
+    cout << "i1 :1 " << i1 << endl;
+    cout << "i2 := i1 = 1    " << i2 << endl;
+
+    cout << "b1 :true " << b1 << endl;
+    cout << "b2 := b1 = true    " << b2 << endl;
+
+    cout << "b3 :false " << b3 << endl;
+    cout << "b4 := b3 = false    " << b4 << endl;
+}

@@ -1,0 +1,8 @@
+function : int main () {
+  int i = 7;
+  int j = 6;
+  cout << i | j << endl;
+  cout << i ^ j << endl;
+  cout << i & j << endl;
+  return 0;
+}

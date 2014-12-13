@@ -1,0 +1,23 @@
+Error, "tests/check14/this.rc", line 17: 
+  undeclared identifier 'rec'.
+Error, "tests/check14/this.rc", line 22: 
+  Type of return expression (bool), not assignment compatible with function's return type (float).
+Error, "tests/check14/this.rc", line 29: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check14/this.rc", line 34: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check14/this.rc", line 35: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check14/this.rc", line 37: 
+  undeclared identifier 'bb'.
+Error, "tests/check14/this.rc", line 41: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check14/this.rc", line 42: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check14/this.rc", line 43: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check14/this.rc", line 44: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check14/this.rc", line 50: 
+  undeclared identifier 'tad'.
+Compile: failure.

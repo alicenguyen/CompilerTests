@@ -1,0 +1,39 @@
+typedef float* BAR;
+
+function : void foo() {
+    int* s;
+
+    if (nullptr == nullptr) {
+    }
+
+    if (s == nullptr) {
+    }
+
+    if (nullptr == s) {
+    }
+
+    if (s == s) {
+    }
+
+    if (s == 1) { //error
+    }
+
+    if (15 == s) { //error
+    }
+
+    if (true == s) { //error
+    }
+
+    BAR bar;
+    float* tim;
+    if (bar == tim) {
+    }
+
+    if (bar == s){ //error
+    }
+
+    if (true == false){
+    }
+
+
+}

@@ -1,0 +1,9 @@
+Error, "tests/check16/new.rc", line 22: 
+  Type of new's operand must be of pointer type, int found.
+Error, "tests/check16/new.rc", line 23: 
+  Type of new's operand must be of pointer type, bool found.
+Error, "tests/check16/new.rc", line 24: 
+  Type of new's operand must be of pointer type, float found.
+Error, "tests/check16/new.rc", line 26: 
+  Operand to "new" is not a modifiable L-value.
+Compile: failure.

@@ -1,0 +1,212 @@
+structdef S {
+    int* sip;
+    float** sfpp;
+    bool*[2] sba;
+};
+
+typedef int* IP;
+typedef bool[5] BA;
+typedef BA* BAP;
+typedef float** FPP;
+typedef S**[5] SPPA;
+
+int* ip;
+float* fp;
+bool* bp;
+IP* ipp;
+BAP bap;
+BAP* bapp;
+S* sp;
+SPPA sppa;
+SPPA* sppap;
+BA ba;
+FPP fpp;
+
+function : void foo() {
+    int* ip;
+    float* fp;
+    bool* bp;
+    IP* ipp;
+    BAP bap;
+    BAP* bapp;
+    S* sp;
+    SPPA sppa;
+    SPPA* sppap;
+    BA ba;
+    FPP fpp;
+
+    // all valid uses of pre/post increment
+    fp++;
+    fp--;
+    ++fp;
+    --fp;
+
+    ::fp++;
+    ::fp--;
+    ++::fp;
+    --::fp;
+
+    fpp++;
+    fpp--;
+    ++fpp;
+    --fpp;
+
+    ::fpp++;
+    ::fpp--;
+    ++::fpp;
+    --::fpp;
+
+    ip++;
+    ip--;
+    ++ip;
+    --ip;
+
+    ::ip++;
+    ::ip--;
+    ++::ip;
+    --::ip;
+
+    bp++;
+    bp--;
+    ++bp;
+    --bp;
+
+    ::bp++;
+    ::bp--;
+    ++::bp;
+    --::bp;
+
+    bap++;
+    bap--;
+    ++bap;
+    --bap;
+
+    ::bap++;
+    ::bap--;
+    ++::bap;
+    --::bap;
+
+    bapp++;
+    bapp--;
+    ++bapp;
+    --bapp;
+
+    ::bapp++;
+    ::bapp--;
+    ++::bapp;
+    --::bapp;
+
+    ipp++;
+    ipp--;
+    ++ipp;
+    --ipp;
+
+    ::ipp++;
+    ::ipp--;
+    ++::ipp;
+    --::ipp;
+
+    sp++;
+    sp--;
+    ++sp;
+    --sp;
+
+    ::sp++;
+    ::sp--;
+    ++::sp;
+    --::sp;
+
+    sppap++;
+    sppap--;
+    ++sppap;
+    --sppap;
+
+    ::sppap++;
+    ::sppap--;
+    ++::sppap;
+    --::sppap;
+    
+    sp->sip++;
+    sp->sip--;
+    ++sp->sip;
+    --sp->sip;
+
+    ::sp->sip++;
+    ::sp->sip--;
+    ++::sp->sip;
+    --::sp->sip;
+
+    sp->sfpp++;
+    sp->sfpp--;
+    ++sp->sfpp;
+    --sp->sfpp;
+
+    ::sp->sfpp++;
+    ::sp->sfpp--;
+    ++::sp->sfpp;
+    --::sp->sfpp;
+
+    (sp->sba[1])++;
+    (sp->sba[1])--;
+    ++(sp->sba[1]);
+    --(sp->sba[1]);
+
+    (::sp->sba[1])++;
+    (::sp->sba[1])--;
+    ++(::sp->sba[1]);
+    --(::sp->sba[1]);
+
+    // all of the following are errors with inc/dec on non-numeric type
+    ba++;
+    ba--;
+    ++ba;
+    --ba;
+
+    ::ba++;
+    ::ba--;
+    ++::ba;
+    --::ba;
+
+    sppa++;
+    sppa--;
+    ++sppa;
+    --sppa;
+
+    ::sppa++;
+    ::sppa--;
+    ++::sppa;
+    --::sppa;
+
+    sp->sba++;
+    sp->sba--;
+    ++sp->sba;
+    --sp->sba;
+
+    ::sp->sba++;
+    ::sp->sba--;
+    ++::sp->sba;
+    --::sp->sba;
+
+    // the following are all errors with inc/dec on not modlvals
+
+    (&(sp->sba))++;
+    (&(sp->sba))--;
+    ++(&(sp->sba));
+    --(&(sp->sba));
+
+    (&(::sp->sba))++;
+    (&(::sp->sba))--;
+    ++(&(::sp->sba));
+    --(&(::sp->sba));
+
+    (&fp)++;
+    (&fp)--;
+    ++(&fp);
+    --(&fp);
+
+    (&::fp)++;
+    (&::fp)--;
+    ++(&::fp);
+    --(&::fp);
+
+}

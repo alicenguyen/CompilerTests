@@ -1,0 +1,36 @@
+typedef int HI;
+
+HI herro = true; //error
+
+typedef int T1;
+typedef T1 T2;
+typedef bool BOO;
+
+function : T2 bar(T1 t) {
+    T1 x = 5;
+    int z = 6;
+    T2 y = 6;
+    BOO b = (x == y);
+    x = y;
+    y = x;
+    b = x; //error
+    return x;
+}
+
+function : T1 baz(BOO b) {
+    T2 t = 6;
+    T1 tone = b; //error with T1 and BOO in msg
+    return t;
+}
+
+T2 ttwo = baz(true);
+BOO boo = baz(false); //error with BOO and T1 in msg
+
+function : HI foo(HI a) {
+  HI x = 1;
+  return 5;
+}
+
+const int z = foo(2); //error
+
+bool b = foo(1); //error with bool and HI in msg

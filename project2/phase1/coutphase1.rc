@@ -1,0 +1,20 @@
+function : int main()
+{
+  float b = 4.0;
+  int aa = 7;
+  int a = 5;
+  bool c = true;
+  bool d = false;
+  cout << endl << endl;
+  cout << a << endl;
+  cout << aa << endl;
+  cout << b << endl;
+  cout << c << endl;
+  cout << d << endl;
+  cout << "hello world" << endl;
+  cout << 5.0 << endl;
+  cout << 3 << endl;
+  cout << true << endl;
+  cout << false << endl;
+  return 0;
+}

@@ -1,0 +1,61 @@
+Error, "tests/check05/check5.rc", line 4: 
+  Number of arguments (2) differs from number of parameters (3).
+Error, "tests/check05/check5.rc", line 5: 
+  Number of arguments (1) differs from number of parameters (3).
+Error, "tests/check05/check5.rc", line 6: 
+  Number of arguments (0) differs from number of parameters (3).
+Error, "tests/check05/check5.rc", line 7: 
+  Argument of type float not assignable to value parameter a, of type int.
+Error, "tests/check05/check5.rc", line 8: 
+  Number of arguments (4) differs from number of parameters (3).
+Error, "tests/check05/check5.rc", line 10: 
+  Argument of type bool not assignable to value parameter a, of type int.
+Error, "tests/check05/check5.rc", line 10: 
+  Argument of type bool not assignable to value parameter b, of type float.
+Error, "tests/check05/check5.rc", line 10: 
+  Argument of type int not assignable to value parameter c, of type bool.
+Error, "tests/check05/check5.rc", line 25: 
+  Argument of type bool not assignable to value parameter x, of type float.
+Error, "tests/check05/check5.rc", line 25: 
+  Argument of type bool not assignable to value parameter z, of type int.
+Error, "tests/check05/check5.rc", line 26: 
+  Argument of type int not assignable to value parameter y, of type bool.
+Error, "tests/check05/check5.rc", line 27: 
+  Argument of type float not assignable to value parameter y, of type bool.
+Error, "tests/check05/check5.rc", line 27: 
+  Argument of type float not assignable to value parameter z, of type int.
+Error, "tests/check05/check5.rc", line 28: 
+  Argument of type bool not assignable to value parameter x, of type float.
+Error, "tests/check05/check5.rc", line 28: 
+  Argument of type int not assignable to value parameter y, of type bool.
+Error, "tests/check05/check5.rc", line 28: 
+  Argument of type float not assignable to value parameter z, of type int.
+Error, "tests/check05/check5.rc", line 36: 
+  Argument passed to reference parameter y (type int) is not a modifiable L-value.
+Error, "tests/check05/check5.rc", line 38: 
+  Argument passed to reference parameter y (type float) is not a modifiable L-value.
+Error, "tests/check05/check5.rc", line 40: 
+  Argument passed to reference parameter y (type bool) is not a modifiable L-value.
+Error, "tests/check05/check5.rc", line 44: 
+  Argument of type float not equivalent to reference parameter y, of type int.
+Error, "tests/check05/check5.rc", line 45: 
+  Argument of type bool not equivalent to reference parameter y, of type int.
+Error, "tests/check05/check5.rc", line 46: 
+  Argument of type int not equivalent to reference parameter y, of type float.
+Error, "tests/check05/check5.rc", line 47: 
+  Argument of type bool not equivalent to reference parameter y, of type float.
+Error, "tests/check05/check5.rc", line 48: 
+  Argument of type int not equivalent to reference parameter y, of type bool.
+Error, "tests/check05/check5.rc", line 49: 
+  Argument of type float not equivalent to reference parameter y, of type bool.
+Error, "tests/check05/check5.rc", line 64: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check05/check5.rc", line 67: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check05/check5.rc", line 68: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check05/check5.rc", line 71: 
+  Value of type int not assignable to variable of type bool.
+Error, "tests/check05/check5.rc", line 73: 
+  Value of type float not assignable to variable of type bool.
+Compile: failure.

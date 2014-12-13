@@ -1,0 +1,14 @@
+function : void foo() {
+    int[20] x;
+    x[023]; //pass, equivalent to 19
+    x[024]; //FAIL, index 20 out of bounds
+    
+    x[0x13]; //pass, equivalent to 19
+    x[0x14]; //FAIL, index 20 out of bounds
+
+    x[0x15 - 010 * 0x10 / 021 + 6]; //FAIL, index 20, equivalent to:
+    // 21 - 8 * 16 / 17 + 6
+
+    x[011 * 0x12 / 15 - 010 * 02 + 014 / 0x2 - 1]; //FAIL, index -1, equivalent to:
+    //9 * 18 / 15 - 8 * 2 + 12 / 2 - 1
+}

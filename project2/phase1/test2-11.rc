@@ -1,0 +1,19 @@
+//Testing very very basic function calls
+//Slighly more arithmetic
+
+function: int foo() {
+	int a = 5;
+	int b;
+	b = 7 + a - 2;
+	return(b);
+}
+
+function: void main() {
+
+int a;
+
+a = foo();
+
+cout << a << endl;
+
+}

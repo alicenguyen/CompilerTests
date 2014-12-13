@@ -1,0 +1,69 @@
+Error, "tests/check01/modulo.rc", line 14: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/modulo.rc", line 15: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/modulo.rc", line 16: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/modulo.rc", line 17: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "tests/check01/modulo.rc", line 20: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 21: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 22: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 23: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 24: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 25: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 26: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 27: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 28: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 29: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 32: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 33: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 34: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 35: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 36: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 37: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 38: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 39: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 40: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 41: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 42: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 43: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 46: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 47: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 48: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 49: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 50: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 51: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 52: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check01/modulo.rc", line 53: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Compile: failure.

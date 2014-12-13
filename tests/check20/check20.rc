@@ -1,0 +1,22 @@
+
+function : void foo() {
+    int* fu;
+    int bar;
+    bool too;
+    float tar;
+
+    bar = (int)too;
+    too = (bool)bar;
+    bar = (int)tar; 
+
+    bar = (float)nullptr; //error float -> int
+    tar = (int)bar;
+}
+
+const bool x = true;
+int[10] y;
+int z;
+function : int main() {
+   z = y[(int) x]; // the index into the array will be 1
+   return 1;
+}

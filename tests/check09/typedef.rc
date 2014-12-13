@@ -1,0 +1,56 @@
+typedef int FAR;
+typedef FAR FOO;
+typedef FOO FOO1;
+
+function : void test() {
+    typedef float ZIG;
+    typedef ZIG ZAM;
+    typedef FOO FOO1;
+
+    FAR f;
+    FOO f1;
+    FOO1 f2;
+
+    ZIG h;
+    ZAM b;
+    FOO1 z;
+
+    FOO1 f3 = f2;
+    FOO1 f22 = f1;
+    f = f1;
+
+    h = f;
+    f = h; //error, ZIG not assignable to FAR
+
+    {
+        typedef bool HIM;
+        typedef HIM TAM;
+    }
+
+    {
+        {
+            {
+                {
+                    {
+                        typedef int BLAM;
+                    }
+                }
+            }
+        }
+    }
+
+    if (true) {
+        typedef float MIG;
+        typedef bool GHI;
+        typedef GHI MOP;
+
+        while (false) {
+            typedef float SOA;
+            while (true) {
+                typedef int MIA;
+            }
+        }
+    } else {
+        typedef float JIG;
+    }
+}

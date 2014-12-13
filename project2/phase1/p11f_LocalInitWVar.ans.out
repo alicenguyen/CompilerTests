@@ -1,0 +1,8 @@
+f1 :0.5    0.50
+f2 := f1 = 0.5    0.50
+i1 :1 1
+i2 := i1 = 1    1
+b1 :true true
+b2 := b1 = true    true
+b3 :false false
+b4 := b3 = false    false

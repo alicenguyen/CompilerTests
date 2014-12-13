@@ -1,0 +1,20 @@
+int x = 42;
+int y = 0;
+int z = -23;
+function : void main() {
+    if(x > y) {
+        if(y > x) {
+            cout << z << endl;
+        }
+        if(y > z) {
+            if(z > y) {
+                cout << y << endl;
+            }
+            if(x > z) {
+                cout << x << endl;
+            }
+        }
+    }
+    
+}
+

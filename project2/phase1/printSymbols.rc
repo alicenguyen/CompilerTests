@@ -1,0 +1,3 @@
+function : void main() {
+    cout << "%d%s/\\!@#$%^&*()-_=+[]{};':~`." << endl;
+}

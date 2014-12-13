@@ -1,0 +1,36 @@
+const float g = 1;
+int[(int)nullptr] ji; //error, must be > 0
+float[(bool)g] asdg; //error, index must be equiv to int
+float[(int)g] aaaa;
+const bool her = false;
+const bool sim = true;
+typedef bool[(int)her] SIK; //error, index must be > 0
+typedef int[(int)sim] PSIK;
+
+function : void test() {
+    funcptr : int () tod;
+    funcptr : int () tiod;
+
+    int f = (float) 1; //error, cannot assign float to int
+    int t;
+    (float) t = 1.1; //error, not mod l
+    (int) t = 1.1; //error, not mod l
+    (int) t = 144; //error, not mod l
+    (float) t;
+
+    t = (int) 5.55;
+    int[1] gg;
+    gg[t];
+
+    (int) tod; //error, not supported
+    tod = (funcptr : int ()) tiod; //error, not supported
+
+    t = (int) (float) (float) (int) g;
+    (bool) (float) (int) t;
+
+    int[5] jim;
+    jim[(int)nullptr];
+
+    //constant conversion
+
+}

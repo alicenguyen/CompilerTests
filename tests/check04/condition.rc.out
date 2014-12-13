@@ -1,0 +1,53 @@
+Error, "tests/check04/condition.rc", line 11: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 12: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 13: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 16: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 17: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 20: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 21: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 22: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 23: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 24: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 25: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 28: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 31: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 33: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 34: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 35: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 38: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 39: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 42: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 43: 
+  bool required for conditional test, int found.
+Error, "tests/check04/condition.rc", line 44: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 45: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 46: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 47: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 50: 
+  bool required for conditional test, float found.
+Error, "tests/check04/condition.rc", line 53: 
+  bool required for conditional test, int found.
+Compile: failure.

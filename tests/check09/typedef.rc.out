@@ -1,0 +1,3 @@
+Error, "tests/check09/typedef.rc", line 23: 
+  Value of type ZIG not assignable to variable of type FAR.
+Compile: failure.

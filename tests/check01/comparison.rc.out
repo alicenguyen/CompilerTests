@@ -1,0 +1,193 @@
+Error, "tests/check01/comparison.rc", line 29: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 30: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 31: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 32: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 34: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 35: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 36: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 37: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 39: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 40: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 41: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 42: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 44: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 45: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 46: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 47: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 73: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 74: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 75: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 76: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 78: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 79: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 80: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 81: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 83: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 84: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 85: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 86: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 88: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 89: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 90: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 91: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 117: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 118: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 119: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 120: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 122: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 123: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 124: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 125: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 127: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 128: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 129: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 130: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 132: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 133: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 134: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 135: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 161: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 162: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 163: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 164: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 166: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 167: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 168: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 169: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 171: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 172: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 173: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 174: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 176: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 177: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 178: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 179: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/comparison.rc", line 183: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check01/comparison.rc", line 184: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check01/comparison.rc", line 185: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check01/comparison.rc", line 186: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check01/comparison.rc", line 187: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check01/comparison.rc", line 188: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check01/comparison.rc", line 189: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check01/comparison.rc", line 190: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check01/comparison.rc", line 192: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check01/comparison.rc", line 193: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check01/comparison.rc", line 194: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check01/comparison.rc", line 195: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check01/comparison.rc", line 196: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check01/comparison.rc", line 197: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check01/comparison.rc", line 198: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check01/comparison.rc", line 199: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check01/comparison.rc", line 201: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check01/comparison.rc", line 202: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check01/comparison.rc", line 203: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check01/comparison.rc", line 204: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check01/comparison.rc", line 205: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check01/comparison.rc", line 206: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check01/comparison.rc", line 207: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check01/comparison.rc", line 208: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check01/comparison.rc", line 210: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check01/comparison.rc", line 211: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check01/comparison.rc", line 212: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check01/comparison.rc", line 213: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check01/comparison.rc", line 214: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check01/comparison.rc", line 215: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check01/comparison.rc", line 216: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check01/comparison.rc", line 217: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Compile: failure.

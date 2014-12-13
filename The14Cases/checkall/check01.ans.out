@@ -1,0 +1,67 @@
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible types to operator: int == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible types to operator: int != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible types to operator: float == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible types to operator: int == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "Testframework/project1/The14Cases/check01.rc": 
+  Incompatible types to operator: bool != float;
+  both must be numeric, or both equivalent to bool.
+Error, "": 
+  Return required in function, none found.
+Compile: failure.
+

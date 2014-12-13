@@ -1,0 +1,8 @@
+main d = 7 7
+foo d = 3: 3
+a : 5
+foo d = 3: 3
+a : 4
+foo d = 3: 3
+done: a: 4
+back in main

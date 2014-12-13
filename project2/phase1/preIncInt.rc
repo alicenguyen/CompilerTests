@@ -1,0 +1,8 @@
+int x0;
+function : void main() {
+
+int x1 = ++x0;
+int x3 = ++x0 + ++x0;
+    int x4 = ++x0;
+    cout << x0 << " " << x4 << endl;
+}

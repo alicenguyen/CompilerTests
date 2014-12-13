@@ -1,0 +1,93 @@
+function : void test() {
+    break; //error
+
+    break; //error
+    break; //error
+
+    if (true) {
+        break; //error
+        if (false) {
+            break; //error
+            break; //error
+        } else {
+            break; //error
+        }
+        break; //error
+    } else {
+        break; //error
+    }
+
+    break; //error
+
+    {
+        break; //error
+        {
+            break; //error
+        }
+        break; //error
+    }
+
+    while (true) {
+        break;
+        if (false) {
+            break;
+            {
+                break;
+                break;
+            }
+        } else {
+            break;
+            break;
+        }
+        break;
+    }
+
+    int[1] z;
+    foreach (int y : z) {
+        break;
+        if (true) {
+            break;
+            break;
+        }
+        break;
+        break;
+        while (false) {
+            break;
+            {
+                break;
+            }
+            break;
+        }
+        foreach (int y : z) {
+            while (true) {
+                break;
+                if (false) {
+                    break;
+                    {
+                        break;
+                    }
+                }
+            }
+            break;
+        }
+    }
+
+
+    if (false) {
+        {
+            while (false) {
+                while (true) {
+                    foreach (int y : z) {
+                        break;
+                    }
+                    break;
+                }
+                break;
+            }
+            break; //error
+        }
+        break; //error
+    } else {
+        break; //error
+    }
+}

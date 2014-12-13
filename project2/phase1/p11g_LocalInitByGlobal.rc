@@ -1,0 +1,28 @@
+float g1 = 10000.14;
+int g2 = 78923;
+bool g3 = false;
+bool g4 = true;
+
+function: void main()
+{
+    float f1 = 0.5;
+    int i1 = 1;
+    bool b1 = true;
+
+
+    float f2 = g1;
+    int i2 = 78923;
+    bool b2 = g3;
+
+    bool b4 = g4;
+
+
+    cout << "f1 :0.5    " << f1 << endl;
+    cout << "f2 := g1 = 10000.14    " << f2 << endl;
+    cout << "i1 :1 " << i1 << endl;
+    cout << "i2 := g2 = 78923    " << i2 << endl;
+
+    cout << "b1 :true " << b1 << endl;
+    cout << "b2 := g3 = false    " << b2 << endl;
+    cout << "b4 := g4 = true    " << b4 << endl;
+}

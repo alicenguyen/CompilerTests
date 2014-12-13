@@ -1,0 +1,8 @@
+static int a = 1;
+static int b = 2;
+function : void main() {
+    cout << a << b << endl;
+    static float a = 3.0;
+    static float b = 4.0;
+    cout << a << b << endl;
+}

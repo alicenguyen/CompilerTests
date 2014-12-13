@@ -1,0 +1,10 @@
+static int x;
+function : void main() {
+
+    static float y = 0 + 1;
+    cout << x << " " << y << endl;
+    static float x;
+    x = 3.0;
+    y = x;
+    cout << x << " " << y << endl;
+}

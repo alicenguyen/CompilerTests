@@ -1,0 +1,13 @@
+Error, "tests/check09/check9.rc", line 3: 
+  Initialization value of type bool not assignable to constant/variable of type HI.
+Error, "tests/check09/check9.rc", line 16: 
+  Value of type T1 not assignable to variable of type BOO.
+Error, "tests/check09/check9.rc", line 22: 
+  Initialization value of type BOO not assignable to constant/variable of type T1.
+Error, "tests/check09/check9.rc", line 27: 
+  Initialization value of type T1 not assignable to constant/variable of type BOO.
+Error, "tests/check09/check9.rc", line 34: 
+  Initialization value of constant named z not known at compile time.
+Error, "tests/check09/check9.rc", line 36: 
+  Initialization value of type HI not assignable to constant/variable of type bool.
+Compile: failure.

@@ -1,0 +1,24 @@
+function : void test() {
+    int foo;
+    int too;
+    float bar;
+    float tar;
+    bool jo;
+    bool bo;
+
+    int res1;
+    float res2;
+    bool res3;
+
+    res1 = foo % too;
+    res1 = too % foo;
+    res2 = foo % too;
+    res2 = too % too;
+    res3 = foo % foo; //error, cannot assign int to bool
+
+    res3 = foo % bar; //error, second operand not int
+    res3 = tar % too; //error, first operand not int
+    res3 = bar % tar; //error, neither operand is int
+    res3 = jo % too; //error, first operand not int
+    res3 = bo % jo; //error, neither operand is int
+}

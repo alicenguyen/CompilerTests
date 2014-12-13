@@ -1,0 +1,28 @@
+int x = 1;
+function : void foo() {}
+
+structdef BOO {
+    //i think structdefs have to be non-empty
+    int y;
+};
+
+structdef MY {
+    MY test;
+    
+    int x, y;
+    int x;
+    int z, x;
+    function : void y() {}
+    function : void f(int &x) {
+        x = x + 1;
+    }
+    function : int foo() {
+        return 1;
+    }
+    function : void foo() {}
+};
+
+function : void bar() {
+    MY hello;
+    int x = hello.foo();
+}

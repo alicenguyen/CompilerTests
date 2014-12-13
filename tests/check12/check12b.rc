@@ -1,0 +1,62 @@
+function : void foo() {
+    break; //break error
+    continue; //continue error
+    {
+        break; //break error
+        continue; //continue error
+
+        if (true) {
+            break; //
+            continue; //
+        }
+        while (true) {
+            break;
+            continue;
+            if (true) {
+                break;
+                continue;
+                int[5] arr;
+                foreach(int x : arr) {
+                    break;
+                    continue;
+                    while(false) {
+                        continue;
+                        break;
+                    }
+                    continue;
+                    break;
+                }
+                continue;
+                break;
+            }
+            continue;
+            break;
+            while (true) {
+                continue;
+                break;
+                int[5] x;
+                foreach (int y : x) {
+                    break;
+                    continue;
+                }
+            }
+        }
+        break; //
+        continue;//
+    }
+    if (true) {
+        break; //
+        continue; //
+        continue; //
+        break; //
+        {
+            break; //
+            continue; //
+            int[5] arr;
+            foreach (int a : arr) {
+                break;
+                continue;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+float x0;
+function : void main() {
+float x1 = --x0;
+float x3 = --x0 + --x0;
+    float x4 = --x0;
+    int x5 = 1;
+    float x6 = --x5;
+    cout << x0 << " " << x4 << " " << x6 << endl;
+}

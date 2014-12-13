@@ -1,0 +1,21 @@
+Error, "tests/check07/function.rc", line 11: 
+  Exit expression (type void) is not assignable to int.
+Error, "tests/check07/function.rc", line 13: 
+  Exit expression (type bool) is not assignable to int.
+Error, "tests/check07/function.rc", line 14: 
+  Exit expression (type float) is not assignable to int.
+Error, "tests/check07/function.rc", line 16: 
+  Exit expression (type bool) is not assignable to int.
+Error, "tests/check07/function.rc", line 17: 
+  Exit expression (type float) is not assignable to int.
+Error, "tests/check07/function.rc", line 20: 
+  Exit expression (type bool) is not assignable to int.
+Error, "tests/check07/function.rc", line 24: 
+  Exit expression (type bool) is not assignable to int.
+Error, "tests/check07/function.rc", line 28: 
+  Exit expression (type bool) is not assignable to int.
+Error, "tests/check07/function.rc", line 34: 
+  Exit expression (type float) is not assignable to int.
+Error, "tests/check07/function.rc", line 35: 
+  Exit expression (type float) is not assignable to int.
+Compile: failure.

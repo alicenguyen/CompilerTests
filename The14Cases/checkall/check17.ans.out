@@ -1,0 +1,22 @@
+Error, "Testframework/The14Cases/checkall/check17.rc": 
+  Incompatible types to operator ==:
+    int*,
+    int;
+  both must be of equivalent pointer type.
+Error, "Testframework/The14Cases/checkall/check17.rc": 
+  Incompatible types to operator ==:
+    int,
+    int*;
+  both must be of equivalent pointer type.
+Error, "Testframework/The14Cases/checkall/check17.rc": 
+  Incompatible types to operator ==:
+    bool,
+    int*;
+  both must be of equivalent pointer type.
+Error, "Testframework/The14Cases/checkall/check17.rc": 
+  Incompatible types to operator ==:
+    BAR,
+    int*;
+  both must be of equivalent pointer type.
+Compile: failure.
+

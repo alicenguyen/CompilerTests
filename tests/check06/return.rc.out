@@ -1,0 +1,41 @@
+Error, "tests/check06/return.rc", line 2: 
+  Return required in function, none found.
+Error, "tests/check06/return.rc", line 3: 
+  Return required in function, none found.
+Error, "tests/check06/return.rc", line 4: 
+  Return required in function, none found.
+Error, "tests/check06/return.rc", line 7: 
+  Return in function requires a result expression, none found.
+Error, "tests/check06/return.rc", line 8: 
+  Return in function requires a result expression, none found.
+Error, "tests/check06/return.rc", line 9: 
+  Return in function requires a result expression, none found.
+Error, "tests/check06/return.rc", line 11: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "tests/check06/return.rc", line 13: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "tests/check06/return.rc", line 14: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "tests/check06/return.rc", line 18: 
+  Type of return expression (bool), not assignment compatible with function's return type (float).
+Error, "tests/check06/return.rc", line 19: 
+  Type of return expression (int), not assignment compatible with function's return type (bool).
+Error, "tests/check06/return.rc", line 21: 
+  Type of return expression (float), not assignment compatible with function's return type (bool).
+Error, "tests/check06/return.rc", line 24: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "tests/check06/return.rc", line 25: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "tests/check06/return.rc", line 26: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "tests/check06/return.rc", line 28: 
+  Type of return expression (float) is not equivalent to the function's return type (int).
+Error, "tests/check06/return.rc", line 30: 
+  Type of return expression (int) is not equivalent to the function's return type (float).
+Error, "tests/check06/return.rc", line 32: 
+  Type of return expression (int) is not equivalent to the function's return type (float).
+Error, "tests/check06/return.rc", line 33: 
+  Type of return expression (int) is not equivalent to the function's return type (bool).
+Error, "tests/check06/return.rc", line 34: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Compile: failure.

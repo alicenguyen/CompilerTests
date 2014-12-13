@@ -1,0 +1,61 @@
+Error, "tests/check11/check11.rc", line 9: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check11/check11.rc", line 11: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "tests/check11/check11.rc", line 18: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check11/check11.rc", line 19: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check11/check11.rc", line 25: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check11/check11.rc", line 27: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check11/check11.rc", line 32: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "tests/check11/check11.rc", line 34: 
+  Type of expression referenced by array subscript (bool) is not of array or pointer type.
+Error, "tests/check11/check11.rc", line 36: 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Error, "tests/check11/check11.rc", line 40: 
+  Index value of -1 is outside legal range [0,5).
+Error, "tests/check11/check11.rc", line 41: 
+  Index value of 5 is outside legal range [0,5).
+Error, "tests/check11/check11.rc", line 44: 
+  Index value of 6 is outside legal range [0,5).
+Error, "tests/check11/check11.rc", line 45: 
+  Index value of -26 is outside legal range [0,5).
+Error, "tests/check11/check11.rc", line 46: 
+  Index value of 10 is outside legal range [0,5).
+Error, "tests/check11/check11.rc", line 49: 
+  Type of index expression in array reference (bool) not equivalent to int.
+Error, "tests/check11/check11.rc", line 50: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "tests/check11/check11.rc", line 55: 
+  Type of index expression in array reference (FLOAT) not equivalent to int.
+Error, "tests/check11/check11.rc", line 58: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "tests/check11/check11.rc", line 60: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check11/check11.rc", line 63: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check11/check11.rc", line 64: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check11/check11.rc", line 65: 
+  Index value of 5 is outside legal range [0,5).
+Error, "tests/check11/check11.rc", line 66: 
+  Value of type INTFIVE not assignable to variable of type int.
+Error, "tests/check11/check11.rc", line 67: 
+  Index value of -2 is outside legal range [0,5).
+Error, "tests/check11/check11.rc", line 72: 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check11/check11.rc", line 74: 
+  Index value of -1 is outside legal range [0,5).
+Error, "tests/check11/check11.rc", line 75: 
+  Index value of -1 is outside legal range [0,5).
+Error, "tests/check11/check11.rc", line 81: 
+  Initialization value of constant named constflo not known at compile time.
+Error, "tests/check11/check11.rc", line 82: 
+  Value of type FLOATFIVE not assignable to variable of type INTFIVE.
+Error, "tests/check11/check11.rc", line 86: 
+  Value of type int[4] not assignable to variable of type INTFIVE.
+Compile: failure.

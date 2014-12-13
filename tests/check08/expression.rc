@@ -1,0 +1,18 @@
+int x=2+5;
+const int bar = x; //error, not known at compile time 
+
+const int fee = 5 + 6 * 8;
+const int ree = fee;
+
+const int tee = 5 - 4 * 2 + 4 / (2%2); //arithmetic exception
+
+const int x2 = 5;
+int y2 = x2;
+const int z2 = y2; // error, not known at compile time 
+
+function : void foo() {
+    x = 1/(1+3*-0x1%2/1); //arithmetic exception
+
+    x = 1/(1&2); //arithmetic exception
+    x = 1/((1|2) - 3); //arithmetic exception
+}

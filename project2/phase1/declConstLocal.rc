@@ -1,0 +1,9 @@
+static const int x = 4;
+const float y = 5.0;
+const bool z = true;
+function : void main() {
+    static const float x = 2;
+    const float y = x;
+    const float z = (x + y) / x;
+    cout << x << " " << y << " " << z << endl;
+}

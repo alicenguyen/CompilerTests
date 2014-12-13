@@ -1,0 +1,218 @@
+function : void compare() {
+    int i;
+    float f;
+    bool b;
+
+    //int and int, good
+    i<i;
+    i<2;
+    2<i;
+    2<2;
+
+    i>i;
+    i>2;
+    2>i;
+    2>2;
+
+    i<=i;
+    i<=2;
+    2<=i;
+    2<=2;
+
+    i>=i;
+    i>=2;
+    2>=i;
+    2>=2;
+
+    //int and int, bad
+    //here I use + 1 to make sure the type is printed as bool
+    (i<i) + 1; //bool invalid with +
+    (i<2) + 1; //bool invalid with +
+    (2<i) + 1; //bool invalid with +
+    (2<2) + 1; //bool invalid with +
+
+    (i>i) + 1; //bool invalid with +
+    (i>2) + 1; //bool invalid with +
+    (2>i) + 1; //bool invalid with +
+    (2>2) + 1; //bool invalid with +
+
+    (i<=i) + 1; //bool invalid with +
+    (i<=2) + 1; //bool invalid with +
+    (2<=i) + 1; //bool invalid with +
+    (2<=2) + 1; //bool invalid with +
+
+    (i>=i) + 1; //bool invalid with +
+    (i>=2) + 1; //bool invalid with +
+    (2>=i) + 1; //bool invalid with +
+    (2>=2) + 1; //bool invalid with +
+
+
+    //int and float, good
+    i<f;
+    i<2.0;
+    2<f;
+    2<2.0;
+
+    i>f;
+    i>2.0;
+    2>f;
+    2>2.0;
+
+    i<=f;
+    i<=2.0;
+    2<=f;
+    2<=2.0;
+
+    i>=f;
+    i>=2.0;
+    2>=f;
+    2>=2.0;
+
+    //int and float, bad
+    //here I use + 1 to make sure the type is printed as bool
+    (i<f) + 1; //bool invalid with +
+    (i<2.0) + 1; //bool invalid with +
+    (2<f) + 1; //bool invalid with +
+    (2<2.0) + 1; //bool invalid with +
+
+    (i>f) + 1; //bool invalid with +
+    (i>2.0) + 1; //bool invalid with +
+    (2>f) + 1; //bool invalid with +
+    (2>2.0) + 1; //bool invalid with +
+
+    (i<=f) + 1; //bool invalid with +
+    (i<=2.0) + 1; //bool invalid with +
+    (2<=f) + 1; //bool invalid with +
+    (2<=2.0) + 1; //bool invalid with +
+
+    (i>=f) + 1; //bool invalid with +
+    (i>=2.0) + 1; //bool invalid with +
+    (2>=f) + 1; //bool invalid with +
+    (2>=2.0) + 1; //bool invalid with +
+
+
+    //float and int, good
+    f<i;
+    f<2;
+    2.0<i;
+    2.0<2;
+
+    f>i;
+    f>2;
+    2.0>i;
+    2.0>2;
+
+    f<=i;
+    f<=2;
+    2.0<=i;
+    2.0<=2;
+
+    f>=i;
+    f>=2;
+    2.0>=i;
+    2.0>=2;
+
+    //float and int, bad
+    //here I use + 1 to make sure the type is printed as bool
+    (f<i) + 1; //bool invalid with +
+    (f<2) + 1; //bool invalid with +
+    (2.0<i) + 1; //bool invalid with +
+    (2.0<2) + 1; //bool invalid with +
+
+    (f>i) + 1; //bool invalid with +
+    (f>2) + 1; //bool invalid with +
+    (2.0>i) + 1; //bool invalid with +
+    (2.0>2) + 1; //bool invalid with +
+
+    (f<=i) + 1; //bool invalid with +
+    (f<=2) + 1; //bool invalid with +
+    (2.0<=i) + 1; //bool invalid with +
+    (2.0<=2) + 1; //bool invalid with +
+
+    (f>=i) + 1; //bool invalid with +
+    (f>=2) + 1; //bool invalid with +
+    (2.0>=i) + 1; //bool invalid with +
+    (2.0>=2) + 1; //bool invalid with +
+
+
+    //float and float, good
+    f<f;
+    f<2.0;
+    2.0<f;
+    2.0<2.0;
+
+    f>f;
+    f>2.0;
+    2.0>f;
+    2.0>2.0;
+
+    f<=f;
+    f<=2.0;
+    2.0<=f;
+    2.0<=2.0;
+
+    f>=f;
+    f>=2.0;
+    2.0>=f;
+    2.0>=2.0;
+
+    //float and float, bad
+    //here I use + 1 to make sure the type is printed as bool
+    (f<f) + 1; //bool invalid with +
+    (f<2.0) + 1; //bool invalid with +
+    (2.0<f) + 1; //bool invalid with +
+    (2.0<2.0) + 1; //bool invalid with +
+
+    (f>f) + 1; //bool invalid with +
+    (f>2.0) + 1; //bool invalid with +
+    (2.0>f) + 1; //bool invalid with +
+    (2.0>2.0) + 1; //bool invalid with +
+
+    (f<=f) + 1; //bool invalid with +
+    (f<=2.0) + 1; //bool invalid with +
+    (2.0<=f) + 1; //bool invalid with +
+    (2.0<=2.0) + 1; //bool invalid with +
+
+    (f>=f) + 1; //bool invalid with +
+    (f>=2.0) + 1; //bool invalid with +
+    (2.0>=f) + 1; //bool invalid with +
+    (2.0>=2.0) + 1; //bool invalid with +
+
+
+    //bool, bad
+    b<f; //bool invalid with <
+    b<2.0; //bool invalid with <
+    2.0<b; //bool invalid with <
+    f<b; //bool invalid with <
+    true<f; //bool invalid with <
+    false<2.0; //bool invalid with <
+    2.0<false; //bool invalid with <
+    f<true; //bool invalid with <
+
+    b>f; //bool invalid with >
+    b>2.0; //bool invalid with >
+    2.0>b; //bool invalid with >
+    f>b; //bool invalid with >
+    true>f; //bool invalid with >
+    false>2.0; //bool invalid with >
+    2.0>false; //bool invalid with >
+    f>true; //bool invalid with >
+
+    b<=f; //bool invalid with <=
+    b<=2.0; //bool invalid with <=
+    2.0<=b; //bool invalid with <=
+    f<=b; //bool invalid with <=
+    true<=f; //bool invalid with <=
+    false<=2.0; //bool invalid with <=
+    2.0<=false; //bool invalid with <=
+    f<=true; //bool invalid with <=
+
+    b>=f; //bool invalid with >=
+    b>=2.0; //bool invalid with >=
+    2.0>=b; //bool invalid with >=
+    f>=b; //bool invalid with >=
+    true>=f; //bool invalid with >=
+    false>=2.0; //bool invalid with >=
+    2.0>=false; //bool invalid with >=
+    f>=true; //bool invalid with >=
+}

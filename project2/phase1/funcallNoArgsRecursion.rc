@@ -1,0 +1,19 @@
+int i = 10;
+bool b1 = true, b2 = false;
+
+function : void foo () {
+  if (b1) {
+    cout << i << endl;
+    i--;
+    if (b2) {
+      b1 = false;
+    }
+    b2 = true;
+    foo();
+  }
+}
+
+function : int main () {
+  foo();
+  return 0;
+}

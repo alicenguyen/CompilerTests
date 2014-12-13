@@ -1,0 +1,29 @@
+
+
+function: void main()
+{
+    bool bLocalT1 = true;
+    bool bLocalF1 = false;
+    bool bLocalT2 = bLocalT1;
+    bool bLocalF2 = bLocalF1;
+    const bool bLocalConstT1 = true;
+    const bool bLocalConstT2 = bLocalConstT1;
+
+    const bool bLocalConstF1 = false;
+    const bool bLocalConstF2 = bLocalConstF1;
+
+
+    cout << "True: " << true << endl;
+    cout << "False: " << false << endl;
+    cout << "bLocalT1 : true?   " << bLocalT1 << endl;
+    cout << "bLocalF1 : false?   " << bLocalF1 << endl;
+
+    cout << "bLocalT2 = T1 : true?   " << bLocalT2 << endl;
+    cout << "bLocalF2 = F1: false?   " << bLocalF2 << endl;
+
+    cout << "bLocalConstT1 : true?   " << bLocalConstT1 << endl;
+    cout << "bLocalConstF1 : false?   " << bLocalConstF1 << endl;
+    cout << "bLocalConstT2 = ConstT1 : true ?   " << bLocalConstT2 << endl;
+    cout << "bLocalConstF2 = ConstF1 : false ?   " << bLocalConstF2 << endl;
+
+}

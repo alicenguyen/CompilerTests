@@ -1,0 +1,29 @@
+function: void main()
+{
+    int a = 5;
+    int b = 6;
+    int c = 15;
+    if(c > a)
+    {
+        cout << c << " > " << a << " ? " << endl;
+        cout << "OK _ MUST BE PRINTED OUT" << endl;
+        cout << "New value of a : ";
+        a = 10;
+        cout << "----> New a = " << a << endl;
+        cout << "OK _ MUST EXIT HERE" << endl;
+        exit (a);
+        cout << "ERROR#4 _ MUST NOT BE PRINTED OUT" << endl;
+    }
+
+    cout << "ERROR#1 _ MUST NOT BE PRINTED OUT" << endl;
+
+    if( c > b )
+    {
+        cout << "ERROR#2 _ MUST NOT BE PRINTED OUT" << endl;
+    }
+
+    if( b > a )
+    {
+        cout << "ERROR#3 _ MUST NOT BE PRINTED OUT" << endl;
+    }
+}

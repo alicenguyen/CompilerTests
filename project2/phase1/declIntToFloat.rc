@@ -1,0 +1,13 @@
+static float x1 = 1;
+float x2 = 1;
+static float x3 = 1;
+function : void main() {
+    const int i = 1;
+    static float x4 = 1;
+    const float x5 = 1;
+    float x6 = 1;
+    float x7 = i;
+    const float x8 = i;
+    static float x9 = i;
+    cout << x1 << x2 << x3 << x4 << x5 << x6 << x7 << x8 << x9 << endl;
+}

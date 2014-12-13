@@ -1,0 +1,12 @@
+function : int f() {
+  exit(0);
+  return 5;
+}
+
+
+function : void main() {
+  cout << 5 << " " << 4 << " " << 3 << endl;
+  int x = f();
+  cout << 2 << " " << 1 << " " << 0 << endl;
+  
+}

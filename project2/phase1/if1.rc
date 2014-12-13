@@ -1,0 +1,12 @@
+
+function : void main() {
+  int x = 0;
+  if (true) {
+    x = 1;
+  }
+  cout << x << endl;
+  if (false) {
+    x = 2;
+  }
+  cout << x << endl;
+}

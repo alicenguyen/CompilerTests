@@ -1,0 +1,26 @@
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Operand to ++ is not a modifiable L-value.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Operand to ++ is not a modifiable L-value.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Operand to ++ is not a modifiable L-value.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Operand to ++ is not a modifiable L-value.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Operand to -- is not a modifiable L-value.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Operand to -- is not a modifiable L-value.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Operand to -- is not a modifiable L-value.
+Errorr "Testframework/project1/phase1/check01.rc", line 7:
+  Operand to -- is not a modifiable L-value.
+
+Compile: failure.

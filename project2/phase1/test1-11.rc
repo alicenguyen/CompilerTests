@@ -1,0 +1,19 @@
+//Testing bitwise operations
+
+float a = 6.1; 
+int c = 9;
+
+function: void main() {
+
+int b = 7; //6
+a = b;
+
+cout << a << endl;
+cout << b << endl;
+
+a = c;
+
+cout << a << endl; 
+cout << c << endl; 
+
+}

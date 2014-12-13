@@ -1,0 +1,25 @@
+function: void main()
+{
+    int a = 5;
+    int b = 6;
+    int c = 150000;
+    cout << "-a " << -a << endl;
+
+    cout << "+a " << +a << endl;
+    cout << "+b " << +b << endl;
+    cout << "+c " << +c << endl;
+    cout << "+100  " << +100 << endl;
+    cout << "+5000 " << +5000 << endl;
+
+    cout << "a " << a << endl;
+    cout << "-b " << -b << endl;
+    cout << "b " << b << endl;
+    cout << "-c " <<-c << endl;
+    cout << "c " << c << endl;
+    cout << "-100 " << -100 << endl;
+    cout << "-11235 " << -11235 << endl;
+    cout << "25 + -11235 = " << 25 + -11235 << endl;
+    cout << "25 * -4 = " << 25 * -4 << endl;
+    cout << "25 * -a  - 10 = " << 25 * -a - 10 << endl;
+
+}

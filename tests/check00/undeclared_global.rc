@@ -1,0 +1,26 @@
+int x;
+bool y;
+float z;
+
+function : void foo() {
+    int x;
+    int x2;
+
+    x = ::x; //good
+    x = x2; //good
+    x = ::x2; //FAIL, no global x2
+
+    bool y;
+    bool y2;
+
+    y = ::y; //good
+    y = y2; //good
+    y = ::y2; //FAIL, no global y2
+
+    float z;
+    float z2;
+
+    z = ::z; //good
+    z = z2; //good
+    z = ::z2; //FAIL, no global z2
+}

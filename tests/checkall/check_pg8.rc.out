@@ -1,0 +1,17 @@
+Error, "tests/checkall/check_pg8.rc", line 12: 
+  Return required in function, none found.
+Error, "tests/checkall/check_pg8.rc", line 15: 
+  Return required in function, none found.
+Error, "tests/checkall/check_pg8.rc", line 24: 
+  Value of type float not assignable to variable of type INTEGER.
+Error, "tests/checkall/check_pg8.rc", line 28: 
+  Argument of type REC2 not equivalent to reference parameter a, of type REC1.
+Error, "tests/checkall/check_pg8.rc", line 33: 
+  Argument of type int[5] not equivalent to reference parameter a, of type float[5].
+Error, "tests/checkall/check_pg8.rc", line 35: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/checkall/check_pg8.rc", line 38: 
+  Value of type REC2 not assignable to variable of type REC1.
+Error, "tests/checkall/check_pg8.rc", line 43: 
+  Value of type REC2* not assignable to variable of type REC1*.
+Compile: failure.

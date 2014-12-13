@@ -1,0 +1,8 @@
+function : void main() {
+
+float x = 3;
+float y = x = 2;
+    cout << x << " " << y << endl;
+    float z = x = y = 1;
+    cout << x << " " << y << " " << z << endl;
+}

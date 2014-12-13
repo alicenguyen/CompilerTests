@@ -1,0 +1,27 @@
+function : void main() {
+  int* x;
+  bool* y;
+  float* z;
+
+  int**** t1;
+
+  delete x;
+  delete y;
+  delete z;
+  delete t1;
+
+  delete x;
+  delete y;
+  delete z;
+  delete t1;
+
+  int a;
+  bool b;
+  float c;
+
+  delete a; //error, can't delete a non-pointer
+  delete b; //error, can't delete a non-pointer
+  delete c; //error, can't delete a non-pointer
+
+  delete 5; //error can't delete a non-pointer
+}

@@ -1,0 +1,21 @@
+function: void main()
+{
+    const int iC1 = 8745;
+    const float fC1 = 12354.45;
+    const bool bC1 = true;
+    const bool bC2 = false;
+
+    float f2 = fC1;
+    int i2 = iC1;
+    bool b2 = bC1;
+
+    cout << "Local Const int iC1 = 8745 ?    " << iC1 << endl;
+    cout << "Local Const float fC1 = 12354.45 ?    " << fC1 << endl;
+    cout << "Local Const bool bC1 = true ?     " << bC1 << endl;
+    cout << "Local Const bool bC2 = false ?     " << bC2 << endl;
+
+    cout << "f2 := fC1 = 12354.45 ?    " << f2 << endl;
+    cout << "i2 := iC1 = 8745 ?   " << i2 << endl;
+    cout << "b2 := bC1 = true    " << b2 << endl;
+
+}

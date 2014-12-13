@@ -1,0 +1,9 @@
+int x;
+bool y;
+float z;
+function : void main() {
+    cout << x << endl << z << endl;
+    int x;
+    bool y;
+    float z;
+}

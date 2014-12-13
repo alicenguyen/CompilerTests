@@ -1,0 +1,13 @@
+420 ? 420
+214 ? 214
+1082.75 ? 1082.75
+4 ? 4
+Testing sizeof (bool) = 4?  4
+Testing sizeof (float) = 4?  4
+Testing sizeof (int) = 4?  4
+Testing float: 1.12?   1.12
+Testing float: 1.23?   1.23
+Testing float: 1.35?   1.35
+Testing float: 1.46?   1.46
+true
+false

@@ -1,0 +1,15 @@
+static bool x = true;
+function : void main() {
+    cout << true << " " << false << endl;
+    bool y = false;
+    cout << x << " " << y << endl;
+    
+    if (true) {
+        cout << y << endl;
+        cout << x << endl;
+        if (true) {
+            x = false;
+            cout << x << endl;
+        }
+    }
+}

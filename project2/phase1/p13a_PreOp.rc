@@ -1,0 +1,35 @@
+int i1 = 5000;
+
+function: void main()
+{
+    int i2 = 1100;
+    int i3 = 8900;
+    cout << "Local i2++ = 1100 ?  :    " << i2++ << endl;
+    cout << "Local i2++ =1101 ?  :    " << i2++ << endl;
+    cout << "Local i2 =1102 ?  :    " << i2 << endl;
+    cout << "Local i2 =1102 ?  :    " << i2 << endl;
+
+    cout << " --------------------" << endl << endl;
+
+    cout << "Local i2-- = 1102 ?  :    " << i2-- << endl;
+    cout << "Local i2-- =1101 ?  :    " << i2-- << endl;
+    cout << "Local i2 =1100 ?  :    " << i2 << endl;
+    cout << "Local i2 =1100 ?  :    " << i2 << endl;
+    cout << " --------------------" << endl << endl;
+
+    cout << "Local i3 init : = 8900 ?  :    " << i3 << endl;
+    cout << "Local i3++ : = 8900 ?  :    " << i3++ << endl;
+    cout << "Local i3++ : = 8901 ?  :    " << i3++ << endl;
+    cout << "Local i3 : = 8902 ?  :    " << i3 << endl;
+    cout << "Local i3 : = 8902 ?  :    " << i3 << endl;
+    cout << " --------------------" << endl << endl;
+    cout << "Global i1 init : = 5000 ?  :    " << i1 << endl;
+    cout << "Global i1++ : = 5000 ?  :    " << i1++ << endl;
+    cout << "Global i1++ : = 5001 ?  :    " << i1++ << endl;
+    cout << "Global i1 : = 5002 ?  :    " << i1 << endl;
+    cout << " --------------------" << endl << endl;
+    cout << "Global i1 init : = 5002 ?  :    " << i1 << endl;
+    cout << "Global i1-- : = 5002 ?  :    " << i1-- << endl;
+    cout << "Global i1-- : = 5001 ?  :    " << i1-- << endl;
+    cout << "Global i1 : = 5000 ?  :    " << i1 << endl;
+}

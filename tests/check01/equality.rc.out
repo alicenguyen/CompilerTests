@@ -1,0 +1,129 @@
+Error, "tests/check01/equality.rc", line 19: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 20: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 21: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 22: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 24: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 25: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 26: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 27: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 42: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 43: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 44: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 45: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 47: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 48: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 49: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 50: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 65: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 66: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 67: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 68: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 70: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 71: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 72: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 73: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 88: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 89: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 90: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 91: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 93: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 94: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 95: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 96: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 111: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 112: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 113: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 114: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 116: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 117: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 118: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 119: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check01/equality.rc", line 123: 
+  Incompatible types to operator: int == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 124: 
+  Incompatible types to operator: float == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 125: 
+  Incompatible types to operator: int == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 126: 
+  Incompatible types to operator: int == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 128: 
+  Incompatible types to operator: int != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 129: 
+  Incompatible types to operator: float != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 130: 
+  Incompatible types to operator: int != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 131: 
+  Incompatible types to operator: int != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 135: 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 136: 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 137: 
+  Incompatible types to operator: bool == float;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 138: 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 140: 
+  Incompatible types to operator: bool != float;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 141: 
+  Incompatible types to operator: bool != int;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 142: 
+  Incompatible types to operator: bool != int;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check01/equality.rc", line 143: 
+  Incompatible types to operator: bool != int;
+  both must be numeric, or both equivalent to bool.
+Compile: failure.

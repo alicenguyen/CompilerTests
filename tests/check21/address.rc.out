@@ -1,0 +1,31 @@
+Error, "tests/check21/address.rc", line 14: 
+  Non-addressable argument of type int to address-of operator.
+Error, "tests/check21/address.rc", line 15: 
+  undeclared identifier 'asdf'.
+Error, "tests/check21/address.rc", line 16: 
+  Non-addressable argument of type nullptr to address-of operator.
+Error, "tests/check21/address.rc", line 17: 
+  Non-addressable argument of type bool to address-of operator.
+Error, "tests/check21/address.rc", line 18: 
+  Non-addressable argument of type float to address-of operator.
+Error, "tests/check21/address.rc", line 22: 
+  Non-addressable argument of type int to address-of operator.
+Error, "tests/check21/address.rc", line 23: 
+  Non-addressable argument of type int to address-of operator.
+Error, "tests/check21/address.rc", line 24: 
+  Non-addressable argument of type int to address-of operator.
+Error, "tests/check21/address.rc", line 26: 
+  Non-addressable argument of type float to address-of operator.
+Error, "tests/check21/address.rc", line 29: 
+  Initialization value of type int* not assignable to constant/variable of type float*.
+Error, "tests/check21/address.rc", line 30: 
+  Non-addressable argument of type funcptr : void (bool &hi, int** tarf) to address-of operator.
+Error, "tests/check21/address.rc", line 33: 
+  Initialization value of type int**** not assignable to constant/variable of type int***.
+Error, "tests/check21/address.rc", line 37: 
+  Initialization value of type TAM* not assignable to constant/variable of type float*.
+Error, "tests/check21/address.rc", line 42: 
+  Non-addressable argument of type TAM* to address-of operator.
+Error, "tests/check21/address.rc", line 48: 
+  Non-addressable argument of type funcptr : int (bool &tar) to address-of operator.
+Compile: failure.

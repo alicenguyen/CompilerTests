@@ -1,0 +1,12 @@
+const int cc = 1;
+typedef float[10] ARR;
+float[10] a;
+ARR b;
+ARR[2] c;
+float * d;
+
+function : void main() {
+    c[1][9] = a[2];
+    b[b[b[b[2] - cc] + cc] - 1] = c[1][9]; //FAIL indexing by float
+    a[2] = d[0];
+}

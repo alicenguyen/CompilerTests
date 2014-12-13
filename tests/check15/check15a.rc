@@ -1,0 +1,12 @@
+structdef BAR {
+    int z;
+};
+
+function : void foo(BAR* bar) {
+    BAR twoBar;
+    int x;
+
+    x = bar->z;
+    x = (*bar).z;
+    *bar = twoBar;
+}

@@ -1,0 +1,13 @@
+Error, "tests/check08/expression.rc", line 2: 
+  Initialization value of constant named bar not known at compile time.
+Error, "tests/check08/expression.rc", line 7: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/expression.rc", line 11: 
+  Initialization value of constant named z2 not known at compile time.
+Error, "tests/check08/expression.rc", line 14: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/expression.rc", line 16: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check08/expression.rc", line 17: 
+  Arithmetic exception occurred during constant folding.
+Compile: failure.

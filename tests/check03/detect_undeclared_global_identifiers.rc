@@ -1,0 +1,37 @@
+int foo;
+bool bar;
+float flat;
+int tight;
+int greedy;
+
+function : void test() {
+    int foo;
+    float far;
+    bool bun;
+    float greedy;
+
+
+    int z = foo + foo;
+    z = bar; //error, bool not assignable to int
+
+    foo = ::flat; //error, float not assignable to int
+
+    flat = far;
+    ::flat = far;
+
+    far = ::foo;
+    far = foo;
+    far = ::flat;
+
+    ::bar = foo; //error, int not assignable to bool
+
+    bun = ::far; //error, cannot find far in global scope
+    foo = ::asdf; //error, cannot find asdf in global scope
+
+    ::foo = ::foo;
+
+    ::tight = ::flat; //error, float not assignable to int
+    ::flat = ::tight;
+
+    ::tight = greedy; //error, cannot assign float to int
+}

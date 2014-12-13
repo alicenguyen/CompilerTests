@@ -1,0 +1,40 @@
+int x = 42;
+int y = 0;
+bool b = true;
+bool c = false;
+function : void main() {
+    if(b) {
+        if(c) {
+            cout << c << endl;
+        }
+        if(b) {
+            if(y) {
+                cout << y << endl;
+            }
+            if(x) {
+                cout << x << endl;
+            }
+        }
+    }
+    if(c) {
+        cout << c << endl;
+    }
+    if(x) {
+        if(y) {
+            cout << y << endl;
+        }
+        if(x) {
+            if(c) {
+                cout << c << endl;
+            }
+            if(b) {
+                cout << b << endl;
+            }
+        }
+    }
+    if(y) {
+        cout << y << endl;
+    }
+    
+}
+

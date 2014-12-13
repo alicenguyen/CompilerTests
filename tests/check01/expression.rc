@@ -1,0 +1,25 @@
+int i;
+float f;
+bool b;
+
+function : void foo() {
+    int i;
+    float f;
+    bool b;
+
+    // all good
+    i = -i * +::i % 5 / 0x13 + 12 - -012;
+    ::i = +4 * -i / 12 + ::i;
+    f = i + 0x9001 % +::i / -012;
+    ::f = f + 0x9001 % +::i / -012;
+    b = (i & ::i | 0xFEED) <= ::i % i * ::f == ::b;
+    ::b = i < ::i != -::f <= 0x12 == (((i ^ -012) > +i) && (-i >= -::f));
+
+
+    // all bad, one error per line
+    i = 12 % i + -::f / 12 % ::i;// float % int
+    f = i % -::i + 12 && 0x14 <= b != ::i; // int <= bool
+    b = ((((!(((((((((((((false + true) - ::b) * b) / true) % f) < b) <= ::b) > true) >= false) == i) != false) || ::f) && -0x14)) & -::f) | b) ^ f); // bool + bool (AND ONLY THAT)
+    i = (!(false + (true - (::b * (b / (true % (f < (b <= (::b > (true >= (false == (i != (false || (::f && (-0x14 & (-::f | (b ^ f))))))))))))))))); // bool ^ float (AND ONLY THAT)
+    float f2 = -2.0 || i % (::i ^ -i) && (i * 0x1337 <= (::i & ::i % +i) * -f); // int && bool
+}

@@ -1,0 +1,9 @@
+Error, "tests/check11/hex.rc", line 4: 
+  Index value of 20 is outside legal range [0,20).
+Error, "tests/check11/hex.rc", line 7: 
+  Index value of 20 is outside legal range [0,20).
+Error, "tests/check11/hex.rc", line 9: 
+  Index value of 20 is outside legal range [0,20).
+Error, "tests/check11/hex.rc", line 12: 
+  Index value of -1 is outside legal range [0,20).
+Compile: failure.

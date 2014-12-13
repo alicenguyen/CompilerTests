@@ -1,0 +1,51 @@
+Error, "tests/check09/named_constants.rc", line 4: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "tests/check09/named_constants.rc", line 7: 
+  Initialization value of constant named tt not known at compile time.
+Error, "tests/check09/named_constants.rc", line 8: 
+  Initialization value of constant named zg not known at compile time.
+Error, "tests/check09/named_constants.rc", line 11: 
+  Initialization value of constant named low not known at compile time.
+Error, "tests/check09/named_constants.rc", line 13: 
+  Initialization value of type float not assignable to constant/variable of type bool.
+Error, "tests/check09/named_constants.rc", line 15: 
+  Initialization value of constant named tttt not known at compile time.
+Error, "tests/check09/named_constants.rc", line 16: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check09/named_constants.rc", line 18: 
+  Initialization value of constant named tim not known at compile time.
+Error, "tests/check09/named_constants.rc", line 19: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check09/named_constants.rc", line 21: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check09/named_constants.rc", line 22: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "tests/check09/named_constants.rc", line 25: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check09/named_constants.rc", line 26: 
+  Initialization value of type float not assignable to constant/variable of type bool.
+Error, "tests/check09/named_constants.rc", line 28: 
+  Arithmetic exception occurred during constant folding.
+Error, "tests/check09/named_constants.rc", line 29: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "tests/check09/named_constants.rc", line 36: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "tests/check09/named_constants.rc", line 44: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "tests/check09/named_constants.rc", line 46: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "tests/check09/named_constants.rc", line 47: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "tests/check09/named_constants.rc", line 49: 
+  Initialization value of constant named sdfff not known at compile time.
+Error, "tests/check09/named_constants.rc", line 50: 
+  Initialization value of constant named sdfsd not known at compile time.
+Error, "tests/check09/named_constants.rc", line 57: 
+  Exit expression (type float) is not assignable to int.
+Error, "tests/check09/named_constants.rc", line 58: 
+  Exit expression (type bool) is not assignable to int.
+Error, "tests/check09/named_constants.rc", line 61: 
+  Exit expression (type float) is not assignable to int.
+Error, "tests/check09/named_constants.rc", line 62: 
+  Exit expression (type float) is not assignable to int.
+Compile: failure.

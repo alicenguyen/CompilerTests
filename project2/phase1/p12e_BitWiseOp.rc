@@ -1,0 +1,24 @@
+function: void main()
+{
+    int a = 5;
+    int b = 6;
+    int c = 15;
+    int d = 22;
+    int e = 12;
+    int f = 4;
+    int g = 3;
+    int h = 2;
+    
+    cout << "Or: = 15?   " << c | e + 1 << endl;
+    cout << "Or const : = 11?   " << 8 | 3 << endl;
+    cout << "Or const : = 14847?   " << 8 | 3 | 5 | 11 | 22 |123 |12435 | 6456 << endl;
+    cout << "Or const : = 10011?   " << 10008 | 3 << endl;
+    cout << "Or: = 15353?   " <<  1000 * c | e * 200 + 1 << endl;
+
+    cout << "Xor: = 13305?   " <<  1000 * c ^ e * 200 + 1 << endl;
+    cout << "Xor const: = 801?   " <<  1000 ^ 200 + 1 << endl;
+    cout << "Or: = 15069?   " <<  1000 * c | e ^ 200 + 1 << endl;
+
+    // ---> 84 bytes
+
+}

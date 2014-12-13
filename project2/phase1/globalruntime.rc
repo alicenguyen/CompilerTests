@@ -1,0 +1,50 @@
+int a = 9;
+float e = 3.4;
+bool b = true;
+int n = 9;
+float c = 3.4 + 9 - 1;
+float d = (3.4+9-1) * 2;
+bool control = true;
+
+function : int foo()
+{
+  int t = 4;
+  return t;
+}
+function : int main()
+{
+  if(control)
+  {
+    int t = 9;
+    cout << "a = 9: " << a << endl;
+    cout << "b = true: " << b << endl;
+    cout << "c = 11.4: " << c << endl;
+    cout << "d = 22.8: " << d << endl;
+    cout << "e = 3.4: " << e << endl;
+    cout << "n = 9: " << n << endl;
+  }
+  else
+  {
+    cout << "a = 5: " << a << endl;
+    cout << "b = false: " << b << endl;
+    cout << "c = 2: " << c << endl;
+    cout << "d = 2.1: " << d << endl;
+    cout << "e = 8.9: " << e << endl;
+    cout << "n = 0: " << n << endl;
+  }
+
+  a = 5;
+  b = false;
+  cout << "b after assign false: " << b << endl;
+  c = 2;
+  d = 2.1;
+  e = 8.9;
+  n = 0;
+
+  if(control)
+  {
+    control = false;
+    main();
+  }
+  return 0;
+}

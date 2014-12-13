@@ -1,0 +1,76 @@
+typedef int[5] FIVE;
+typedef FIVE ELEVEN;
+typedef int[6] SIX;
+typedef bool[6] BOO;
+typedef BOO[6] UNLUCKY;
+
+function : FIVE foo(int a) {
+    FIVE b;
+    return b;
+}
+
+function : int bar(int a) {
+    int[a] b; //error since a not constant
+    int[5] c;
+    int x = 5;
+    const int y = 6;
+    FIVE t = c;
+    bool[x] bad; //x not constant
+    bool[y] good;
+    FIVE wrong = good; //type mismatch on assign
+    int[6] d;
+    FIVE wronger = d; //type mismatch
+    ELEVEN el = t;
+    ELEVEN ele = c;
+    ELEVEN elev = d; //fail
+    float[x] f; //fail
+    float[y] fl;
+    int[5 + 6 - a] wrongest; //fail
+    int[5 + 6 - y] correctest;
+    int[true] wth; //fail
+    float[2.0] close; //fail
+    return 1;
+}
+
+function : SIX baz(int[2] x) {
+    FIVE a;
+    BOO b;
+    SIX six;
+    int[6] yes;
+
+    if (false) {
+        return a; //wrong return type
+    }
+    int testme = false;
+    if (false) {
+        return b; //wrong return type
+    }
+    if (false) {
+        return six;
+    }
+    bool notme = 1;
+    return yes;
+}
+
+function : ELEVEN what(FIVE five) {
+    return five;
+}
+
+function : BOO multi() {
+    FIVE[3] f3;
+    ELEVEN[3] e3 = f3;
+    BOO[6] b6;
+    b6 = f3; //error
+    UNLUCKY fine = b6;
+    BOO[5] five;
+    UNLUCKY wrong = five; //error
+    BOO[6] good = fine;
+    BOO[7] bad = fine; //error
+    UNLUCKY ok = good;
+    return fine; //wrong
+    return five; //wrong
+    bool[6] boolike;
+    UNLUCK err = b6; //missing identifier
+    return boolike;
+}
+

@@ -1,0 +1,157 @@
+function : void bitwise() {
+    int i;
+    float f;
+    bool b;
+
+    //int and int, good
+    +i&i;
+    -i&+1;
+    +1&i;
+    1&-1;
+
+    +i|i;
+    -i|+1;
+    +1|i;
+    1|-1;
+
+    +i^i;
+    -i^+1;
+    +1^i;
+    1^-1;
+
+    //int and int, bad
+    //here I am using || false to ensure the type is printed as int
+    (+i&i) || false; // int invalid with ||
+    (-i&+1) || false; // int invalid with ||
+    (+1&i) || false; // int invalid with ||
+    (1&-1) || false; // int invalid with ||
+
+    (+i|i) || false; // int invalid with ||
+    (-i|+1) || false; // int invalid with ||
+    (+1|i) || false; // int invalid with ||
+    (1|-1) || false; // int invalid with ||
+
+    (+i^i) || false; // int invalid with ||
+    (-i^+1) || false; // int invalid with ||
+    (+1^i) || false; // int invalid with ||
+    (1^-1) || false; // int invalid with ||
+
+
+    //int and float, bad
+    +i&f; // float invalid with &
+    -i&+1.0; // float invalid with &
+    +1&f; // float invalid with &
+    1&-1.0; // float invalid with &
+
+    +i|f; // float invalid with |
+    -i|+1.0; // float invalid with |
+    +1|f; // float invalid with |
+    1|-1.0; // float invalid with |
+
+    +i^f; // float invalid with ^
+    -i^+1.0; // float invalid with ^
+    +1^f; // float invalid with ^
+    1^-1.0; // float invalid with ^
+
+
+    //float and int, bad
+    f&i; // float invalid with &
+    f&+1; // float invalid with &
+    1.0&i; // float invalid with &
+    1.0&-1; // float invalid with &
+
+    f|i; // float invalid with |
+    f|+1; // float invalid with |
+    1.0|i; // float invalid with |
+    1.0|-1; // float invalid with |
+
+    +f^i; // float invalid with ^
+    -f^+1; // float invalid with ^
+    +1.0^i; // float invalid with ^
+    1.0^-1; // float invalid with ^
+
+
+    //float and float, bad
+    +f&f; // float invalid with &
+    -f&+1.0; // float invalid with &
+    +1.0&f; // float invalid with &
+    1.0&-1.0; // float invalid with &
+
+    +f|f; // float invalid with |
+    -f|+1.0; // float invalid with |
+    +1.0|f; // float invalid with |
+    1.0|-1.0; // float invalid with |
+
+    +f^f; // float invalid with ^
+    -f^+1.0; // float invalid with ^
+    +1.0^f; // float invalid with ^
+    1.0^-1.0; // float invalid with ^
+
+
+    //int and bool, bad
+    +i&b; // bool invalid with &
+    -i&true; // bool invalid with &
+    +1&b; // bool invalid with &
+    1&false; // bool invalid with &
+
+    +i|b; // bool invalid with |
+    -i|true; // bool invalid with |
+    +1|b; // bool invalid with |
+    1|false; // bool invalid with |
+
+    +i^b; // bool invalid with ^
+    -i^true; // bool invalid with ^
+    +1^b; // bool invalid with ^
+    1^false; // bool invalid with ^
+
+
+    //bool and int, bad
+    b&i; // bool invalid with &
+    b&+1; // bool invalid with &
+    true&i; // bool invalid with &
+    false&-1; // bool invalid with &
+    
+    b|i; // bool invalid with |
+    b|+1; // bool invalid with |
+    true|i; // bool invalid with |
+    false|-1; // bool invalid with |
+
+    b^i; // bool invalid with ^
+    b^+1; // bool invalid with ^
+    true^i; // bool invalid with ^
+    false^-1; // bool invalid with ^
+
+
+    //mixed, should print the first one
+    b&f; // bool invalid with &
+    b&2.7;  // bool invalid with &
+    true&f; // bool invalid with &
+    false&2.7; // bool invalid with &
+
+    f&b; // float invalid with &
+    2.7&b; // float invalid with &
+    f&true; // float invalid with &
+    2.7&false; // float invalid with &
+   
+
+    b|f; // bool invalid with |
+    b|2.7;  // bool invalid with |
+    true|f; // bool invalid with |
+    false|2.7; // bool invalid with |
+
+    f|b; // float invalid with |
+    2.7|b; // float invalid with |
+    f|true; // float invalid with |
+    2.7|false; // float invalid with |
+   
+
+    b^f; // bool invalid with ^
+    b^2.7;  // bool invalid with ^
+    true^f; // bool invalid with ^
+    false^2.7; // bool invalid with ^
+
+    f^b; // float invalid with ^
+    2.7^b; // float invalid with ^
+    f^true; // float invalid with ^
+    2.7^false; // float invalid with ^
+}

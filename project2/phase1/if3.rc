@@ -1,0 +1,23 @@
+
+function : void main() {
+  int x = 0;
+  if (true) {
+    x = 1;
+    if (false) {
+        x = 2;
+    }
+    if (false) {
+        x = 3;
+        if (true) {
+            x = 4;
+        }
+    }
+    if (true) {
+        x = 5;
+        if (false) {
+            x = 6;
+        }
+    }
+  }
+  cout << x << endl;
+}

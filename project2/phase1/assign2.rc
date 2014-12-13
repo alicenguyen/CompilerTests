@@ -1,0 +1,8 @@
+int a = 2;
+function : void main() {
+    cout << a << endl;
+    float a = 3.0;
+    cout << a << endl;
+    float b = 2;
+    cout << b << endl;
+}

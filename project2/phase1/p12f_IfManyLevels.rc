@@ -1,0 +1,40 @@
+function: void main()
+{
+    int a = 5;
+    int b = 6;
+    int c = 15;
+    if(true)
+    {
+        cout << a + b * c << endl;
+        if(true)
+        {
+            cout << "GOOD ---- level 2" << endl;
+            if(true)
+            {
+                cout << "GOOD ---- level 3" << endl;
+
+                if(true)
+                {
+                    cout << "GOOD ---- level 4" << endl;
+
+                    if(true)
+                    {
+                        cout << "GOOD ---- level 5" << endl;
+                    }
+                }
+
+                if(false)
+                {
+                    cout << "NOOOOOOOOOOOOOO ---- FALSE 1" << endl;
+                }
+            }
+
+            cout << "GOOD ---- Still in level 2" << endl;
+            if(false)
+            {
+                cout << "NOOOOOOOOOOOOOO ---- Dont do anything here";
+            }
+        }
+    }
+
+}

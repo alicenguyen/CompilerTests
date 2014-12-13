@@ -1,0 +1,18 @@
+//Test size-of, constant folding (phase 1)
+
+function: int foo (int bar) {
+	return(5 * sizeof(bar));
+}
+
+function: void main() {
+	int a;
+	float b;
+	
+	a = sizeof(b) * 1;
+	
+	cout << "sizeof(float b) * 1 = " << a << endl; // 4
+	
+	cout << "1 + 4*5 + 7 = " << 1 + 4*5 + 7 << endl; //28
+	
+	cout << "foo(a) = " << foo(a) << endl; //20
+}

@@ -1,0 +1,26 @@
+typedef int[3] INT;
+typedef bool** BPP;
+typedef funcptr : INT & (BPP & b, BPP noref, INT arr, int & noarr) FUNCPTR;
+typedef funcptr : INT (BPP & b, BPP noref, INT arr, int & noarr) FUNCNOREF;
+typedef funcptr : INT & (BPP & b, BPP noref, INT & arr, int & noarr) FUNCMOREREF;
+
+FUNCPTR func1, func2;
+FUNCNOREF fnr;
+FUNCMOREREF fmr;
+
+function : INT actualfunc(BPP & b, BPP noref, INT arr, int & noarr) {
+    int[3] f;
+    return f;
+}
+
+
+function : void foo(FUNCPTR & fptr) {
+    fnr = fptr; //doesn't work because return by ref's don't match
+    fmr = fptr; //doesn't work because formal params by ref don't match
+    func1 = fptr; //good
+    funcptr : INT (BPP & c, FUNCPTR fptr, funcptr : INT & (int a, bool**[3] & b, FUNCPTR nestme) goodluck) nester = fptr; //output wrong formal params correctly
+    fnr = actualfunc; //good
+    func1 = actualfunc; //error, not return by ref
+    fmr = actualfunc; //error with formal params by ref
+    actualfunc = fnr; //error, can't assign declared function
+}

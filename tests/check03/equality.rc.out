@@ -1,0 +1,83 @@
+Error, "tests/check03/equality.rc", line 14: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 15: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 16: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 17: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 19: 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check03/equality.rc", line 22: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 23: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 24: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 25: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 29: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 30: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 31: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 32: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 36: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 37: 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check03/equality.rc", line 38: 
+  Incompatible types to operator: bool == float;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check03/equality.rc", line 39: 
+  Incompatible types to operator: float == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check03/equality.rc", line 45: 
+  Incompatible types to operator: bool == float;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check03/equality.rc", line 50: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 51: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 52: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 53: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 55: 
+  Incompatible types to operator: bool != int;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check03/equality.rc", line 58: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 59: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 60: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 61: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 65: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 66: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 67: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 68: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/equality.rc", line 72: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/equality.rc", line 73: 
+  Incompatible types to operator: bool != int;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check03/equality.rc", line 74: 
+  Incompatible types to operator: bool != float;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check03/equality.rc", line 75: 
+  Incompatible types to operator: float != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check03/equality.rc", line 81: 
+  Incompatible types to operator: bool != float;
+  both must be numeric, or both equivalent to bool.
+Compile: failure.

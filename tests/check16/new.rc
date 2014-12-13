@@ -1,0 +1,27 @@
+function : void main() {
+  int* x;
+  bool* y;
+  float* z;
+
+  int**** t1;
+
+  new x;
+  new y;
+  new z;
+  new t1;
+
+  new x;
+  new y;
+  new z;
+  new t1;
+
+  int a;
+  bool b;
+  float c;
+
+  new a; //error, can't new a non-pointer
+  new b; //error, can't new a non-pointer
+  new c; //error, can't new a non-pointer
+
+  new 5; //error can't new a non-pointer
+}

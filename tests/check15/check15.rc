@@ -1,0 +1,36 @@
+typedef float*************** F15, F15TOO;
+typedef float************** F14;
+typedef bool*[2] BP2;
+typedef BP2[2] BP22;
+typedef bool**[5] WHAT;
+typedef WHAT**[5] WHATWHAT;
+typedef WHATWHAT[5] HUH;
+typedef float[2] FA2;
+typedef FA2[3] FA2A3;
+
+FA2A3 fa2fa3;
+
+function : void foo(){
+    int* ip;
+    int** ipp;
+    bool*** bppp;
+    float************************************************** f50;
+    F15 f15 = *(*****(**(**f50[0][1])[25][50][0])[-1][0][0][0])[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0];
+    F15 f14 = *(******(**(**f50[0][1])[25][50][0])[-1][0][0][0])[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0]; //14-pointer to float not assignable to 15-pointer of float
+
+    F15[5] farr;
+    foreach (F15 iter : farr) {
+        F14[5] x;
+        iter = f15;
+        f15 = iter;
+        iter = x;
+        *x = *iter[0]; //can't dereference arrays like this
+        *(x + 0) = *iter[0]; //can't add ints and arrays
+        iter = iter + 0; //can't add ints and pointers
+        iter = iter++;
+        iter = ++iter--; //error, not a modifiable lval
+
+        float **fpp = fa2fa3; // error, base types not equivalent
+        FA2 *fa2p = fa2fa3;
+    }
+}

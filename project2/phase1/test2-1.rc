@@ -1,0 +1,13 @@
+//Testing arithmetic, add
+
+int a = 5;
+
+function: void main() {
+
+int b = 2;
+
+b = a+b;
+
+cout << b << endl;
+
+}

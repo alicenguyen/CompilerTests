@@ -1,0 +1,95 @@
+structdef S1 {
+    int x;
+    float y;
+    bool z;
+
+    int[666] git, [100]tam;
+
+    function : void foo() {}
+    function : int & far() {
+        int x;
+        return x;
+    }
+    function : int & feb(float f) {
+        int y;
+        return y;
+    }
+
+    function : int & fab(int f) {
+        int y;
+        return y;
+    }
+};
+
+S1 s1;
+
+typedef S1 S2;
+
+structdef S3 {
+    S1 s1;
+    S2 s2;
+};
+
+function : void test() {
+    s1.x;
+    s1.y;
+    s1.z;
+    s1.foo;
+    s1.foo();
+
+    int x = s1.x;
+    int y;
+    bool z = s1.z;
+
+    s1.ttt; //error, field not found
+    s1.bbb; //error, field not found
+    s1.zz(); //error, zz field not found
+
+    s1.x = s1.x;
+    s1.z = true;
+    s1.git[1];
+    s1.tam[-1]; //error, index not 0 or greater
+
+    S2 s2;
+    s2.x;
+    s2.y;
+    s2.z;
+    s2.foo;
+    s2.foo();
+
+    x = s2.x;
+    y = s2.y; //error, float not assignable to int
+    z = s2.z;
+
+    s2.ttt; //error, dne
+    s2.bbb; //error, dne
+    s2.zz(); //error, dne
+
+
+    s2.feb(s2.feb(3.3));
+    s2.fab(3.4); //error, float not assignable to int
+    s2.x = s2.x;
+    s2.z = false;
+
+    S3 s3;
+    s3.s1;
+    s3.s1.x = x;
+    s3.s1.z = z;
+    s3.s1.foo;
+    s3.s1.foo();
+    x = s3.s1.x;
+    y = s3.s1.y; //error, float not assignable to in
+    z = s3.s1.z;
+
+    s3.s2;
+    s3.s2.x = x;
+    s3.s2.z = z;
+    s3.s2.foo;
+    s3.s2.foo();
+    x = s3.s2.x;
+    y = s3.s2.y; //error, float not assignable to int
+    z = s3.s2.z;
+
+    s3.s1.far() = 4.4; //float not assignable to int;
+    s3.s2.far() = 2;
+}

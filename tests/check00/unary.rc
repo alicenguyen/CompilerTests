@@ -1,0 +1,6 @@
+function : void foo() {
+    int x = -1;
+    int p = +1234;
+    float f = +3.14;
+    float n = -2.7;
+}

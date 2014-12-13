@@ -1,0 +1,34 @@
+int i1;
+bool b1;
+float f1;
+
+int i2Val5 = 5;
+bool bTrue = true;
+bool bFalse = false;
+float f2 = 1.23810294;
+int i3Isi2Val5 = 5;
+
+function: void main()
+{
+    bool b7;
+    bool b5 = true;
+    bool b6 = false;
+    float f3 = 12414.12;
+    int i2 = 1000000;
+
+    cout << "Global f1 = 0: " << f1 << endl;
+    cout << "Global f2 = 1.24: " << f2 << endl;
+    cout << "Local f3 = 12414.12: " << f3 << endl;
+
+    cout << "Local i2 = 1000000: " << i2 << endl;
+    cout << "Local i2Val5 = 5: " << i2Val5 << endl;
+    cout << "Local i3Isi2Val5 = 5: " << i3Isi2Val5 << endl;
+
+    cout << "Local b5 = true? " << b5 << endl;
+    cout << "Local b6 = false? " << b6 << endl;
+    cout << "Local b7 = false/true? " << b7 << endl;
+
+    cout << "Global bTrue = true?   " << bTrue << endl;
+    cout << "Global bFlase = false? " << bFalse << endl;
+    cout << "Global b1 = false? " << b1 << endl;
+}

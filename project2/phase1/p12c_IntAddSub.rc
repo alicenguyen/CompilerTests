@@ -1,0 +1,25 @@
+function: void main()
+{
+    int a = 5;
+    int b = 6;
+    int c = 15;
+    int d = 22;
+    int e = 12;
+    int f = 4;
+    int g = 3;
+    int h = 2;
+    
+    cout << "Add: 11?  " <<  a + b << endl;  // 1x4  
+    cout << "Sub: -16?  " << b - d << endl;   // 1x4
+    cout << "Complicated Add + Sub: =22? " << 
+                a + b - c + a - d + b + d + c << endl;  // +22
+
+    // up to here : total local + temp = 8x4 + (2x4 + 7x4) = 68
+
+    cout << "Testing im# + reg: =9? : " << 4 + a << endl;
+    cout << "Testing reg + im#: =18? : " << c + 3 << endl;
+    cout << "Testing complicated reg + im# + reg + im# ... : =76? : " << c + 3 + d + 5 + 6 + 7 + e + h + 4<< endl;
+    // up to here : 108 bytes
+
+                // - d - g + h - f - e + h + e + e - a<< endl;    //
+}

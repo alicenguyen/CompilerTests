@@ -1,0 +1,54 @@
+typedef float[10000] TOO;
+typedef bool[-11] TAR; //error, index not greater than 0
+typedef int[0] BB; //error, index not greater than 0
+
+const int far = 0;
+typedef float[far] BOO; //error, index not greater than 0
+
+float meb = 1.33;
+typedef int[meb] JIT; //error, index not equiv to int
+
+bool barr = false;
+typedef bool[barr] TARF; //error, index not equiv to int
+
+const bool hig = true;
+typedef float[hig] GHI; //error, index not equiv to int
+
+typedef float JIM;
+typedef JIM[-1] HH; //error, index not greater than 0
+typedef JIM[far] HK; //error, index not greater than 0
+typedef JIM[barr] HLL; //error, index not equiv to int
+typedef JIM[hig] SDAF; //error, index not equiv to int
+
+const float fff = 1;
+const int fay = 10;
+int ui = 0;
+typedef JIM[fff] GSD; //error, index not equiv to int
+
+int[0] as; //error, index not greater than 0
+int[-1] am; //error, index not greater than 0
+int[1] ab;
+int[fff] asdf; //error, index not equiv to int
+int[fay] jaur;
+int[ui] uqq; //error, index not known
+
+float[0] ar; //error, index not greater than 0
+float[-1] az; //error, index not greater than 0
+float[1] aq;
+float[fff] gggsd; //error, index not equiv to int
+float[fay] sadfz;
+float[ui] hji; //error, index not known
+
+bool[0] att; //error, index not greater than 0
+bool[-1] azr; //error, index not greater than 0
+bool[1] aqy;
+bool[fff] yyw; //error, index not equiv to int
+bool[fay] bbn;
+bool[ui] bmaa; //error, index not known
+
+TOO[100000] tami;
+TOO[far] tahi; //error, index not greater than 0
+TOO[hig] ghit; //error, index not equiv to int
+TOO[-1] gsdg; //error, index not greater than 0
+int gut = 1;
+TOO[gut] hhhu; //error, index not known

@@ -1,0 +1,44 @@
+function: void main()
+{
+    int a = 5;
+    int b = 6;
+    int c = 15;
+    int d = 22;
+    int e = 12;
+    int f = 4;
+    int g = 3;
+    int h = 2;
+    
+    cout << "Mul: =30?  " << a * b << endl;  // 1x4  
+    cout << "Mul: reg * im#   = 96?  " << (48 * h) << endl;   // 1x4
+    cout << "Mul: im# * reg    = 36?  " << b * 6 << endl;   // 1x4
+    cout << "Mul: const     = 180?  " << 45 * 4 << endl;    // 1x4
+    cout << "Mul complicated: = 32?  " << 2 * b - 3 * 6 + 19 *h << endl;   // 1x4
+
+    cout << "Div: =0?  " << b / d << endl;   // 1x4
+    cout << "Div: =7333?  " << d * 2000 / b << endl;   // 1x4
+    cout << "Div: =3?  " << d / b << endl;   // 1x4
+    cout << "Div: im# / reg    = 8?  " << 48 / b << endl;   // 1x4
+    cout << "Div: reg / im#    = 5?  " << c / 3 << endl;   // 1x4
+    cout << "Div: = 6?  " << (c + 4) / 3 << endl;   // 1x4
+    cout << "Div: = 16?  " << c + 4 / 3 << endl;   // 1x4
+    cout << "Div: =12?  " << e / 1 << endl;   // 1x4
+
+    cout << "Mod: = 12?   " << e % 13 << endl; // 1x4
+    cout << "Mod: = 28?   " << a + b + c + d % 4 << endl; //1x4
+    cout << "Mod: = 7?   " << 33 % 13 << endl;   // 1x4
+    cout << "Mod: = 89?   " << b + c * 3 + d * 2 - e * 3 %10 << endl;
+
+    // 31
+
+    cout << "And const: = 0?   " << 8 & 0 << endl;
+    cout << "And: = 6?   " << b & c << endl;
+    cout << "And: = 4?   " << a & b & c & d & e << endl;
+    cout << "And: = 3?   " << c & (h + 1) << endl;
+    cout << "And: = 13?   " << c & e + 1 << endl;
+
+    // temp = 42x4 = 168 - 20 (of const folding) = 148 bytes
+    // local = 8x4 = 32 bytes
+    // ---> 200 bytes
+
+}

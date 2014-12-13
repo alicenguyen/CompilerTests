@@ -1,0 +1,44 @@
+const int c1 = 100;
+const int c2 = c1 + 50;
+const int c3 = c1 + c2;
+const float c4 = c3 + 0.5;
+
+
+int crap;
+int a = 5;
+int b = 5 + 1;
+int c = 5 + (5+1);
+float d = (5+ ( 5+1)) + 0.5;
+int e1;
+float f1 = 100 + ((5+ (5+1)) + 0.5);
+float g1 = (100 + ((5+(5+1)) + 0.5)) * 3;
+bool b1;
+
+
+function: void main()
+{
+    int e = 12;
+    int f = 1232;
+    bool blah;
+
+    cout << "a = 5 ?  "<< a << endl;
+    cout << "b = 6 ?  "<< b << endl;
+    cout << "c = 11 ?  "<< c << endl;
+    cout << "d = 11.5 ?  "<< d << endl;
+    cout << "e1 = 0 ?  "<< e1 << endl;
+    cout << "f1 = 111.5 ?  "<< f1 << endl;
+    cout << "g1 = 334.5 ?  " << g1 << endl;
+
+    cout << "b1 = false ?  "<< b1 << endl;
+    
+    cout << "c1 = 100 ?  " << c1 << endl;
+    cout << "c2 = 150 ?  " << c2 << endl;
+    cout << "c3 = 250 ?  " << c3 << endl;
+    cout << "c4 = 250.5 ?  " << c4 << endl;
+
+    cout << "e = 12 ?  " << e << endl;
+    cout << "f = 1232 ?  " << f << endl;
+
+}
+
+//float e = d + 1.00;

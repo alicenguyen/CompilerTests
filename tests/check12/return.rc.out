@@ -1,0 +1,5 @@
+Error, "tests/check12/return.rc", line 6: 
+  Return required in function, none found.
+Error, "tests/check12/return.rc", line 40: 
+  Return required in function, none found.
+Compile: failure.

@@ -1,0 +1,3 @@
+sizeof(float b) * 1 = 4
+1 + 4*5 + 7 = 28
+foo(a) = 20

@@ -1,0 +1,169 @@
+Error, "tests/check03/comparison.rc", line 14: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 15: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 16: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 17: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 19: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check03/comparison.rc", line 22: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 23: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 24: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 25: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 27: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check03/comparison.rc", line 30: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 31: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 32: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 33: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 35: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check03/comparison.rc", line 38: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check03/comparison.rc", line 39: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check03/comparison.rc", line 40: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check03/comparison.rc", line 41: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check03/comparison.rc", line 42: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check03/comparison.rc", line 43: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "tests/check03/comparison.rc", line 48: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 49: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 50: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 51: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 53: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check03/comparison.rc", line 56: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 57: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 58: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 59: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 61: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check03/comparison.rc", line 64: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 65: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 66: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 67: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 69: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check03/comparison.rc", line 72: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check03/comparison.rc", line 73: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check03/comparison.rc", line 74: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check03/comparison.rc", line 75: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check03/comparison.rc", line 76: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check03/comparison.rc", line 77: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "tests/check03/comparison.rc", line 83: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 84: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 85: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 86: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 88: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check03/comparison.rc", line 91: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 92: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 93: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 94: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 96: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check03/comparison.rc", line 99: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 100: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 101: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 102: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 104: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check03/comparison.rc", line 107: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check03/comparison.rc", line 108: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check03/comparison.rc", line 109: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check03/comparison.rc", line 110: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check03/comparison.rc", line 111: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check03/comparison.rc", line 112: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "tests/check03/comparison.rc", line 118: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 119: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 120: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 121: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 123: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check03/comparison.rc", line 126: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 127: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 128: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 129: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 131: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check03/comparison.rc", line 134: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 135: 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check03/comparison.rc", line 136: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 137: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check03/comparison.rc", line 139: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check03/comparison.rc", line 142: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check03/comparison.rc", line 143: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check03/comparison.rc", line 144: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check03/comparison.rc", line 145: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check03/comparison.rc", line 146: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "tests/check03/comparison.rc", line 147: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Compile: failure.

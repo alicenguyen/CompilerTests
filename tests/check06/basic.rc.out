@@ -1,0 +1,17 @@
+Error, "tests/check06/basic.rc", line 2: 
+  Return required in function, none found.
+Error, "tests/check06/basic.rc", line 9: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "tests/check06/basic.rc", line 13: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "tests/check06/basic.rc", line 21: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "tests/check06/basic.rc", line 31: 
+  Return required in function, none found.
+Error, "tests/check06/basic.rc", line 40: 
+  Return required in function, none found.
+Error, "tests/check06/basic.rc", line 58: 
+  Type of return expression (bool), not assignment compatible with function's return type (float).
+Error, "tests/check06/basic.rc", line 66: 
+  Return required in function, none found.
+Compile: failure.

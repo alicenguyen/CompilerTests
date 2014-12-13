@@ -1,0 +1,13 @@
+Error, "tests/check03/modulo.rc", line 17: 
+  Value of type int not assignable to variable of type bool.
+Error, "tests/check03/modulo.rc", line 19: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check03/modulo.rc", line 20: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check03/modulo.rc", line 21: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "tests/check03/modulo.rc", line 22: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "tests/check03/modulo.rc", line 23: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Compile: failure.

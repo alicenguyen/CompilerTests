@@ -1,0 +1,9 @@
+
+function: void main()
+{
+    float f1 = 0.5;
+    int i1 = 1;
+
+    cout << "f1 : " << f1 << endl;
+    cout << "i1 : " << i1 << endl;
+}

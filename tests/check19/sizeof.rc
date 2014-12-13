@@ -1,0 +1,164 @@
+int too;
+float foo;
+bool boo;
+
+int* too1;
+float* foo1;
+bool* boo1;
+
+int****************** too2;
+float**************** foo2;
+bool***************** boo2;
+
+const int ctoo = 1;
+const float cfoo = 2.9;
+const bool cboo = false;
+
+typedef int T_TOO;
+typedef T_TOO T_T_TOO;
+typedef float* T_FOO;
+typedef T_FOO T_T_FOO;
+typedef bool********** T_BOO;
+typedef T_BOO T_T_BOO;
+
+int******[5] ffa;
+typedef float[10] FL;
+FL*** ffb;
+
+structdef S1 {
+    int too;
+    float foo;
+    bool boo;
+
+    function : void ted(float v, bool* f) {}
+    function : int trd(int**** vv) {
+        int vvvvv;
+        return vvvvv;
+    }
+};
+
+typedef S1 S2;
+
+structdef S3 {
+    S1[10] lar;
+    S2*[5] jar;
+    float***** star;
+};
+
+structdef S4 {
+    S1 s1;
+    S2 s2;
+    S3 s3;
+    S4* s4;
+    S4*[10] s5;
+};
+
+function : int tttt() {
+    return 1;
+}
+
+function : void test() {
+    int[1] t;
+
+    t[sizeof(234)]; //error, not addressable
+    t[sizeof((4 + 8 - 7 * 10))]; //error, not addressable
+    t[sizeof((too + too))]; //error, not addressable
+
+    t[sizeof(too)]; //error, 4
+    t[sizeof(foo)]; //error, 4
+    t[sizeof(boo)]; //error, 4
+    t[sizeof(too1)]; //error, 4
+    t[sizeof(foo1)]; //error, 4
+    t[sizeof(boo1)]; //error, 4
+    t[sizeof(too2)]; //error, 4
+    t[sizeof(foo2)]; //error, 4
+    t[sizeof(boo2)]; //error, 4
+
+    t[sizeof(ctoo)]; //error, 4
+    t[sizeof(cfoo)]; //error, 4
+    t[sizeof(cboo)]; //error, 4
+
+    t[sizeof(T_TOO)]; //error, 4
+    t[sizeof(T_T_TOO)]; //error, 4
+    t[sizeof(T_FOO)]; //error, 4
+    t[sizeof(T_T_FOO)]; //error, 4
+    t[sizeof(T_BOO)]; //error, 4
+    t[sizeof(T_T_BOO)]; //error, 4
+
+    t[sizeof(ffa)]; //error, 20
+    t[sizeof(FL)]; //error, 40
+    t[sizeof(ffb)]; //error, 4
+
+    t[sizeof(S1)]; //error, 12
+    t[sizeof(S2)]; //error, 12
+    t[sizeof(S3)]; //error, 144
+
+    S1 s1;
+    t[sizeof(s1.too)]; //error, 4
+    t[sizeof(s1.foo)]; //error, 4
+    t[sizeof(s1.boo)]; //error, 4
+
+    t[sizeof(s1.ted)]; //error, not addressable
+    t[sizeof(s1.trd)]; //error, not addressable
+
+    S2 s2;
+    t[sizeof(s2.too)]; //error, 4
+    t[sizeof(s2.foo)]; //error, 4
+    t[sizeof(s2.boo)]; //error, 4
+
+    t[sizeof(s2.ted)]; //error, not addressable
+    t[sizeof(s2.trd)]; //error, not addressable
+
+    S3 s3;
+
+    t[sizeof(s3.lar)]; //error, 120
+    t[sizeof(s3.jar)]; //error, 20
+    t[sizeof(s3.star)]; //error, 4
+
+    t[sizeof(S1*)]; //error, 4
+    t[sizeof(S2*)]; //error, 4
+    t[sizeof(S3*)]; //error, 4
+
+
+    S1* s1p;
+    t[sizeof(s1p->too)]; //error, 4
+    t[sizeof(s1p->foo)]; //error, 4
+    t[sizeof(s1p->boo)]; //error, 4
+
+    t[sizeof(s1p->ted)]; //error, not addressable
+    t[sizeof(s1p->trd)]; //error, not addressable
+
+    S2* s2p;
+    t[sizeof(s2p->too)]; //error, 4
+    t[sizeof(s2p->foo)]; //error, 4
+    t[sizeof(s2p->boo)]; //error, 4
+
+    t[sizeof(s2p->ted)]; //error, not addressable
+    t[sizeof(s2p->trd)]; //error, not addressable
+
+    S3* s3p;
+
+    t[sizeof(s3p->lar)]; //error, 120
+    t[sizeof(s3p->jar)]; //error, 20
+    t[sizeof(s3p->star)]; //error, 4
+
+    S4 s4;
+    t[sizeof(s4.s1)]; //error, 12
+    t[sizeof(s4.s2)]; //error, 12
+    t[sizeof(s4.s3)]; //error, 144
+    t[sizeof(s4.s4)]; //error, 4
+    t[sizeof(s4.s5)]; //error, 40
+    t[sizeof(s4.s6)]; //error, field not found
+
+    //types
+    t[sizeof(int)]; //error, 4
+    t[sizeof(float)]; //error, 4
+    t[sizeof(bool)]; //error, 4
+    t[sizeof(nullptr)]; //error, not addressable
+    t[sizeof(int***)]; //error, 4
+    t[sizeof(float**********)]; //error, 4
+    t[sizeof(bool*****)]; //error, 4
+
+    t[sizeof(test)]; //error, not addressable
+    t[sizeof(tttt)]; //error, not addressable
+}

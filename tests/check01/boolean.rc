@@ -1,0 +1,83 @@
+function : void bools() {
+    int i;
+    float f;
+    bool b;
+
+    //bool and bool, good
+    b&&b;
+    b&&true;
+    false&&b;
+    true&&false;
+
+    b||b;
+    b||true;
+    false||b;
+    true||false;
+
+    !b;
+    !!b;
+    !true;
+    !false;
+    
+    //bool and bool, bad
+    //here I use + 1 to ensure the type is printed as bool
+    (b&&b) + 1; //bool invalid with +
+    (b&&true) + 1; //bool invalid with +
+    (false&&b) + 1; //bool invalid with +
+    (true&&false) + 1; //bool invalid with +
+
+    (b||b) + 1; //bool invalid with +
+    (b||true) + 1; //bool invalid with +
+    (false||b) + 1; //bool invalid with +
+    (true||false) + 1; //bool invalid with +
+
+    (!b) + 1; //bool invalid with +
+    (!!b) + 1; //bool invalid with +
+    (!true) + 1; //bool invalid with +
+    (!false) + 1; //bool invalid with +
+
+
+    //bool and numeric, bad
+    b&&i; //bool and numeric invalid with &&
+    b&&2.7; //bool and numeric invalid with &&
+    false&&-0x12; //bool and numeric invalid with &&
+    true&&f; //bool and numeric invalid with &&
+
+    b||i; //bool and numeric invalid with ||
+    b||2.7; //bool and numeric invalid with ||
+    false||-0x12; //bool and numeric invalid with ||
+    true||f; //bool and numeric invalid with ||
+
+    
+    //numeric and bool, bad
+    i&&b; // numeric and bool invalid with &&
+    +2.7&&true; // numeric and bool invalid with &&
+    +012&&b; // numeric and bool invalid with &&
+    -f&&false; // numeric and bool invalid with &&
+
+    i||b; // numeric and bool invalid with ||
+    +2.7||true; // numeric and bool invalid with ||
+    +012||b; // numeric and bool invalid with ||
+    -f||false; // numeric and bool invalid with ||
+
+
+    //numeric and numeric, bad
+    i&&f; // numeric and numeric invalid with &&
+    +2.7&&-i; // numeric and numeric invalid with &&
+    +012&&f; // numeric and numeric invalid with &&
+    -f&&0x12FA; // numeric and numeric invalid with &&
+
+    i||f; // numeric and numeric invalid with ||
+    +2.7||-1; // numeric and numeric invalid with ||
+    +012||+f; // numeric and numeric invalid with ||
+    -f||-0127; // numeric and numeric invalid with ||
+
+    
+    //numeric, bad
+    !-i; // numeric invalid with !
+    !+f; // numeric invalid with !
+    !+0x123F; // numeric invalid with !
+    !01276; // numeric invalid with !
+    !-16; // numeric invalid with !
+    !3.14; // numeric invalid with !
+}

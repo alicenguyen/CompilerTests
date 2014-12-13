@@ -1,0 +1,201 @@
+//in this check I use && to explicitly cause an error
+//so we print the type name
+function : void foo() {
+    int i;
+    float f;
+    bool b;
+
+    //ints and ints: good
+    i+i;
+    i+3;
+    3+i;
+    3+3;
+
+    i-i;
+    i-3;
+    3-i;
+    3-3;
+    
+    i*i;
+    i*3;
+    3*i;
+    3*3;
+    
+    i/i;
+    i/3;
+    3/i;
+    3/3;
+
+    //ints and ints: bad
+    (i+i) && true;   //error, int to &&
+    (i+3) && true;   //error, int to &&
+    (3+i) && false;  //error, int to &&
+    (3+3) && true;   //error, int to &&
+
+    (i-i) && true;   //error, int to &&
+    (i-3) && false;  //error, int to &&
+    (3-i) && true;   //error, int to &&
+    (3-3) && true;   //error, int to &&
+
+    (i*i) && true;   //error, int to &&
+    (i*3) && b;      //error, int to &&
+    (3*i) && true;   //error, int to &&
+    (3*3) && true;   //error, int to &&
+
+    (i/i) && true;   //error, int to &&
+    (i/3) && false;  //error, int to &&
+    (3/i) && b;      //error, int to &&
+    (3/3) && true;   //error, int to &&
+
+
+    //ints and floats: good
+    i+f;
+    i+3.0;
+    3+f;
+    3+3.0;
+
+    i-f;
+    i-3.0;
+    3-f;
+    3-3.0;
+    
+    i*f;
+    i*3.0;
+    3*f;
+    3*3.0;
+    
+    i/f;
+    i/3.0;
+    3/f;
+    3/3.0;
+
+    //ints and floats: bad
+    (i+f) && true;  //error, float to &&
+    (i+3.0) && true;    //error, float to &&
+    (3+f) && true;  //error, float to &&
+    (3+3.0) && true;    //error, float to &&
+
+    (i-f) && true;  //error, float to &&
+    (i-3.0) && true;    //error, float to &&
+    (3-f) && true;  //error, float to &&
+    (3-3.0) && true;    //error, float to &&
+    
+    (i*f) && true;  //error, float to &&
+    (i*3.0) && true;    //error, float to &&
+    (3*f) && true;  //error, float to &&
+    (3*3.0) && true;    //error, float to &&
+    
+    (i/f) && true;  //error, float to &&
+    (i/3.0) && true;    //error, float to &&
+    (3/f) && true;  //error, float to &&
+    (3/3.0) && true;    //error, float to &&
+
+
+    //floats and ints: good
+    f+i;
+    f+3;
+    3.0+i;
+    3.0+3;
+
+    f-i;
+    f-3;
+    3.0-i;
+    3.0-3;
+    
+    f*i;
+    f*3;
+    3.0*i;
+    3.0*3;
+    
+    f/i;
+    f/3;
+    3.0/i;
+    3.0/3;
+
+    //floats and ints: bad
+    (f+i) && true;  //error, float to &&
+    (f+3) && true;  //error, float to &&
+    (3.0+i) && true;    //error, float to &&
+    (3.0+3) && true;    //error, float to &&
+
+    (f-i) && true;  //error, float to &&
+    (f-3) && true;  //error, float to &&
+    (3.0-i) && true;    //error, float to &&
+    (3.0-3) && true;    //error, float to &&
+    
+    (f*i) && true;  //error, float to &&
+    (f*3) && true;  //error, float to &&
+    (3.0*i) && true;    //error, float to &&
+    (3.0*3) && true;    //error, float to &&
+    
+    (f/i) && true;  //error, float to &&
+    (f/3) && true;  //error, float to &&
+    (3.0/i) && true;    //error, float to &&
+    (3.0/3) && true;    //error, float to &&
+
+
+    //floats and floats: good
+    f+f;
+    f+3.0;
+    3.0+f;
+    3.0+3.0;
+
+    f-f;
+    f-3.0;
+    3.0-f;
+    3.0-3.0;
+    
+    f*f;
+    f*3.0;
+    3.0*f;
+    3.0*3.0;
+    
+    f/f;
+    f/3.0;
+    3.0/f;
+    3.0/3.0;
+
+    //floats and floats: bad
+    (f+f) && true;  //error, float to &&
+    (f+3.0) && true;    //error, float to &&
+    (3.0+f) && true;    //error, float to &&
+    (3.0+3.0) && true;  //error, float to &&
+
+    (f-f) && true;  //error, float to &&
+    (f-3.0) && true;    //error, float to &&
+    (3.0-f) && true;    //error, float to &&
+    (3.0-3.0) && true;  //error, float to &&
+    
+    (f*f) && true;  //error, float to &&
+    (f*3.0) && true;    //error, float to &&
+    (3.0*f) && true;    //error, float to &&
+    (3.0*3.0) && true;  //error, float to &&
+    
+    (f/f) && true;  //error, float to &&
+    (f/3.0) && true;    //error, float to &&
+    (3.0/f) && true;    //error, float to &&
+    (3.0/3.0) && true;  //error, float to &&
+
+
+    //bools: bad
+    b+f;            //error, bool to +
+    f+true;         //error, bool to +
+    3+b;            //error, bool to +
+    true+false;     //error, bool to +
+
+    b-f;            //error, bool to -
+    f-true;         //error, bool to -
+    3-b;            //error, bool to -
+    true-false;     //error, bool to -
+
+    b*f;            //error, bool to *
+    f*true;         //error, bool to *
+    3*b;            //error, bool to *
+    true*false;     //error, bool to *
+
+    b/f;            //error, bool to /
+    f/true;         //error, bool to /
+    3/b;            //error, bool to /
+    true/false;     //error, bool to /
+
+}

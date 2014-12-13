@@ -1,0 +1,21 @@
+Error, "tests/check17/check17.rc", line 18: 
+  Incompatible types to operator ==:
+    int*,
+    int;
+  both must be of equivalent pointer type.
+Error, "tests/check17/check17.rc", line 21: 
+  Incompatible types to operator ==:
+    int,
+    int*;
+  both must be of equivalent pointer type.
+Error, "tests/check17/check17.rc", line 24: 
+  Incompatible types to operator ==:
+    bool,
+    int*;
+  both must be of equivalent pointer type.
+Error, "tests/check17/check17.rc", line 32: 
+  Incompatible types to operator ==:
+    BAR,
+    int*;
+  both must be of equivalent pointer type.
+Compile: failure.

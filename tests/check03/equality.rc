@@ -1,0 +1,82 @@
+function : void far() {
+    int foo;
+    int too;
+    float bar;
+    float tar;
+    bool jo;
+    bool bo;
+
+    int res1;
+    float res2;
+    bool res3;
+
+    //int == int
+    res1 = foo == too; //error, bool not assignable to int
+    res1 = foo == foo; //error, bool not assignable to int
+    res2 = foo == too; //error, bool not assignable to float
+    res2 = too == too; //error, bool not assignable to float
+    res3 = foo == too;
+    res3 = foo == too == foo == foo; //operands must be same type
+
+    //int == float
+    res1 = foo == bar; //error, bool not assignable to int
+    res1 = too == tar; //error, bool not assignable to int
+    res2 = tar == foo; //error, bool not assignable to float
+    res2 = too == bar; //error, bool not assignable to float
+    res3 = tar == foo;
+
+    //float == float
+    res1 = tar == bar; //error, bool not assignable to int
+    res1 = bar == bar; //error, bool not assignable to int
+    res2 = tar == tar; //error, bool not assignable to float
+    res2 = bar == tar; //error, bool not assignable to float
+    res3 = bar == bar;
+
+    //(int | float | bool) == bool
+    res1 = jo == bo; //error, bool not assignable to int
+    res1 = jo == foo; //error, operands must be same type
+    res2 = bo == tar; //error, operands must be same type
+    res2 = bar == jo; //error, operands must be same type
+    res3 = bo == jo;
+    res3 = bo == jo == bo == bo == jo;
+    res3 = bar == foo == bo == bo;
+    res3 = tar == tar == jo;
+    res3 = foo == too == bo == jo;
+    res3 = jo == tar == bar == bo; //error, operands must be same type
+
+
+
+    //int != int
+    res1 = foo != too; //error, bool not assignable to int
+    res1 = foo != foo; //error, bool not assignable to int
+    res2 = foo != too; //error, bool not assignable to float
+    res2 = too != too; //error, bool not assignable to float
+    res3 = foo != too;
+    res3 = foo != too != foo != foo; //operands must be same type
+
+    //int != float
+    res1 = foo != bar; //error, bool not assignable to int
+    res1 = too != tar; //error, bool not assignable to int
+    res2 = tar != foo; //error, bool not assignable to float
+    res2 = too != bar; //error, bool not assignable to float
+    res3 = tar != foo;
+
+    //float != float
+    res1 = tar != bar; //error, bool not assignable to int
+    res1 = bar != bar; //error, bool not assignable to int
+    res2 = tar != tar; //error, bool not assignable to float
+    res2 = bar != tar; //error, bool not assignable to float
+    res3 = bar != bar;
+
+    //(int | float | bool) != bool
+    res1 = jo != bo; //error, bool not assignable to int
+    res1 = jo != foo; //error, operands must be same type
+    res2 = bo != tar; //error, operands must be same type
+    res2 = bar != jo; //error, operands must be same type
+    res3 = bo != jo;
+    res3 = bo != jo != bo != bo != jo;
+    res3 = bar != foo != bo != bo;
+    res3 = tar != tar != jo;
+    res3 = foo != too != bo != jo;
+    res3 = jo != tar != bar != bo; //error, operands must be same type
+}

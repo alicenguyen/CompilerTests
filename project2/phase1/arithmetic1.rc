@@ -1,0 +1,23 @@
+int x = 1;
+float y = 1.0;
+int z = 1;
+function : void main() {
+  //All math is with 1's, so you can do it in your head. 
+  cout << x + y << endl; //1 + 1 = 2
+  cout << y + x << endl;
+  cout << x - y << endl;
+  cout << y - x << endl;
+  cout << x * y << endl;
+  cout << y * x << endl;
+  cout << x / y << endl;
+  cout << y / x << endl;
+  cout << x % z << endl;
+  
+  cout << x * y + z << endl;
+  cout << x + z * y << endl;
+  cout << (x + z) * y << endl;
+  cout << x * z + y << endl;
+  
+  cout << (z / x) | (x * z) << endl;
+  cout << (x * z) & (z / x) << endl;
+}

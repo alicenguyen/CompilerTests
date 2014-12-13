@@ -1,0 +1,144 @@
+function : void equality() {
+    int i;
+    float f;
+    bool b;
+
+    //int and int, good
+    i==i;
+    i==1;
+    1==i;
+    1==1;
+
+    i!=i;
+    i!=1;
+    1!=i;
+    1!=1;
+
+    //int and int, bad
+    //here I will be using + 1 to check that the resulting type says bool
+    (i==i) + 1; //bool invalid with +
+    (i==1) + 1; //bool invalid with +
+    (1==i) + 1; //bool invalid with +
+    (1==1) + 1; //bool invalid with +
+
+    (i!=i) + 1; //bool invalid with +
+    (i!=1) + 1; //bool invalid with +
+    (1!=i) + 1; //bool invalid with +
+    (1!=1) + 1; //bool invalid with +
+
+    
+    //int and float, good
+    i==f;
+    i==1.0;
+    1==f;
+    1==1.0;
+
+    i!=f;
+    i!=1.0;
+    1!=f;
+    1!=1.0;
+
+    //int and float, bad
+    (i==f) + 1; //bool invalid with +
+    (i==1.0) + 1; //bool invalid with +
+    (1==f) + 1; //bool invalid with +
+    (1==1.0) + 1; //bool invalid with +
+
+    (i!=f) + 1; //bool invalid with +
+    (i!=1.0) + 1; //bool invalid with +
+    (1!=f) + 1; //bool invalid with +
+    (1!=1.0) + 1; //bool invalid with +
+
+
+    //float and int, good
+    f==i;
+    f==1;
+    1.0==i;
+    1.0==1;
+
+    f!=i;
+    f!=1;
+    1.0!=i;
+    1.0!=1;
+
+    //float and int, bad
+    (f==i) + 1; //bool invalid with +
+    (f==1) + 1; //bool invalid with +
+    (1.0==i) + 1; //bool invalid with +
+    (1.0==1) + 1; //bool invalid with +
+
+    (f!=i) + 1; //bool invalid with +
+    (f!=1) + 1; //bool invalid with +
+    (1.0!=i) + 1; //bool invalid with +
+    (1.0!=1) + 1; //bool invalid with +
+
+
+    //float and float, good
+    f==f;
+    f==1.0;
+    1.0==f;
+    1.0==1.0;
+
+    f!=f;
+    f!=1.0;
+    1.0!=f;
+    1.0!=1.0;
+
+    //float and float , bad
+    (f==f) + 1.0; //bool invalid with +
+    (f==1.0) + 1.0; //bool invalid with +
+    (1.0==f) + 1.0; //bool invalid with +
+    (1.0==1.0) + 1.0; //bool invalid with +
+
+    (f!=f) + 1.0; //bool invalid with +
+    (f!=1.0) + 1.0; //bool invalid with +
+    (1.0!=f) + 1.0; //bool invalid with +
+    (1.0!=1.0) + 1.0; //bool invalid with +
+
+
+    //bool and bool, good
+    b==b;
+    b==true;
+    false==b;
+    true==false;
+
+    b!=b;
+    b!=true;
+    false!=b;
+    true!=false;
+
+    //bool and bool, bad
+    (b==b) + 1; //bool invalid with +
+    (b==true) + 1; //bool invalid with +
+    (false==b) + 1; //bool invalid with +
+    (true==false) + 1; //bool invalid with +
+
+    (b!=b) + 1; //bool invalid with +
+    (b!=true) + 1; //bool invalid with +
+    (false!=b) + 1; //bool invalid with +
+    (true!=false) + 1; //bool invalid with +
+
+
+    //numeric and bool, bad
+    i==b; //numeric and bool invalid with ==
+    -f==true; //numeric and bool invalid with ==
+    +0x12==b; //numeric and bool invalid with ==
+    +i==false; //numeric and bool invalid with ==
+
+    -i!=b; //numeric and bool invalid with !=
+    +f!=true; //numeric and bool invalid with !=
+    123!=b; //numeric and bool invalid with !=
+    +063!=false; //numeric and bool invalid with !=
+
+
+    //bool and numeric, bad
+    b==-i; //bool and numeric invalid with ==
+    b==+0x12; //bool and numeric invalid with ==
+    false==f; //bool and numeric invalid with ==
+    true==i; //bool and numeric invalid with ==
+
+    b!=-f; //bool and numeric invalid with !=
+    b!=i; //bool and numeric invalid with !=
+    false!=+16; //bool and numeric invalid with !=
+    true!=-012; //bool and numeric invalid with !=
+}
